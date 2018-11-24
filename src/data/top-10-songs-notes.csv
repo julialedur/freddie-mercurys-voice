@@ -1,0 +1,2127 @@
+second,pitch,note,note_number,song_name
+0,0.0,0,0.0,Bohemian Rhapsody
+1,0.0,0,0.0,Bohemian Rhapsody
+2,0.0,0,0.0,Bohemian Rhapsody
+3,0.0,0,0.0,Bohemian Rhapsody
+4,0.0,0,0.0,Bohemian Rhapsody
+5,319.96158833333334,D#4,4.0,Bohemian Rhapsody
+6,322.5087012,E4,5.0,Bohemian Rhapsody
+7,86.107121,F2,6.0,Bohemian Rhapsody
+8,89.890094,F#2,7.0,Bohemian Rhapsody
+9,102.7268708,G#2,9.0,Bohemian Rhapsody
+10,111.22603866666667,A2,10.0,Bohemian Rhapsody
+11,136.8135804,C#3,2.0,Bohemian Rhapsody
+12,80.0836014,E2,5.0,Bohemian Rhapsody
+13,53.005323999999995,G#1,9.0,Bohemian Rhapsody
+14,46.035437,F#1,7.0,Bohemian Rhapsody
+15,86.10535433333332,F2,6.0,Bohemian Rhapsody
+16,140.9124922,C#3,2.0,Bohemian Rhapsody
+17,198.0588716,G3,8.0,Bohemian Rhapsody
+18,48.22419,G1,8.0,Bohemian Rhapsody
+19,154.83388140000002,D#3,4.0,Bohemian Rhapsody
+20,29.061048333333332,A#0,11.0,Bohemian Rhapsody
+21,73.7333932,D2,3.0,Bohemian Rhapsody
+22,11.5035012,F#-1,6.0,Bohemian Rhapsody
+23,35.745498,D1,3.0,Bohemian Rhapsody
+24,38.3242112,D#1,4.0,Bohemian Rhapsody
+25,69.0891578,C#2,2.0,Bohemian Rhapsody
+26,48.324972,G1,8.0,Bohemian Rhapsody
+27,77.46195679999998,D#2,4.0,Bohemian Rhapsody
+28,77.4764735,D#2,4.0,Bohemian Rhapsody
+29,77.36653759999999,D#2,4.0,Bohemian Rhapsody
+30,304.35879539999996,D#4,4.0,Bohemian Rhapsody
+31,222.88700600000004,A3,10.0,Bohemian Rhapsody
+32,92.90813,F#2,7.0,Bohemian Rhapsody
+33,165.81879183333334,E3,5.0,Bohemian Rhapsody
+34,98.48011240000001,G2,8.0,Bohemian Rhapsody
+35,665.6114624,E5,5.0,Bohemian Rhapsody
+36,84.84784833333335,F2,6.0,Bohemian Rhapsody
+37,24.493656800000004,G0,8.0,Bohemian Rhapsody
+38,50.8647454,G#1,9.0,Bohemian Rhapsody
+39,122.79335666666667,B2,12.0,Bohemian Rhapsody
+40,104.5654352,G#2,9.0,Bohemian Rhapsody
+41,43.20014949999999,F1,6.0,Bohemian Rhapsody
+42,64.5491456,C2,1.0,Bohemian Rhapsody
+43,97.54434040000001,G2,8.0,Bohemian Rhapsody
+44,385.6321511666667,G4,8.0,Bohemian Rhapsody
+45,208.52272320000003,G#3,9.0,Bohemian Rhapsody
+46,103.991717,G#2,9.0,Bohemian Rhapsody
+47,122.7924652,B2,12.0,Bohemian Rhapsody
+48,196.9573166,G3,8.0,Bohemian Rhapsody
+49,43.13893633333333,F1,6.0,Bohemian Rhapsody
+50,36.48964,D1,3.0,Bohemian Rhapsody
+51,56.73396220000001,A#1,11.0,Bohemian Rhapsody
+52,82.29369866666666,E2,5.0,Bohemian Rhapsody
+53,230.4148684,A#3,11.0,Bohemian Rhapsody
+54,231.0879975,A#3,11.0,Bohemian Rhapsody
+55,90.5737488,F#2,7.0,Bohemian Rhapsody
+56,0.0,0,0.0,Bohemian Rhapsody
+57,0.0,0,0.0,Bohemian Rhapsody
+58,0.0,0,0.0,Bohemian Rhapsody
+59,0.0,0,0.0,Bohemian Rhapsody
+60,112.80103550000001,A2,10.0,Bohemian Rhapsody
+61,285.7238222,D4,3.0,Bohemian Rhapsody
+62,0.0,0,0.0,Bohemian Rhapsody
+63,0.0,0,0.0,Bohemian Rhapsody
+64,279.11956180000004,C#4,2.0,Bohemian Rhapsody
+65,142.2225086666667,C#3,2.0,Bohemian Rhapsody
+66,55.2583618,A1,10.0,Bohemian Rhapsody
+67,182.6921411666667,F#3,7.0,Bohemian Rhapsody
+68,170.904474,F3,6.0,Bohemian Rhapsody
+69,104.22957780000002,G#2,9.0,Bohemian Rhapsody
+70,247.46615599999998,B3,12.0,Bohemian Rhapsody
+71,308.30081179999996,D#4,4.0,Bohemian Rhapsody
+72,258.9997558,C4,1.0,Bohemian Rhapsody
+73,44.68806966666667,F1,6.0,Bohemian Rhapsody
+74,172.92279059999998,F3,6.0,Bohemian Rhapsody
+75,192.57424916666665,G3,8.0,Bohemian Rhapsody
+76,160.63764659999998,E3,5.0,Bohemian Rhapsody
+77,319.9259156,D#4,4.0,Bohemian Rhapsody
+78,323.663208,E4,5.0,Bohemian Rhapsody
+79,310.8302978,D#4,4.0,Bohemian Rhapsody
+80,269.62121583333334,C#4,2.0,Bohemian Rhapsody
+81,460.8984864,A#4,11.0,Bohemian Rhapsody
+82,463.3581238,A#4,11.0,Bohemian Rhapsody
+83,225.20421850000002,A3,10.0,Bohemian Rhapsody
+84,960.2506164,B5,12.0,Bohemian Rhapsody
+85,413.73125,G#4,9.0,Bohemian Rhapsody
+86,834.3940835,G#5,9.0,Bohemian Rhapsody
+87,157.54693600000002,D#3,4.0,Bohemian Rhapsody
+88,383.3369395,G4,8.0,Bohemian Rhapsody
+89,155.55930800000002,D#3,4.0,Bohemian Rhapsody
+90,298.06184079999997,D4,3.0,Bohemian Rhapsody
+91,394.18514516666664,G4,8.0,Bohemian Rhapsody
+92,390.15068979999995,G4,8.0,Bohemian Rhapsody
+93,392.89461266666666,G4,8.0,Bohemian Rhapsody
+94,398.4375242,G4,8.0,Bohemian Rhapsody
+95,308.29375,D#4,4.0,Bohemian Rhapsody
+96,291.87721250000004,D4,3.0,Bohemian Rhapsody
+97,786.816803,G5,8.0,Bohemian Rhapsody
+98,456.1040772,A#4,11.0,Bohemian Rhapsody
+99,263.18877649999996,C4,1.0,Bohemian Rhapsody
+100,428.31588739999995,A4,10.0,Bohemian Rhapsody
+101,201.65083316666667,G3,8.0,Bohemian Rhapsody
+102,303.7880736,D#4,4.0,Bohemian Rhapsody
+103,464.2357726,A#4,11.0,Bohemian Rhapsody
+104,272.1082,C#4,2.0,Bohemian Rhapsody
+105,245.96134659999998,B3,12.0,Bohemian Rhapsody
+106,252.52913933333332,B3,12.0,Bohemian Rhapsody
+107,249.3874024,B3,12.0,Bohemian Rhapsody
+108,232.57474059999998,A#3,11.0,Bohemian Rhapsody
+109,154.8468655,D#3,4.0,Bohemian Rhapsody
+110,0.0,0,0.0,Bohemian Rhapsody
+111,0.0,0,0.0,Bohemian Rhapsody
+112,0.0,0,0.0,Bohemian Rhapsody
+113,0.0,0,0.0,Bohemian Rhapsody
+114,0.0,0,0.0,Bohemian Rhapsody
+115,0.0,0,0.0,Bohemian Rhapsody
+116,0.0,0,0.0,Bohemian Rhapsody
+117,0.0,0,0.0,Bohemian Rhapsody
+118,0.0,0,0.0,Bohemian Rhapsody
+119,0.0,0,0.0,Bohemian Rhapsody
+120,284.0813191666667,C#4,2.0,Bohemian Rhapsody
+121,0.0,0,0.0,Bohemian Rhapsody
+122,115.5506185,A#2,11.0,Bohemian Rhapsody
+123,164.2723632,E3,5.0,Bohemian Rhapsody
+124,291.3937926,D4,3.0,Bohemian Rhapsody
+125,0.0,0,0.0,Bohemian Rhapsody
+126,128.24420759999998,C3,1.0,Bohemian Rhapsody
+127,263.3730213333333,C4,1.0,Bohemian Rhapsody
+128,104.5544922,G#2,9.0,Bohemian Rhapsody
+129,230.79970679999997,A#3,11.0,Bohemian Rhapsody
+130,257.76012683333335,C4,1.0,Bohemian Rhapsody
+131,156.96962279999997,D#3,4.0,Bohemian Rhapsody
+132,155.41980900000001,D#3,4.0,Bohemian Rhapsody
+133,168.88509883333333,E3,5.0,Bohemian Rhapsody
+134,276.3719542,C#4,2.0,Bohemian Rhapsody
+135,138.6081085,C#3,2.0,Bohemian Rhapsody
+136,296.5428282,D4,3.0,Bohemian Rhapsody
+137,407.2067566,G#4,9.0,Bohemian Rhapsody
+138,389.4995626666667,G4,8.0,Bohemian Rhapsody
+139,218.78721320000005,A3,10.0,Bohemian Rhapsody
+140,440.47417199999995,A4,10.0,Bohemian Rhapsody
+141,466.3440549999999,A#4,11.0,Bohemian Rhapsody
+142,810.9002624000001,G#5,9.0,Bohemian Rhapsody
+143,0.0,0,0.0,Bohemian Rhapsody
+144,156.2367126,D#3,4.0,Bohemian Rhapsody
+145,806.8426332,G5,8.0,Bohemian Rhapsody
+146,31.532895333333332,B0,12.0,Bohemian Rhapsody
+147,339.68105160000005,F4,6.0,Bohemian Rhapsody
+148,128.91989633333333,C3,1.0,Bohemian Rhapsody
+149,46.8755676,F#1,7.0,Bohemian Rhapsody
+150,234.7988634,A#3,11.0,Bohemian Rhapsody
+151,129.64849600000002,C3,1.0,Bohemian Rhapsody
+152,215.2132474,A3,10.0,Bohemian Rhapsody
+153,217.0560965,A3,10.0,Bohemian Rhapsody
+154,399.93508940000004,G4,8.0,Bohemian Rhapsody
+155,170.092195,F3,6.0,Bohemian Rhapsody
+156,267.70221183333337,C4,1.0,Bohemian Rhapsody
+157,114.9143434,A#2,11.0,Bohemian Rhapsody
+158,185.573709,F#3,7.0,Bohemian Rhapsody
+159,323.33106116666664,E4,5.0,Bohemian Rhapsody
+160,163.055133,E3,5.0,Bohemian Rhapsody
+161,71.69495133333334,D2,3.0,Bohemian Rhapsody
+162,77.6341324,D#2,4.0,Bohemian Rhapsody
+163,122.1181372,B2,12.0,Bohemian Rhapsody
+164,41.67242383333333,E1,5.0,Bohemian Rhapsody
+165,108.1644196,A2,10.0,Bohemian Rhapsody
+166,119.405459,A#2,11.0,Bohemian Rhapsody
+167,104.45743399999999,G#2,9.0,Bohemian Rhapsody
+168,0.0,0,0.0,Bohemian Rhapsody
+169,0.0,0,0.0,Bohemian Rhapsody
+170,0.0,0,0.0,Bohemian Rhapsody
+171,0.0,0,0.0,Bohemian Rhapsody
+172,0.0,0,0.0,Bohemian Rhapsody
+173,0.0,0,0.0,Bohemian Rhapsody
+174,0.0,0,0.0,Bohemian Rhapsody
+175,0.0,0,0.0,Bohemian Rhapsody
+176,0.0,0,0.0,Bohemian Rhapsody
+177,0.0,0,0.0,Bohemian Rhapsody
+178,0.0,0,0.0,Bohemian Rhapsody
+179,0.0,0,0.0,Bohemian Rhapsody
+180,0.0,0,0.0,Bohemian Rhapsody
+181,0.0,0,0.0,Bohemian Rhapsody
+182,0.0,0,0.0,Bohemian Rhapsody
+183,0.0,0,0.0,Bohemian Rhapsody
+184,0.0,0,0.0,Bohemian Rhapsody
+185,0.0,0,0.0,Bohemian Rhapsody
+186,0.0,0,0.0,Bohemian Rhapsody
+187,0.0,0,0.0,Bohemian Rhapsody
+188,0.0,0,0.0,Bohemian Rhapsody
+189,0.0,0,0.0,Bohemian Rhapsody
+190,0.0,0,0.0,Bohemian Rhapsody
+191,105.3099426,G#2,9.0,Bohemian Rhapsody
+192,273.0646484,C#4,2.0,Bohemian Rhapsody
+193,224.53526333333335,A3,10.0,Bohemian Rhapsody
+194,0.0,0,0.0,Bohemian Rhapsody
+195,0.0,0,0.0,Bohemian Rhapsody
+196,0.0,0,0.0,Bohemian Rhapsody
+197,0.0,0,0.0,Bohemian Rhapsody
+198,0.0,0,0.0,Bohemian Rhapsody
+199,393.1197876,G4,8.0,Bohemian Rhapsody
+200,213.04181416666665,G#3,9.0,Bohemian Rhapsody
+201,669.9058229999999,E5,5.0,Bohemian Rhapsody
+202,177.5591126,F3,6.0,Bohemian Rhapsody
+203,412.7736105000001,G#4,9.0,Bohemian Rhapsody
+204,0.0,0,0.0,Bohemian Rhapsody
+205,162.0891542,E3,5.0,Bohemian Rhapsody
+206,220.9981868333333,A3,10.0,Bohemian Rhapsody
+207,76.3762588,D#2,4.0,Bohemian Rhapsody
+208,129.78314716666668,C3,1.0,Bohemian Rhapsody
+209,237.7117064,A#3,11.0,Bohemian Rhapsody
+210,180.1145386,F#3,7.0,Bohemian Rhapsody
+211,0.0,0,0.0,Bohemian Rhapsody
+212,0.0,0,0.0,Bohemian Rhapsody
+213,0.0,0,0.0,Bohemian Rhapsody
+214,0.0,0,0.0,Bohemian Rhapsody
+215,0.0,0,0.0,Bohemian Rhapsody
+216,0.0,0,0.0,Bohemian Rhapsody
+217,0.0,0,0.0,Bohemian Rhapsody
+218,37.498187200000004,D1,3.0,Bohemian Rhapsody
+219,228.7301381666667,A#3,11.0,Bohemian Rhapsody
+220,282.8844634,C#4,2.0,Bohemian Rhapsody
+221,113.875267,A#2,11.0,Bohemian Rhapsody
+222,0.0,0,0.0,Bohemian Rhapsody
+223,0.0,0,0.0,Bohemian Rhapsody
+224,203.79240933333335,G#3,9.0,Bohemian Rhapsody
+225,503.1158936,B4,12.0,Bohemian Rhapsody
+226,132.72351583333332,C3,1.0,Bohemian Rhapsody
+227,125.3119506,B2,12.0,Bohemian Rhapsody
+228,561.6151182000001,C#5,2.0,Bohemian Rhapsody
+229,235.58908583333337,A#3,11.0,Bohemian Rhapsody
+230,0.0,0,0.0,Bohemian Rhapsody
+231,125.22838140000002,B2,12.0,Bohemian Rhapsody
+232,0.0,0,0.0,Bohemian Rhapsody
+233,0.0,0,0.0,Bohemian Rhapsody
+234,184.040385,F#3,7.0,Bohemian Rhapsody
+235,276.4783082,C#4,2.0,Bohemian Rhapsody
+236,55.173727400000004,A1,10.0,Bohemian Rhapsody
+237,0.0,0,0.0,Bohemian Rhapsody
+238,62.6140992,B1,12.0,Bohemian Rhapsody
+239,138.8037964,C#3,2.0,Bohemian Rhapsody
+240,76.8509115,D#2,4.0,Bohemian Rhapsody
+241,0.0,0,0.0,Bohemian Rhapsody
+242,1151.1054686666666,D6,3.0,Bohemian Rhapsody
+243,0.0,0,0.0,Bohemian Rhapsody
+244,120.61352539999999,B2,12.0,Bohemian Rhapsody
+245,0.0,0,0.0,Bohemian Rhapsody
+246,149.3114746,D3,3.0,Bohemian Rhapsody
+247,57.8103155,A#1,11.0,Bohemian Rhapsody
+248,162.00982679999998,E3,5.0,Bohemian Rhapsody
+249,0.0,0,0.0,Bohemian Rhapsody
+250,78.7447015,D#2,4.0,Bohemian Rhapsody
+251,0.0,0,0.0,Bohemian Rhapsody
+252,0.0,0,0.0,Bohemian Rhapsody
+253,0.0,0,0.0,Bohemian Rhapsody
+254,0.0,0,0.0,Bohemian Rhapsody
+255,13.3441645,G#-1,9.0,Bohemian Rhapsody
+256,0.0,0,0.0,Bohemian Rhapsody
+257,64.4579926,C2,1.0,Bohemian Rhapsody
+258,46.80605116666667,F#1,7.0,Bohemian Rhapsody
+259,160.80090639999997,E3,5.0,Bohemian Rhapsody
+260,333.751592,E4,5.0,Bohemian Rhapsody
+261,211.70927739999996,G#3,9.0,Bohemian Rhapsody
+262,186.87376099999997,F#3,7.0,Bohemian Rhapsody
+263,159.733968,D#3,4.0,Bohemian Rhapsody
+264,208.38004140000004,G#3,9.0,Bohemian Rhapsody
+265,9.211019799999999,D-1,0.0,Bohemian Rhapsody
+266,335.98571799999996,E4,5.0,Bohemian Rhapsody
+267,300.5417542,D4,3.0,Bohemian Rhapsody
+268,273.85818466666666,C#4,2.0,Bohemian Rhapsody
+269,275.08605960000006,C#4,2.0,Bohemian Rhapsody
+270,37.9659332,D#1,4.0,Bohemian Rhapsody
+271,401.62144966666665,G4,8.0,Bohemian Rhapsody
+272,405.54443359999993,G#4,9.0,Bohemian Rhapsody
+273,363.6626026666666,F#4,7.0,Bohemian Rhapsody
+274,166.1314818,E3,5.0,Bohemian Rhapsody
+275,328.81843879999997,E4,5.0,Bohemian Rhapsody
+276,365.91124983333333,F#4,7.0,Bohemian Rhapsody
+277,148.0085814,D3,3.0,Bohemian Rhapsody
+278,186.2062682,F#3,7.0,Bohemian Rhapsody
+279,163.19832366666665,E3,5.0,Bohemian Rhapsody
+280,252.94951780000002,B3,12.0,Bohemian Rhapsody
+281,149.70486966666667,D3,3.0,Bohemian Rhapsody
+282,0.0,0,0.0,Bohemian Rhapsody
+283,0.0,0,0.0,Bohemian Rhapsody
+284,0.0,0,0.0,Bohemian Rhapsody
+285,0.0,0,0.0,Bohemian Rhapsody
+286,0.0,0,0.0,Bohemian Rhapsody
+287,0.0,0,0.0,Bohemian Rhapsody
+288,0.0,0,0.0,Bohemian Rhapsody
+289,0.0,0,0.0,Bohemian Rhapsody
+290,0.0,0,0.0,Bohemian Rhapsody
+291,0.0,0,0.0,Bohemian Rhapsody
+292,0.0,0,0.0,Bohemian Rhapsody
+293,0.0,0,0.0,Bohemian Rhapsody
+294,0.0,0,0.0,Bohemian Rhapsody
+295,0.0,0,0.0,Bohemian Rhapsody
+296,0.0,0,0.0,Bohemian Rhapsody
+297,0.0,0,0.0,Bohemian Rhapsody
+298,0.0,0,0.0,Bohemian Rhapsody
+299,11.568470000000001,F#-1,6.0,Bohemian Rhapsody
+300,77.42561099999999,D#2,4.0,Bohemian Rhapsody
+301,197.0041108,G3,8.0,Bohemian Rhapsody
+302,178.05523816666664,F3,6.0,Bohemian Rhapsody
+303,117.76842179999998,A#2,11.0,Bohemian Rhapsody
+304,69.25596920000001,C#2,2.0,Bohemian Rhapsody
+305,9.810298999999999,D#-1,4.0,Bohemian Rhapsody
+306,94.8638106,F#2,7.0,Bohemian Rhapsody
+307,0.0,0,0.0,Bohemian Rhapsody
+308,0.0,0,0.0,Bohemian Rhapsody
+309,0.0,0,0.0,Bohemian Rhapsody
+310,0.0,0,0.0,Bohemian Rhapsody
+311,0.0,0,0.0,Bohemian Rhapsody
+312,0.0,0,0.0,Bohemian Rhapsody
+313,0.0,0,0.0,Bohemian Rhapsody
+314,0.0,0,0.0,Bohemian Rhapsody
+315,0.0,0,0.0,Bohemian Rhapsody
+316,251.3802674,B3,12.0,Bohemian Rhapsody
+317,318.74032600000004,D#4,4.0,Bohemian Rhapsody
+318,220.3360266666667,A3,10.0,Bohemian Rhapsody
+319,93.9079072,F#2,7.0,Bohemian Rhapsody
+320,348.0683491666667,F4,6.0,Bohemian Rhapsody
+321,162.2845368,E3,5.0,Bohemian Rhapsody
+322,231.786853,A#3,11.0,Bohemian Rhapsody
+323,222.12667083333335,A3,10.0,Bohemian Rhapsody
+324,343.7208984,F4,6.0,Bohemian Rhapsody
+325,265.5805236,C4,1.0,Bohemian Rhapsody
+326,123.62652600000001,B2,12.0,Bohemian Rhapsody
+327,233.640863,A#3,11.0,Bohemian Rhapsody
+328,342.505905,F4,6.0,Bohemian Rhapsody
+329,285.3481628,D4,3.0,Bohemian Rhapsody
+330,51.7352662,G#1,9.0,Bohemian Rhapsody
+331,305.2136941666667,D#4,4.0,Bohemian Rhapsody
+332,307.4275574,D#4,4.0,Bohemian Rhapsody
+333,309.13761400000004,D#4,4.0,Bohemian Rhapsody
+334,309.64364020000005,D#4,4.0,Bohemian Rhapsody
+335,246.49686899999998,B3,12.0,Bohemian Rhapsody
+336,0.0,0,0.0,Bohemian Rhapsody
+337,0.0,0,0.0,Bohemian Rhapsody
+338,0.0,0,0.0,Bohemian Rhapsody
+339,0.0,0,0.0,Bohemian Rhapsody
+340,0.0,0,0.0,Bohemian Rhapsody
+341,0.0,0,0.0,Bohemian Rhapsody
+342,0.0,0,0.0,Bohemian Rhapsody
+343,0.0,0,0.0,Bohemian Rhapsody
+344,0.0,0,0.0,Bohemian Rhapsody
+345,0.0,0,0.0,Bohemian Rhapsody
+346,0.0,0,0.0,Bohemian Rhapsody
+347,47.0276276,F#1,7.0,Bohemian Rhapsody
+348,228.0435518,A#3,11.0,Bohemian Rhapsody
+349,212.64064283333337,G#3,9.0,Bohemian Rhapsody
+350,272.12246999999996,C#4,2.0,Bohemian Rhapsody
+351,211.48690779999998,G#3,9.0,Bohemian Rhapsody
+352,0.0,0,0.0,Bohemian Rhapsody
+353,0.0,0,0.0,Bohemian Rhapsody
+354,0.0,0,0.0,Bohemian Rhapsody
+355,0.0,0,0.0,Bohemian Rhapsody
+356,0.0,0,0.0,Bohemian Rhapsody
+357,0.0,0,0.0,Bohemian Rhapsody
+358,0.0,0,0.0,Bohemian Rhapsody
+359,0.0,0,0.0,Bohemian Rhapsody
+360,0.0,0,0.0,Bohemian Rhapsody
+361,0.0,0,0.0,Bohemian Rhapsody
+362,0.0,0,0.0,Bohemian Rhapsody
+0,0.0,0,0.0,Somebody To Love
+1,64.6517272,C2,1.0,Somebody To Love
+2,394.91576133333336,G4,8.0,Somebody To Love
+3,81.7379212,E2,5.0,Somebody To Love
+4,0.0,0,0.0,Somebody To Love
+5,43.145757,F1,6.0,Somebody To Love
+6,497.42021479999994,B4,12.0,Somebody To Love
+7,626.7922568333335,D#5,4.0,Somebody To Love
+8,213.301587,G#3,9.0,Somebody To Love
+9,92.6589416,F#2,7.0,Somebody To Love
+10,0.0,0,0.0,Somebody To Love
+11,123.89318840000001,B2,12.0,Somebody To Love
+12,0.0,0,0.0,Somebody To Love
+13,0.0,0,0.0,Somebody To Love
+14,0.0,0,0.0,Somebody To Love
+15,190.35603566666666,F#3,7.0,Somebody To Love
+16,51.467214999999996,G#1,9.0,Somebody To Love
+17,124.39653159999997,B2,12.0,Somebody To Love
+18,86.35456466666666,F2,6.0,Somebody To Love
+19,0.0,0,0.0,Somebody To Love
+20,0.0,0,0.0,Somebody To Love
+21,0.0,0,0.0,Somebody To Love
+22,0.0,0,0.0,Somebody To Love
+23,461.2696738333334,A#4,11.0,Somebody To Love
+24,413.1788818,G#4,9.0,Somebody To Love
+25,391.0224244,G4,8.0,Somebody To Love
+26,272.39303333333334,C#4,2.0,Somebody To Love
+27,177.2166076,F3,6.0,Somebody To Love
+28,309.56306466666666,D#4,4.0,Somebody To Love
+29,156.3595918,D#3,4.0,Somebody To Love
+30,79.8786804,D#2,4.0,Somebody To Love
+31,358.8234253333333,F4,6.0,Somebody To Love
+32,394.17700799999994,G4,8.0,Somebody To Love
+33,199.11345416666666,G3,8.0,Somebody To Love
+34,278.386139,C#4,2.0,Somebody To Love
+35,281.4620606,C#4,2.0,Somebody To Love
+36,230.85102099999997,A#3,11.0,Somebody To Love
+37,113.9333068,A#2,11.0,Somebody To Love
+38,143.8410796,D3,3.0,Somebody To Love
+39,196.5262528333333,G3,8.0,Somebody To Love
+40,99.82483520000001,G2,8.0,Somebody To Love
+41,182.69487766666668,F#3,7.0,Somebody To Love
+42,1000.052002,B5,12.0,Somebody To Love
+43,108.01964720000001,A2,10.0,Somebody To Love
+44,57.96563716666666,A#1,11.0,Somebody To Love
+45,547.2653808,C#5,2.0,Somebody To Love
+46,190.63987733333332,G3,8.0,Somebody To Love
+47,205.6257112,G#3,9.0,Somebody To Love
+48,106.77421260000001,G#2,9.0,Somebody To Love
+49,119.4206315,A#2,11.0,Somebody To Love
+50,106.81724840000001,G#2,9.0,Somebody To Love
+51,263.3671874,C4,1.0,Somebody To Love
+52,291.42430616666667,D4,3.0,Somebody To Love
+53,326.8863158,E4,5.0,Somebody To Love
+54,217.54829916666668,A3,10.0,Somebody To Love
+55,221.29939280000002,A3,10.0,Somebody To Love
+56,207.0577728,G#3,9.0,Somebody To Love
+57,132.51458733333334,C3,1.0,Somebody To Love
+58,0.0,0,0.0,Somebody To Love
+59,0.0,0,0.0,Somebody To Love
+60,0.0,0,0.0,Somebody To Love
+61,0.0,0,0.0,Somebody To Love
+62,0.0,0,0.0,Somebody To Love
+63,91.43998400000001,F#2,7.0,Somebody To Love
+64,0.0,0,0.0,Somebody To Love
+65,201.3331935,G3,8.0,Somebody To Love
+66,0.0,0,0.0,Somebody To Love
+67,174.639674,F3,6.0,Somebody To Love
+68,180.7904418,F#3,7.0,Somebody To Love
+69,185.19377419999998,F#3,7.0,Somebody To Love
+70,151.21411133333334,D#3,4.0,Somebody To Love
+71,0.0,0,0.0,Somebody To Love
+72,0.0,0,0.0,Somebody To Love
+73,172.06982166666668,F3,6.0,Somebody To Love
+74,360.34473879999996,F#4,7.0,Somebody To Love
+75,115.95965316666667,A#2,11.0,Somebody To Love
+76,110.73820799999999,A2,10.0,Somebody To Love
+77,50.866763399999996,G#1,9.0,Somebody To Love
+78,147.873876,D3,3.0,Somebody To Love
+79,0.0,0,0.0,Somebody To Love
+80,212.1614125,G#3,9.0,Somebody To Love
+81,287.94222419999994,D4,3.0,Somebody To Love
+82,231.4920776,A#3,11.0,Somebody To Love
+83,333.9950713333333,E4,5.0,Somebody To Love
+84,1485.8911315999999,F#6,7.0,Somebody To Love
+85,106.5827454,G#2,9.0,Somebody To Love
+86,115.5712585,A#2,11.0,Somebody To Love
+87,52.058700599999995,G#1,9.0,Somebody To Love
+88,250.37236016666665,B3,12.0,Somebody To Love
+89,328.0353212,E4,5.0,Somebody To Love
+90,162.47414559999999,E3,5.0,Somebody To Love
+91,248.48699716666667,B3,12.0,Somebody To Love
+92,137.2494872,C#3,2.0,Somebody To Love
+93,273.9228515,C#4,2.0,Somebody To Love
+94,409.61463620000006,G#4,9.0,Somebody To Love
+95,360.27066959999996,F#4,7.0,Somebody To Love
+96,411.24459333333334,G#4,9.0,Somebody To Love
+97,888.801709,A5,10.0,Somebody To Love
+98,0.0,0,0.0,Somebody To Love
+99,302.353335,D#4,4.0,Somebody To Love
+100,109.266284,A2,10.0,Somebody To Love
+101,115.54549149999998,A#2,11.0,Somebody To Love
+102,130.80337519999998,C3,1.0,Somebody To Love
+103,402.7028748,G4,8.0,Somebody To Love
+104,177.18177033333333,F3,6.0,Somebody To Love
+105,91.484308,F#2,7.0,Somebody To Love
+106,205.91031383333336,G#3,9.0,Somebody To Love
+107,0.0,0,0.0,Somebody To Love
+108,267.57583,C4,1.0,Somebody To Love
+109,729.8771565000001,F#5,7.0,Somebody To Love
+110,162.8263672,E3,5.0,Somebody To Love
+111,70.0712098,C#2,2.0,Somebody To Love
+112,125.96735633333333,B2,12.0,Somebody To Love
+113,0.0,0,0.0,Somebody To Love
+114,251.31063316666666,B3,12.0,Somebody To Love
+115,77.1043152,D#2,4.0,Somebody To Love
+116,213.321173,G#3,9.0,Somebody To Love
+117,220.81788633333335,A3,10.0,Somebody To Love
+118,626.7833678,D#5,4.0,Somebody To Love
+119,522.4956666,C5,1.0,Somebody To Love
+120,624.6948446666667,D#5,4.0,Somebody To Love
+121,248.23675540000005,B3,12.0,Somebody To Love
+122,0.0,0,0.0,Somebody To Love
+123,0.0,0,0.0,Somebody To Love
+124,0.0,0,0.0,Somebody To Love
+125,0.0,0,0.0,Somebody To Love
+126,0.0,0,0.0,Somebody To Love
+127,0.0,0,0.0,Somebody To Love
+128,0.0,0,0.0,Somebody To Love
+129,0.0,0,0.0,Somebody To Love
+130,0.0,0,0.0,Somebody To Love
+131,0.0,0,0.0,Somebody To Love
+132,0.0,0,0.0,Somebody To Love
+133,0.0,0,0.0,Somebody To Love
+134,0.0,0,0.0,Somebody To Love
+135,0.0,0,0.0,Somebody To Love
+136,0.0,0,0.0,Somebody To Love
+137,0.0,0,0.0,Somebody To Love
+138,12.980917666666668,G#-1,9.0,Somebody To Love
+139,82.377305,E2,5.0,Somebody To Love
+140,93.6784465,F#2,7.0,Somebody To Love
+141,126.9531784,B2,12.0,Somebody To Love
+142,82.0302368,E2,5.0,Somebody To Love
+143,154.14703883333334,D#3,4.0,Somebody To Love
+144,319.9569702,D#4,4.0,Somebody To Love
+145,0.0,0,0.0,Somebody To Love
+146,131.38727833333334,C3,1.0,Somebody To Love
+147,177.8105528,F3,6.0,Somebody To Love
+148,378.86622616666665,F#4,7.0,Somebody To Love
+149,180.6198426,F#3,7.0,Somebody To Love
+150,261.11490779999997,C4,1.0,Somebody To Love
+151,407.67909750000007,G#4,9.0,Somebody To Love
+152,357.89847100000003,F4,6.0,Somebody To Love
+153,373.8674978333333,F#4,7.0,Somebody To Love
+154,215.73673079999998,A3,10.0,Somebody To Love
+155,169.8688202,F3,6.0,Somebody To Love
+156,214.66178383333332,A3,10.0,Somebody To Love
+157,0.0,0,0.0,Somebody To Love
+158,107.4442688,A2,10.0,Somebody To Love
+159,828.1289061666666,G#5,9.0,Somebody To Love
+160,199.315329,G3,8.0,Somebody To Love
+161,82.0956065,E2,5.0,Somebody To Love
+162,759.9927186,F#5,7.0,Somebody To Love
+163,159.3702942,D#3,4.0,Somebody To Love
+164,52.89809666666667,G#1,9.0,Somebody To Love
+165,93.3614136,F#2,7.0,Somebody To Love
+166,68.35747283333333,C#2,2.0,Somebody To Love
+167,0.0,0,0.0,Somebody To Love
+168,93.8360594,F#2,7.0,Somebody To Love
+169,647.8999021666666,E5,5.0,Somebody To Love
+170,59.384765599999994,A#1,11.0,Somebody To Love
+171,49.6398498,G1,8.0,Somebody To Love
+172,176.50911699999997,F3,6.0,Somebody To Love
+173,179.00360099999997,F3,6.0,Somebody To Love
+174,50.706787166666665,G#1,9.0,Somebody To Love
+175,68.789679,C#2,2.0,Somebody To Love
+176,294.304901,D4,3.0,Somebody To Love
+177,329.62153616666666,E4,5.0,Somebody To Love
+178,359.25912780000004,F4,6.0,Somebody To Love
+179,411.60178220000006,G#4,9.0,Somebody To Love
+180,414.3673401666667,G#4,9.0,Somebody To Love
+181,290.20331120000003,D4,3.0,Somebody To Love
+182,51.74135066666667,G#1,9.0,Somebody To Love
+183,72.65271,D2,3.0,Somebody To Love
+184,39.6502136,D#1,4.0,Somebody To Love
+185,138.89003766666667,C#3,2.0,Somebody To Love
+186,62.121141,B1,12.0,Somebody To Love
+187,109.34261566666669,A2,10.0,Somebody To Love
+188,244.7731048,B3,12.0,Somebody To Love
+189,181.96816379999999,F#3,7.0,Somebody To Love
+190,307.81579583333337,D#4,4.0,Somebody To Love
+191,409.8267578,G#4,9.0,Somebody To Love
+192,413.553174,G#4,9.0,Somebody To Love
+193,68.35239666666666,C#2,2.0,Somebody To Love
+194,104.0326172,G#2,9.0,Somebody To Love
+195,109.56861366666665,A2,10.0,Somebody To Love
+196,330.65217299999995,E4,5.0,Somebody To Love
+197,218.84773560000002,A3,10.0,Somebody To Love
+198,255.97966250000002,C4,1.0,Somebody To Love
+199,49.6355378,G1,8.0,Somebody To Love
+200,569.4280598333334,C#5,2.0,Somebody To Love
+201,0.0,0,0.0,Somebody To Love
+202,0.0,0,0.0,Somebody To Love
+203,192.53341166666667,G3,8.0,Somebody To Love
+204,416.42962040000003,G#4,9.0,Somebody To Love
+205,385.25756820000004,G4,8.0,Somebody To Love
+206,274.11645,C#4,2.0,Somebody To Love
+207,204.29390600000002,G#3,9.0,Somebody To Love
+208,178.97009766666667,F3,6.0,Somebody To Love
+209,160.4796206,E3,5.0,Somebody To Love
+210,151.901114,D#3,4.0,Somebody To Love
+211,356.1412301666667,F4,6.0,Somebody To Love
+212,580.4665832,D5,3.0,Somebody To Love
+213,694.4798583333333,F5,6.0,Somebody To Love
+214,628.8615358,D#5,4.0,Somebody To Love
+215,720.4863282,F#5,7.0,Somebody To Love
+216,612.7138468333334,D#5,4.0,Somebody To Love
+217,494.5517212,B4,12.0,Somebody To Love
+218,0.0,0,0.0,Somebody To Love
+219,0.0,0,0.0,Somebody To Love
+220,147.8314392,D3,3.0,Somebody To Love
+221,276.6281281666666,C#4,2.0,Somebody To Love
+222,206.34385359999996,G#3,9.0,Somebody To Love
+223,287.7750856,D4,3.0,Somebody To Love
+224,374.3103943333333,F#4,7.0,Somebody To Love
+225,415.1806030000001,G#4,9.0,Somebody To Love
+226,413.9318695,G#4,9.0,Somebody To Love
+227,0.0,0,0.0,Somebody To Love
+228,398.2672486,G4,8.0,Somebody To Love
+229,562.2043863333333,C#5,2.0,Somebody To Love
+230,611.4864868,D#5,4.0,Somebody To Love
+231,618.9992186,D#5,4.0,Somebody To Love
+232,518.0159405,C5,1.0,Somebody To Love
+233,439.0952028,A4,10.0,Somebody To Love
+234,389.08950550000003,G4,8.0,Somebody To Love
+235,163.4367554,E3,5.0,Somebody To Love
+236,209.3562774,G#3,9.0,Somebody To Love
+237,105.52667766666667,G#2,9.0,Somebody To Love
+238,0.0,0,0.0,Somebody To Love
+239,0.0,0,0.0,Somebody To Love
+240,69.96950283333332,C#2,2.0,Somebody To Love
+241,35.2878174,C#1,2.0,Somebody To Love
+242,0.0,0,0.0,Somebody To Love
+243,279.8313842,C#4,2.0,Somebody To Love
+244,291.157953,D4,3.0,Somebody To Love
+245,398.2074915,G4,8.0,Somebody To Love
+246,547.5329710000001,C#5,2.0,Somebody To Love
+247,594.0397236666666,D5,3.0,Somebody To Love
+248,626.6925416,D#5,4.0,Somebody To Love
+249,625.7354612,D#5,4.0,Somebody To Love
+250,361.8788148333333,F#4,7.0,Somebody To Love
+251,409.70001840000003,G#4,9.0,Somebody To Love
+252,270.2135194,C#4,2.0,Somebody To Love
+253,296.80018083333334,D4,3.0,Somebody To Love
+254,155.49426880000001,D#3,4.0,Somebody To Love
+255,116.7380905,A#2,11.0,Somebody To Love
+256,331.992569,E4,5.0,Somebody To Love
+257,197.85560900000002,G3,8.0,Somebody To Love
+258,96.41338350000001,G2,8.0,Somebody To Love
+259,46.8464264,F#1,7.0,Somebody To Love
+260,192.04391999999999,G3,8.0,Somebody To Love
+261,265.70573720000004,C4,1.0,Somebody To Love
+262,209.71212759999997,G#3,9.0,Somebody To Love
+263,387.71786,G4,8.0,Somebody To Love
+264,326.3752566,E4,5.0,Somebody To Love
+265,265.7510804,C4,1.0,Somebody To Love
+266,342.7031048333334,F4,6.0,Somebody To Love
+267,412.38527239999996,G#4,9.0,Somebody To Love
+268,411.3485006666667,G#4,9.0,Somebody To Love
+269,338.174286,E4,5.0,Somebody To Love
+270,559.6220458,C#5,2.0,Somebody To Love
+271,450.6669821666667,A4,10.0,Somebody To Love
+272,419.1657776,G#4,9.0,Somebody To Love
+273,637.0902048333334,D#5,4.0,Somebody To Love
+274,341.20004259999996,F4,6.0,Somebody To Love
+275,301.9714996,D4,3.0,Somebody To Love
+276,169.23236583333332,E3,5.0,Somebody To Love
+277,373.0997682,F#4,7.0,Somebody To Love
+278,226.4076966,A3,10.0,Somebody To Love
+279,122.42472083333332,B2,12.0,Somebody To Love
+280,54.345959400000005,A1,10.0,Somebody To Love
+281,226.51913966666666,A#3,11.0,Somebody To Love
+282,195.142389,G3,8.0,Somebody To Love
+283,338.0086548,E4,5.0,Somebody To Love
+284,412.07935066666664,G#4,9.0,Somebody To Love
+285,414.1138244,G#4,9.0,Somebody To Love
+286,241.21753433333333,B3,12.0,Somebody To Love
+287,311.15355220000004,D#4,4.0,Somebody To Love
+288,268.44343879999997,C4,1.0,Somebody To Love
+289,205.880104,G#3,9.0,Somebody To Love
+290,83.686203,E2,5.0,Somebody To Love
+291,0.0,0,0.0,Somebody To Love
+292,0.0,0,0.0,Somebody To Love
+293,0.0,0,0.0,Somebody To Love
+294,0.0,0,0.0,Somebody To Love
+295,0.0,0,0.0,Somebody To Love
+296,0.0,0,0.0,Somebody To Love
+297,0.0,0,0.0,Somebody To Love
+298,0.0,0,0.0,Somebody To Love
+299,0.0,0,0.0,Somebody To Love
+0,149.18483466666666,D3,3.0,Under Pressure
+1,113.48872980000002,A#2,11.0,Under Pressure
+2,104.06000516666667,G#2,9.0,Under Pressure
+3,237.0930938,A#3,11.0,Under Pressure
+4,82.4931458,E2,5.0,Under Pressure
+5,191.96579366666666,G3,8.0,Under Pressure
+6,0.0,0,0.0,Under Pressure
+7,0.0,0,0.0,Under Pressure
+8,122.4714234,B2,12.0,Under Pressure
+9,221.3847108,A3,10.0,Under Pressure
+10,299.36453500000005,D4,3.0,Under Pressure
+11,197.38250119999998,G3,8.0,Under Pressure
+12,133.5103272,C3,1.0,Under Pressure
+13,301.58242283333334,D4,3.0,Under Pressure
+14,168.58207699999997,E3,5.0,Under Pressure
+15,34.72457633333334,C#1,2.0,Under Pressure
+16,87.0390534,F2,6.0,Under Pressure
+17,227.06189559999999,A#3,11.0,Under Pressure
+18,245.99816383333334,B3,12.0,Under Pressure
+19,353.6071412,F4,6.0,Under Pressure
+20,231.52327483333337,A#3,11.0,Under Pressure
+21,318.11937279999995,D#4,4.0,Under Pressure
+22,103.97807320000001,G#2,9.0,Under Pressure
+23,108.63981116666666,A2,10.0,Under Pressure
+24,43.7248108,F1,6.0,Under Pressure
+25,57.040454,A#1,11.0,Under Pressure
+26,264.235593,C4,1.0,Under Pressure
+27,53.910140999999996,A1,10.0,Under Pressure
+28,201.4215366666667,G3,8.0,Under Pressure
+29,367.6621524,F#4,7.0,Under Pressure
+30,170.4830414,F3,6.0,Under Pressure
+31,223.2781145,A3,10.0,Under Pressure
+32,247.2697266,B3,12.0,Under Pressure
+33,153.6334355,D#3,4.0,Under Pressure
+34,191.9224398,G3,8.0,Under Pressure
+35,125.84954520000001,B2,12.0,Under Pressure
+36,196.4531835,G3,8.0,Under Pressure
+37,107.55629280000001,A2,10.0,Under Pressure
+38,145.34658199999998,D3,3.0,Under Pressure
+39,236.81335050000004,A#3,11.0,Under Pressure
+40,193.810196,G3,8.0,Under Pressure
+41,94.68786633333332,F#2,7.0,Under Pressure
+42,156.343921,D#3,4.0,Under Pressure
+43,277.14690540000004,C#4,2.0,Under Pressure
+44,172.37873083333332,F3,6.0,Under Pressure
+45,354.9648866,F4,6.0,Under Pressure
+46,55.07010400000001,A1,10.0,Under Pressure
+47,0.0,0,0.0,Under Pressure
+48,0.0,0,0.0,Under Pressure
+49,0.0,0,0.0,Under Pressure
+50,76.3218444,D#2,4.0,Under Pressure
+51,275.55311900000004,C#4,2.0,Under Pressure
+52,200.822632,G3,8.0,Under Pressure
+53,88.05862420000001,F2,6.0,Under Pressure
+54,141.09744266666667,C#3,2.0,Under Pressure
+55,28.476547200000006,A#0,11.0,Under Pressure
+56,173.94110740000002,F3,6.0,Under Pressure
+57,158.13881433333336,D#3,4.0,Under Pressure
+58,0.0,0,0.0,Under Pressure
+59,103.62006219999998,G#2,9.0,Under Pressure
+60,199.68932083333334,G3,8.0,Under Pressure
+61,493.44047219999993,B4,12.0,Under Pressure
+62,369.64076499999993,F#4,7.0,Under Pressure
+63,233.3640962,A#3,11.0,Under Pressure
+64,304.1422056,D#4,4.0,Under Pressure
+65,401.2736956666666,G4,8.0,Under Pressure
+66,394.8324526,G4,8.0,Under Pressure
+67,246.38179000000002,B3,12.0,Under Pressure
+68,267.416992,C4,1.0,Under Pressure
+69,200.994748,G3,8.0,Under Pressure
+70,176.56547549999996,F3,6.0,Under Pressure
+71,256.62953500000003,C4,1.0,Under Pressure
+72,194.92845620000003,G3,8.0,Under Pressure
+73,298.305542,D4,3.0,Under Pressure
+74,384.7499024,G4,8.0,Under Pressure
+75,150.1714375,D3,3.0,Under Pressure
+76,143.2178588,D3,3.0,Under Pressure
+77,191.5461546,G3,8.0,Under Pressure
+78,318.8097863333333,D#4,4.0,Under Pressure
+79,236.2522308,A#3,11.0,Under Pressure
+80,280.394338,C#4,2.0,Under Pressure
+81,297.88008419999994,D4,3.0,Under Pressure
+82,322.7860337999999,E4,5.0,Under Pressure
+83,334.3070883333333,E4,5.0,Under Pressure
+84,322.87223520000003,E4,5.0,Under Pressure
+85,300.08723139999995,D4,3.0,Under Pressure
+86,304.78526800000003,D#4,4.0,Under Pressure
+87,263.1108186,C4,1.0,Under Pressure
+88,0.0,0,0.0,Under Pressure
+89,223.5894836,A3,10.0,Under Pressure
+90,299.7481994,D4,3.0,Under Pressure
+91,126.01413216666667,B2,12.0,Under Pressure
+92,59.0773498,A#1,11.0,Under Pressure
+93,186.5706531666667,F#3,7.0,Under Pressure
+94,155.2135284,D#3,4.0,Under Pressure
+95,197.2911498,G3,8.0,Under Pressure
+96,192.95756516666665,G3,8.0,Under Pressure
+97,357.3824646,F4,6.0,Under Pressure
+98,448.80135499999994,A4,10.0,Under Pressure
+99,449.05483,A4,10.0,Under Pressure
+100,447.4534118,A4,10.0,Under Pressure
+101,442.449458,A4,10.0,Under Pressure
+102,0.0,0,0.0,Under Pressure
+103,80.1401094,E2,5.0,Under Pressure
+104,163.76760866666666,E3,5.0,Under Pressure
+105,117.6485872,A#2,11.0,Under Pressure
+106,149.92029833333333,D3,3.0,Under Pressure
+107,0.0,0,0.0,Under Pressure
+108,39.9073486,D#1,4.0,Under Pressure
+109,877.2122089999999,A5,10.0,Under Pressure
+110,213.58740239999997,G#3,9.0,Under Pressure
+111,48.439672800000004,G1,8.0,Under Pressure
+112,119.28837083333333,A#2,11.0,Under Pressure
+113,254.6757294,C4,1.0,Under Pressure
+114,1904.4869026666665,A#6,11.0,Under Pressure
+115,1096.6350096,C#6,2.0,Under Pressure
+116,384.4175202,G4,8.0,Under Pressure
+117,160.63371283333333,E3,5.0,Under Pressure
+118,144.35396740000002,D3,3.0,Under Pressure
+119,367.6839354,F#4,7.0,Under Pressure
+120,499.1505633333333,B4,12.0,Under Pressure
+121,593.2896972000001,D5,3.0,Under Pressure
+122,684.7733563333333,F5,6.0,Under Pressure
+123,782.9109620000002,G5,8.0,Under Pressure
+124,792.8341796,G5,8.0,Under Pressure
+125,796.844635,G5,8.0,Under Pressure
+126,795.5666748,G5,8.0,Under Pressure
+127,555.5811360000001,C#5,2.0,Under Pressure
+128,241.68071879999997,B3,12.0,Under Pressure
+129,332.8111512,E4,5.0,Under Pressure
+130,317.11376433333334,D#4,4.0,Under Pressure
+131,142.86237179999998,D3,3.0,Under Pressure
+132,231.25781859999998,A#3,11.0,Under Pressure
+133,266.85135383333335,C4,1.0,Under Pressure
+134,282.57352899999995,C#4,2.0,Under Pressure
+135,266.9587453333333,C4,1.0,Under Pressure
+136,228.56284180000003,A#3,11.0,Under Pressure
+137,322.68206339999995,E4,5.0,Under Pressure
+138,223.829885,A3,10.0,Under Pressure
+139,265.14932860000005,C4,1.0,Under Pressure
+140,344.0204748333333,F4,6.0,Under Pressure
+141,171.04540839999999,F3,6.0,Under Pressure
+142,281.2528138,C#4,2.0,Under Pressure
+143,261.79776250000003,C4,1.0,Under Pressure
+144,383.994873,G4,8.0,Under Pressure
+145,234.03574840000002,A#3,11.0,Under Pressure
+146,392.2085978333334,G4,8.0,Under Pressure
+147,223.829376,A3,10.0,Under Pressure
+148,381.4739073333333,G4,8.0,Under Pressure
+149,383.0061036,G4,8.0,Under Pressure
+150,382.58601080000005,G4,8.0,Under Pressure
+151,346.1393103333333,F4,6.0,Under Pressure
+152,111.9987944,A2,10.0,Under Pressure
+153,130.1992365,C3,1.0,Under Pressure
+154,217.39989899999995,A3,10.0,Under Pressure
+155,237.53463419999997,A#3,11.0,Under Pressure
+156,230.736033,A#3,11.0,Under Pressure
+157,227.6917602,A#3,11.0,Under Pressure
+158,307.903418,D#4,4.0,Under Pressure
+159,238.15924066666665,A#3,11.0,Under Pressure
+160,184.7880982,F#3,7.0,Under Pressure
+161,288.0098776666667,D4,3.0,Under Pressure
+162,260.4719666,C4,1.0,Under Pressure
+163,341.0741396,F4,6.0,Under Pressure
+164,242.46008816666668,B3,12.0,Under Pressure
+165,290.5496642,D4,3.0,Under Pressure
+166,308.49900833333334,D#4,4.0,Under Pressure
+167,227.4425354,A#3,11.0,Under Pressure
+168,239.8093626,A#3,11.0,Under Pressure
+169,234.124115,A#3,11.0,Under Pressure
+170,184.00964960000002,F#3,7.0,Under Pressure
+171,207.6974182,G#3,9.0,Under Pressure
+172,294.3983408333334,D4,3.0,Under Pressure
+173,55.6580872,A1,10.0,Under Pressure
+174,98.50042216666667,G2,8.0,Under Pressure
+175,179.1208924,F3,6.0,Under Pressure
+176,116.8848816,A#2,11.0,Under Pressure
+177,125.9422785,B2,12.0,Under Pressure
+178,170.84135139999998,F3,6.0,Under Pressure
+179,0.0,0,0.0,Under Pressure
+180,0.0,0,0.0,Under Pressure
+181,0.0,0,0.0,Under Pressure
+182,112.99855033333334,A2,10.0,Under Pressure
+183,19.501043799999998,D#0,4.0,Under Pressure
+184,0.0,0,0.0,Under Pressure
+185,86.69626866666668,F2,6.0,Under Pressure
+186,279.9838316,C#4,2.0,Under Pressure
+187,218.74302683333335,A3,10.0,Under Pressure
+188,192.75718999999998,G3,8.0,Under Pressure
+189,1217.6153868000001,D#6,4.0,Under Pressure
+190,162.12386066666667,E3,5.0,Under Pressure
+191,0.0,0,0.0,Under Pressure
+192,0.0,0,0.0,Under Pressure
+193,55.473902333333335,A1,10.0,Under Pressure
+194,261.2369138,C4,1.0,Under Pressure
+195,0.0,0,0.0,Under Pressure
+196,0.0,0,0.0,Under Pressure
+197,0.0,0,0.0,Under Pressure
+198,162.12832133333333,E3,5.0,Under Pressure
+199,0.0,0,0.0,Under Pressure
+0,0.0,0,0.0,Another One Bites The Dust
+1,66.7030212,C2,1.0,Another One Bites The Dust
+2,76.33792616666666,D#2,4.0,Another One Bites The Dust
+3,0.0,0,0.0,Another One Bites The Dust
+4,68.9508148,C#2,2.0,Another One Bites The Dust
+5,181.3467126666667,F#3,7.0,Another One Bites The Dust
+6,116.2813478,A#2,11.0,Another One Bites The Dust
+7,112.08158616666667,A2,10.0,Another One Bites The Dust
+8,0.0,0,0.0,Another One Bites The Dust
+9,132.3378022,C3,1.0,Another One Bites The Dust
+10,146.37161766666668,D3,3.0,Another One Bites The Dust
+11,142.9537202,D3,3.0,Another One Bites The Dust
+12,132.8782714,C3,1.0,Another One Bites The Dust
+13,278.1087646666667,C#4,2.0,Another One Bites The Dust
+14,115.6405518,A#2,11.0,Another One Bites The Dust
+15,139.99956,C#3,2.0,Another One Bites The Dust
+16,101.6269104,G#2,9.0,Another One Bites The Dust
+17,0.0,0,0.0,Another One Bites The Dust
+18,221.20649216666666,A3,10.0,Another One Bites The Dust
+19,0.0,0,0.0,Another One Bites The Dust
+20,74.62043,D2,3.0,Another One Bites The Dust
+21,331.7909302,E4,5.0,Another One Bites The Dust
+22,130.64732659999999,C3,1.0,Another One Bites The Dust
+23,0.0,0,0.0,Another One Bites The Dust
+24,67.9225434,C#2,2.0,Another One Bites The Dust
+25,151.574771,D#3,4.0,Another One Bites The Dust
+26,0.0,0,0.0,Another One Bites The Dust
+27,0.0,0,0.0,Another One Bites The Dust
+28,0.0,0,0.0,Another One Bites The Dust
+29,173.6617584,F3,6.0,Another One Bites The Dust
+30,77.6527742,D#2,4.0,Another One Bites The Dust
+31,148.11550383333335,D3,3.0,Another One Bites The Dust
+32,95.1574982,F#2,7.0,Another One Bites The Dust
+33,141.124298,C#3,2.0,Another One Bites The Dust
+34,191.191812,G3,8.0,Another One Bites The Dust
+35,52.313281200000006,G#1,9.0,Another One Bites The Dust
+36,86.91221366666667,F2,6.0,Another One Bites The Dust
+37,131.101236,C3,1.0,Another One Bites The Dust
+38,80.1768678,E2,5.0,Another One Bites The Dust
+39,0.0,0,0.0,Another One Bites The Dust
+40,0.0,0,0.0,Another One Bites The Dust
+41,223.95682783333334,A3,10.0,Another One Bites The Dust
+42,228.8906188,A#3,11.0,Another One Bites The Dust
+43,254.8206788,C4,1.0,Another One Bites The Dust
+44,274.33487183333335,C#4,2.0,Another One Bites The Dust
+45,130.4378662,C3,1.0,Another One Bites The Dust
+46,186.28541566666664,F#3,7.0,Another One Bites The Dust
+47,370.9805298,F#4,7.0,Another One Bites The Dust
+48,378.8086244,F#4,7.0,Another One Bites The Dust
+49,392.2300566666667,G4,8.0,Another One Bites The Dust
+50,305.5684082,D#4,4.0,Another One Bites The Dust
+51,464.73953240000003,A#4,11.0,Another One Bites The Dust
+52,526.8803151666667,C5,1.0,Another One Bites The Dust
+53,260.5381774,C4,1.0,Another One Bites The Dust
+54,178.47071333333335,F3,6.0,Another One Bites The Dust
+55,477.1408018,A#4,11.0,Another One Bites The Dust
+56,0.0,0,0.0,Another One Bites The Dust
+57,611.06957,D#5,4.0,Another One Bites The Dust
+58,970.1600341999999,B5,12.0,Another One Bites The Dust
+59,0.0,0,0.0,Another One Bites The Dust
+60,0.0,0,0.0,Another One Bites The Dust
+61,133.0539306,C3,1.0,Another One Bites The Dust
+62,226.17560333333333,A3,10.0,Another One Bites The Dust
+63,0.0,0,0.0,Another One Bites The Dust
+64,0.0,0,0.0,Another One Bites The Dust
+65,56.1757915,A1,10.0,Another One Bites The Dust
+66,228.36625680000003,A#3,11.0,Another One Bites The Dust
+67,356.8426055,F4,6.0,Another One Bites The Dust
+68,249.8832152,B3,12.0,Another One Bites The Dust
+69,357.3701538,F4,6.0,Another One Bites The Dust
+70,315.30209866666667,D#4,4.0,Another One Bites The Dust
+71,198.3947632,G3,8.0,Another One Bites The Dust
+72,72.5780212,D2,3.0,Another One Bites The Dust
+73,282.2148741666667,C#4,2.0,Another One Bites The Dust
+74,351.8356566,F4,6.0,Another One Bites The Dust
+75,280.73828366666663,C#4,2.0,Another One Bites The Dust
+76,0.0,0,0.0,Another One Bites The Dust
+77,0.0,0,0.0,Another One Bites The Dust
+78,138.96139533333334,C#3,2.0,Another One Bites The Dust
+79,0.0,0,0.0,Another One Bites The Dust
+80,551.6729431666668,C#5,2.0,Another One Bites The Dust
+81,0.0,0,0.0,Another One Bites The Dust
+82,289.33082279999996,D4,3.0,Another One Bites The Dust
+83,91.5857645,F#2,7.0,Another One Bites The Dust
+84,37.0747834,D1,3.0,Another One Bites The Dust
+85,217.57536639999998,A3,10.0,Another One Bites The Dust
+86,0.0,0,0.0,Another One Bites The Dust
+87,0.0,0,0.0,Another One Bites The Dust
+88,434.61471549999993,A4,10.0,Another One Bites The Dust
+89,0.0,0,0.0,Another One Bites The Dust
+90,0.0,0,0.0,Another One Bites The Dust
+91,479.82524616666666,B4,12.0,Another One Bites The Dust
+92,67.07117919999999,C2,1.0,Another One Bites The Dust
+93,147.52562966666667,D3,3.0,Another One Bites The Dust
+94,313.5378236,D#4,4.0,Another One Bites The Dust
+95,172.05482179999998,F3,6.0,Another One Bites The Dust
+96,210.89454633333335,G#3,9.0,Another One Bites The Dust
+97,233.2813782,A#3,11.0,Another One Bites The Dust
+98,241.41204199999999,B3,12.0,Another One Bites The Dust
+99,533.5071768333333,C5,1.0,Another One Bites The Dust
+100,643.0963562,E5,5.0,Another One Bites The Dust
+101,383.7576598333333,G4,8.0,Another One Bites The Dust
+102,339.81383519999997,F4,6.0,Another One Bites The Dust
+103,153.1821258,D#3,4.0,Another One Bites The Dust
+104,65.53183483333333,C2,1.0,Another One Bites The Dust
+105,40.0775512,E1,5.0,Another One Bites The Dust
+106,208.52940883333335,G#3,9.0,Another One Bites The Dust
+107,0.0,0,0.0,Another One Bites The Dust
+108,0.0,0,0.0,Another One Bites The Dust
+109,887.4441986666667,A5,10.0,Another One Bites The Dust
+110,268.314923,C4,1.0,Another One Bites The Dust
+111,296.8786378,D4,3.0,Another One Bites The Dust
+112,162.88092550000002,E3,5.0,Another One Bites The Dust
+113,58.629180999999996,A#1,11.0,Another One Bites The Dust
+114,224.59912616666665,A3,10.0,Another One Bites The Dust
+115,224.5950806,A3,10.0,Another One Bites The Dust
+116,444.9332824,A4,10.0,Another One Bites The Dust
+117,212.3267365,G#3,9.0,Another One Bites The Dust
+118,190.6973694,G3,8.0,Another One Bites The Dust
+119,574.0699402,D5,3.0,Another One Bites The Dust
+120,254.7167155,C4,1.0,Another One Bites The Dust
+121,343.24935300000004,F4,6.0,Another One Bites The Dust
+122,345.12331133333333,F4,6.0,Another One Bites The Dust
+123,352.5656618,F4,6.0,Another One Bites The Dust
+124,161.427649,E3,5.0,Another One Bites The Dust
+125,448.9695738333333,A4,10.0,Another One Bites The Dust
+126,304.2831114,D#4,4.0,Another One Bites The Dust
+127,252.97448716666668,B3,12.0,Another One Bites The Dust
+128,137.5392824,C#3,2.0,Another One Bites The Dust
+129,195.5487976,G3,8.0,Another One Bites The Dust
+130,107.530599,A2,10.0,Another One Bites The Dust
+131,0.0,0,0.0,Another One Bites The Dust
+132,114.52351060000001,A#2,11.0,Another One Bites The Dust
+133,55.64840183333333,A1,10.0,Another One Bites The Dust
+134,382.01369619999997,G4,8.0,Another One Bites The Dust
+135,478.158755,A#4,11.0,Another One Bites The Dust
+136,232.83153080000002,A#3,11.0,Another One Bites The Dust
+137,379.5669616,F#4,7.0,Another One Bites The Dust
+138,248.69758616666664,B3,12.0,Another One Bites The Dust
+139,375.55437620000004,F#4,7.0,Another One Bites The Dust
+140,331.21210983333333,E4,5.0,Another One Bites The Dust
+141,138.4623962,C#3,2.0,Another One Bites The Dust
+142,426.1719606,G#4,9.0,Another One Bites The Dust
+143,370.94536333333326,F#4,7.0,Another One Bites The Dust
+144,741.331006,F#5,7.0,Another One Bites The Dust
+145,178.11425780000002,F3,6.0,Another One Bites The Dust
+146,117.00642649999999,A#2,11.0,Another One Bites The Dust
+147,0.0,0,0.0,Another One Bites The Dust
+148,0.0,0,0.0,Another One Bites The Dust
+149,386.37072759999995,G4,8.0,Another One Bites The Dust
+150,0.0,0,0.0,Another One Bites The Dust
+151,0.0,0,0.0,Another One Bites The Dust
+152,0.0,0,0.0,Another One Bites The Dust
+153,731.3979341666667,F#5,7.0,Another One Bites The Dust
+154,162.817749,E3,5.0,Another One Bites The Dust
+0,0.0,0,0.0,Crazy Little Thing Called Love
+1,0.0,0,0.0,Crazy Little Thing Called Love
+2,0.0,0,0.0,Crazy Little Thing Called Love
+3,0.0,0,0.0,Crazy Little Thing Called Love
+4,0.0,0,0.0,Crazy Little Thing Called Love
+5,0.0,0,0.0,Crazy Little Thing Called Love
+6,0.0,0,0.0,Crazy Little Thing Called Love
+7,0.0,0,0.0,Crazy Little Thing Called Love
+8,0.0,0,0.0,Crazy Little Thing Called Love
+9,178.4482454,F3,6.0,Crazy Little Thing Called Love
+10,120.10098533333333,B2,12.0,Crazy Little Thing Called Love
+11,87.2616546,F2,6.0,Crazy Little Thing Called Love
+12,230.1012268,A#3,11.0,Crazy Little Thing Called Love
+13,590.8950755,D5,3.0,Crazy Little Thing Called Love
+14,290.68902280000003,D4,3.0,Crazy Little Thing Called Love
+15,237.525767,A#3,11.0,Crazy Little Thing Called Love
+16,100.75490119999999,G2,8.0,Crazy Little Thing Called Love
+17,175.51023879999997,F3,6.0,Crazy Little Thing Called Love
+18,192.73313900000002,G3,8.0,Crazy Little Thing Called Love
+19,165.5229858,E3,5.0,Crazy Little Thing Called Love
+20,325.72755416666666,E4,5.0,Crazy Little Thing Called Love
+21,263.07318100000003,C4,1.0,Crazy Little Thing Called Love
+22,286.6132202,D4,3.0,Crazy Little Thing Called Love
+23,48.870793666666664,G1,8.0,Crazy Little Thing Called Love
+24,67.3983918,C#2,2.0,Crazy Little Thing Called Love
+25,88.6809388,F2,6.0,Crazy Little Thing Called Love
+26,0.0,0,0.0,Crazy Little Thing Called Love
+27,72.9590882,D2,3.0,Crazy Little Thing Called Love
+28,114.73922233333333,A#2,11.0,Crazy Little Thing Called Love
+29,228.80866099999997,A#3,11.0,Crazy Little Thing Called Love
+30,46.1601776,F#1,7.0,Crazy Little Thing Called Love
+31,100.58502200000002,G2,8.0,Crazy Little Thing Called Love
+32,312.21642460000004,D#4,4.0,Crazy Little Thing Called Love
+33,244.66189816666665,B3,12.0,Crazy Little Thing Called Love
+34,90.9274262,F#2,7.0,Crazy Little Thing Called Love
+35,44.319775400000005,F1,6.0,Crazy Little Thing Called Love
+36,33.66384883333333,C#1,2.0,Crazy Little Thing Called Love
+37,118.61737659999999,A#2,11.0,Crazy Little Thing Called Love
+38,174.7386352,F3,6.0,Crazy Little Thing Called Love
+39,220.56825766666665,A3,10.0,Crazy Little Thing Called Love
+40,202.6734742,G#3,9.0,Crazy Little Thing Called Love
+41,249.14322433333336,B3,12.0,Crazy Little Thing Called Love
+42,140.3475248,C#3,2.0,Crazy Little Thing Called Love
+43,125.802942,B2,12.0,Crazy Little Thing Called Love
+44,24.129959166666666,G0,8.0,Crazy Little Thing Called Love
+45,215.7232758,A3,10.0,Crazy Little Thing Called Love
+46,314.68360416666667,D#4,4.0,Crazy Little Thing Called Love
+47,301.5496948,D4,3.0,Crazy Little Thing Called Love
+48,0.0,0,0.0,Crazy Little Thing Called Love
+49,109.06561283333333,A2,10.0,Crazy Little Thing Called Love
+50,321.733356,E4,5.0,Crazy Little Thing Called Love
+51,183.980768,F#3,7.0,Crazy Little Thing Called Love
+52,296.40558383333337,D4,3.0,Crazy Little Thing Called Love
+53,320.7760312,E4,5.0,Crazy Little Thing Called Love
+54,78.0209325,D#2,4.0,Crazy Little Thing Called Love
+55,119.31167,A#2,11.0,Crazy Little Thing Called Love
+56,326.77842999999996,E4,5.0,Crazy Little Thing Called Love
+57,164.01549266666666,E3,5.0,Crazy Little Thing Called Love
+58,239.77948920000003,A#3,11.0,Crazy Little Thing Called Love
+59,85.8039186,F2,6.0,Crazy Little Thing Called Love
+60,0.0,0,0.0,Crazy Little Thing Called Love
+61,0.0,0,0.0,Crazy Little Thing Called Love
+62,0.0,0,0.0,Crazy Little Thing Called Love
+63,29.9168762,A#0,11.0,Crazy Little Thing Called Love
+64,155.12135619999998,D#3,4.0,Crazy Little Thing Called Love
+65,73.4365615,D2,3.0,Crazy Little Thing Called Love
+66,88.6265686,F2,6.0,Crazy Little Thing Called Love
+67,71.50114183333334,D2,3.0,Crazy Little Thing Called Love
+68,172.87618419999998,F3,6.0,Crazy Little Thing Called Love
+69,222.3790954,A3,10.0,Crazy Little Thing Called Love
+70,254.64731333333336,C4,1.0,Crazy Little Thing Called Love
+71,191.1788788,G3,8.0,Crazy Little Thing Called Love
+72,94.50640560000001,F#2,7.0,Crazy Little Thing Called Love
+73,38.699740166666665,D#1,4.0,Crazy Little Thing Called Love
+74,176.95541980000002,F3,6.0,Crazy Little Thing Called Love
+75,313.5951181666667,D#4,4.0,Crazy Little Thing Called Love
+76,320.8573792,E4,5.0,Crazy Little Thing Called Love
+77,269.0115356,C4,1.0,Crazy Little Thing Called Love
+78,302.4356943333333,D#4,4.0,Crazy Little Thing Called Love
+79,105.7347412,G#2,9.0,Crazy Little Thing Called Love
+80,140.19310516666664,C#3,2.0,Crazy Little Thing Called Love
+81,141.85086059999998,C#3,2.0,Crazy Little Thing Called Love
+82,0.0,0,0.0,Crazy Little Thing Called Love
+83,0.0,0,0.0,Crazy Little Thing Called Love
+84,0.0,0,0.0,Crazy Little Thing Called Love
+85,0.0,0,0.0,Crazy Little Thing Called Love
+86,0.0,0,0.0,Crazy Little Thing Called Love
+87,0.0,0,0.0,Crazy Little Thing Called Love
+88,0.0,0,0.0,Crazy Little Thing Called Love
+89,0.0,0,0.0,Crazy Little Thing Called Love
+90,0.0,0,0.0,Crazy Little Thing Called Love
+91,0.0,0,0.0,Crazy Little Thing Called Love
+92,0.0,0,0.0,Crazy Little Thing Called Love
+93,0.0,0,0.0,Crazy Little Thing Called Love
+94,0.0,0,0.0,Crazy Little Thing Called Love
+95,0.0,0,0.0,Crazy Little Thing Called Love
+96,0.0,0,0.0,Crazy Little Thing Called Love
+97,44.494467199999995,F1,6.0,Crazy Little Thing Called Love
+98,0.0,0,0.0,Crazy Little Thing Called Love
+99,0.0,0,0.0,Crazy Little Thing Called Love
+100,0.0,0,0.0,Crazy Little Thing Called Love
+101,116.1809895,A#2,11.0,Crazy Little Thing Called Love
+102,173.89783640000002,F3,6.0,Crazy Little Thing Called Love
+103,136.4207396,C#3,2.0,Crazy Little Thing Called Love
+104,69.56227883333332,C#2,2.0,Crazy Little Thing Called Love
+105,220.19654260000001,A3,10.0,Crazy Little Thing Called Love
+106,191.17804999999998,G3,8.0,Crazy Little Thing Called Love
+107,250.981073,B3,12.0,Crazy Little Thing Called Love
+108,181.9834626,F#3,7.0,Crazy Little Thing Called Love
+109,121.07119233333333,B2,12.0,Crazy Little Thing Called Love
+110,0.0,0,0.0,Crazy Little Thing Called Love
+111,107.06070559999998,A2,10.0,Crazy Little Thing Called Love
+112,249.78568016666668,B3,12.0,Crazy Little Thing Called Love
+113,329.1049988,E4,5.0,Crazy Little Thing Called Love
+114,106.07863366666668,G#2,9.0,Crazy Little Thing Called Love
+115,370.3992372,F#4,7.0,Crazy Little Thing Called Love
+116,144.3195862,D3,3.0,Crazy Little Thing Called Love
+117,121.46186833333333,B2,12.0,Crazy Little Thing Called Love
+118,150.71647360000003,D3,3.0,Crazy Little Thing Called Love
+119,0.0,0,0.0,Crazy Little Thing Called Love
+120,74.42081966666667,D2,3.0,Crazy Little Thing Called Love
+121,86.4206178,F2,6.0,Crazy Little Thing Called Love
+122,223.3511121666667,A3,10.0,Crazy Little Thing Called Love
+123,154.24140640000002,D#3,4.0,Crazy Little Thing Called Love
+124,118.3671448,A#2,11.0,Crazy Little Thing Called Love
+125,308.302241,D#4,4.0,Crazy Little Thing Called Love
+126,242.72424919999997,B3,12.0,Crazy Little Thing Called Love
+127,151.462087,D#3,4.0,Crazy Little Thing Called Love
+128,179.6038084,F3,6.0,Crazy Little Thing Called Love
+129,48.824524000000004,G1,8.0,Crazy Little Thing Called Love
+130,168.51452000000003,E3,5.0,Crazy Little Thing Called Love
+131,294.82286060000007,D4,3.0,Crazy Little Thing Called Love
+132,255.25129379999998,C4,1.0,Crazy Little Thing Called Love
+133,336.7821605,E4,5.0,Crazy Little Thing Called Love
+134,0.0,0,0.0,Crazy Little Thing Called Love
+135,147.243777,D3,3.0,Crazy Little Thing Called Love
+136,137.4361846,C#3,2.0,Crazy Little Thing Called Love
+137,892.6938843999999,A5,10.0,Crazy Little Thing Called Love
+138,119.27719616666667,A#2,11.0,Crazy Little Thing Called Love
+139,147.8546204,D3,3.0,Crazy Little Thing Called Love
+140,24.132408166666664,G0,8.0,Crazy Little Thing Called Love
+141,157.5724516,D#3,4.0,Crazy Little Thing Called Love
+142,115.125,A#2,11.0,Crazy Little Thing Called Love
+143,48.68615716666667,G1,8.0,Crazy Little Thing Called Love
+144,139.64974980000002,C#3,2.0,Crazy Little Thing Called Love
+145,222.78662719999997,A3,10.0,Crazy Little Thing Called Love
+146,258.6300351666667,C4,1.0,Crazy Little Thing Called Love
+147,169.5221436,E3,5.0,Crazy Little Thing Called Love
+148,282.3386791666667,C#4,2.0,Crazy Little Thing Called Love
+149,174.41922599999998,F3,6.0,Crazy Little Thing Called Love
+150,758.1592774,F#5,7.0,Crazy Little Thing Called Love
+151,97.82507833333334,G2,8.0,Crazy Little Thing Called Love
+152,59.695575,A#1,11.0,Crazy Little Thing Called Love
+153,48.55841816666666,G1,8.0,Crazy Little Thing Called Love
+154,0.0,0,0.0,Crazy Little Thing Called Love
+155,0.0,0,0.0,Crazy Little Thing Called Love
+156,0.0,0,0.0,Crazy Little Thing Called Love
+157,0.0,0,0.0,Crazy Little Thing Called Love
+158,0.0,0,0.0,Crazy Little Thing Called Love
+159,0.0,0,0.0,Crazy Little Thing Called Love
+160,0.0,0,0.0,Crazy Little Thing Called Love
+161,0.0,0,0.0,Crazy Little Thing Called Love
+0,0.0,0,0.0,Don't Stop Me Now
+1,64.6517272,C2,1.0,Don't Stop Me Now
+2,394.91576133333336,G4,8.0,Don't Stop Me Now
+3,81.7379212,E2,5.0,Don't Stop Me Now
+4,0.0,0,0.0,Don't Stop Me Now
+5,43.145757,F1,6.0,Don't Stop Me Now
+6,497.42021479999994,B4,12.0,Don't Stop Me Now
+7,626.7922568333335,D#5,4.0,Don't Stop Me Now
+8,213.301587,G#3,9.0,Don't Stop Me Now
+9,92.6589416,F#2,7.0,Don't Stop Me Now
+10,0.0,0,0.0,Don't Stop Me Now
+11,123.89318840000001,B2,12.0,Don't Stop Me Now
+12,0.0,0,0.0,Don't Stop Me Now
+13,0.0,0,0.0,Don't Stop Me Now
+14,0.0,0,0.0,Don't Stop Me Now
+15,190.35603566666666,F#3,7.0,Don't Stop Me Now
+16,51.467214999999996,G#1,9.0,Don't Stop Me Now
+17,124.39653159999997,B2,12.0,Don't Stop Me Now
+18,86.35456466666666,F2,6.0,Don't Stop Me Now
+19,0.0,0,0.0,Don't Stop Me Now
+20,0.0,0,0.0,Don't Stop Me Now
+21,0.0,0,0.0,Don't Stop Me Now
+22,0.0,0,0.0,Don't Stop Me Now
+23,461.2696738333334,A#4,11.0,Don't Stop Me Now
+24,413.1788818,G#4,9.0,Don't Stop Me Now
+25,391.0224244,G4,8.0,Don't Stop Me Now
+26,272.39303333333334,C#4,2.0,Don't Stop Me Now
+27,177.2166076,F3,6.0,Don't Stop Me Now
+28,309.56306466666666,D#4,4.0,Don't Stop Me Now
+29,156.3595918,D#3,4.0,Don't Stop Me Now
+30,79.8786804,D#2,4.0,Don't Stop Me Now
+31,358.8234253333333,F4,6.0,Don't Stop Me Now
+32,394.17700799999994,G4,8.0,Don't Stop Me Now
+33,199.11345416666666,G3,8.0,Don't Stop Me Now
+34,278.386139,C#4,2.0,Don't Stop Me Now
+35,281.4620606,C#4,2.0,Don't Stop Me Now
+36,230.85102099999997,A#3,11.0,Don't Stop Me Now
+37,113.9333068,A#2,11.0,Don't Stop Me Now
+38,143.8410796,D3,3.0,Don't Stop Me Now
+39,196.5262528333333,G3,8.0,Don't Stop Me Now
+40,99.82483520000001,G2,8.0,Don't Stop Me Now
+41,182.69487766666668,F#3,7.0,Don't Stop Me Now
+42,1000.052002,B5,12.0,Don't Stop Me Now
+43,108.01964720000001,A2,10.0,Don't Stop Me Now
+44,57.96563716666666,A#1,11.0,Don't Stop Me Now
+45,547.2653808,C#5,2.0,Don't Stop Me Now
+46,190.63987733333332,G3,8.0,Don't Stop Me Now
+47,205.6257112,G#3,9.0,Don't Stop Me Now
+48,106.77421260000001,G#2,9.0,Don't Stop Me Now
+49,119.4206315,A#2,11.0,Don't Stop Me Now
+50,106.81724840000001,G#2,9.0,Don't Stop Me Now
+51,263.3671874,C4,1.0,Don't Stop Me Now
+52,291.42430616666667,D4,3.0,Don't Stop Me Now
+53,326.8863158,E4,5.0,Don't Stop Me Now
+54,217.54829916666668,A3,10.0,Don't Stop Me Now
+55,221.29939280000002,A3,10.0,Don't Stop Me Now
+56,207.0577728,G#3,9.0,Don't Stop Me Now
+57,132.51458733333334,C3,1.0,Don't Stop Me Now
+58,0.0,0,0.0,Don't Stop Me Now
+59,0.0,0,0.0,Don't Stop Me Now
+60,0.0,0,0.0,Don't Stop Me Now
+61,0.0,0,0.0,Don't Stop Me Now
+62,0.0,0,0.0,Don't Stop Me Now
+63,91.43998400000001,F#2,7.0,Don't Stop Me Now
+64,0.0,0,0.0,Don't Stop Me Now
+65,201.3331935,G3,8.0,Don't Stop Me Now
+66,0.0,0,0.0,Don't Stop Me Now
+67,174.639674,F3,6.0,Don't Stop Me Now
+68,180.7904418,F#3,7.0,Don't Stop Me Now
+69,185.19377419999998,F#3,7.0,Don't Stop Me Now
+70,151.21411133333334,D#3,4.0,Don't Stop Me Now
+71,0.0,0,0.0,Don't Stop Me Now
+72,0.0,0,0.0,Don't Stop Me Now
+73,172.06982166666668,F3,6.0,Don't Stop Me Now
+74,360.34473879999996,F#4,7.0,Don't Stop Me Now
+75,115.95965316666667,A#2,11.0,Don't Stop Me Now
+76,110.73820799999999,A2,10.0,Don't Stop Me Now
+77,50.866763399999996,G#1,9.0,Don't Stop Me Now
+78,147.873876,D3,3.0,Don't Stop Me Now
+79,0.0,0,0.0,Don't Stop Me Now
+80,212.1614125,G#3,9.0,Don't Stop Me Now
+81,287.94222419999994,D4,3.0,Don't Stop Me Now
+82,231.4920776,A#3,11.0,Don't Stop Me Now
+83,333.9950713333333,E4,5.0,Don't Stop Me Now
+84,1485.8911315999999,F#6,7.0,Don't Stop Me Now
+85,106.5827454,G#2,9.0,Don't Stop Me Now
+86,115.5712585,A#2,11.0,Don't Stop Me Now
+87,52.058700599999995,G#1,9.0,Don't Stop Me Now
+88,250.37236016666665,B3,12.0,Don't Stop Me Now
+89,328.0353212,E4,5.0,Don't Stop Me Now
+90,162.47414559999999,E3,5.0,Don't Stop Me Now
+91,248.48699716666667,B3,12.0,Don't Stop Me Now
+92,137.2494872,C#3,2.0,Don't Stop Me Now
+93,273.9228515,C#4,2.0,Don't Stop Me Now
+94,409.61463620000006,G#4,9.0,Don't Stop Me Now
+95,360.27066959999996,F#4,7.0,Don't Stop Me Now
+96,411.24459333333334,G#4,9.0,Don't Stop Me Now
+97,888.801709,A5,10.0,Don't Stop Me Now
+98,0.0,0,0.0,Don't Stop Me Now
+99,302.353335,D#4,4.0,Don't Stop Me Now
+100,109.266284,A2,10.0,Don't Stop Me Now
+101,115.54549149999998,A#2,11.0,Don't Stop Me Now
+102,130.80337519999998,C3,1.0,Don't Stop Me Now
+103,402.7028748,G4,8.0,Don't Stop Me Now
+104,177.18177033333333,F3,6.0,Don't Stop Me Now
+105,91.484308,F#2,7.0,Don't Stop Me Now
+106,205.91031383333336,G#3,9.0,Don't Stop Me Now
+107,0.0,0,0.0,Don't Stop Me Now
+108,267.57583,C4,1.0,Don't Stop Me Now
+109,729.8771565000001,F#5,7.0,Don't Stop Me Now
+110,162.8263672,E3,5.0,Don't Stop Me Now
+111,70.0712098,C#2,2.0,Don't Stop Me Now
+112,125.96735633333333,B2,12.0,Don't Stop Me Now
+113,0.0,0,0.0,Don't Stop Me Now
+114,251.31063316666666,B3,12.0,Don't Stop Me Now
+115,77.1043152,D#2,4.0,Don't Stop Me Now
+116,213.321173,G#3,9.0,Don't Stop Me Now
+117,220.81788633333335,A3,10.0,Don't Stop Me Now
+118,626.7833678,D#5,4.0,Don't Stop Me Now
+119,522.4956666,C5,1.0,Don't Stop Me Now
+120,624.6948446666667,D#5,4.0,Don't Stop Me Now
+121,248.23675540000005,B3,12.0,Don't Stop Me Now
+122,0.0,0,0.0,Don't Stop Me Now
+123,0.0,0,0.0,Don't Stop Me Now
+124,0.0,0,0.0,Don't Stop Me Now
+125,0.0,0,0.0,Don't Stop Me Now
+126,0.0,0,0.0,Don't Stop Me Now
+127,0.0,0,0.0,Don't Stop Me Now
+128,0.0,0,0.0,Don't Stop Me Now
+129,0.0,0,0.0,Don't Stop Me Now
+130,0.0,0,0.0,Don't Stop Me Now
+131,0.0,0,0.0,Don't Stop Me Now
+132,0.0,0,0.0,Don't Stop Me Now
+133,0.0,0,0.0,Don't Stop Me Now
+134,0.0,0,0.0,Don't Stop Me Now
+135,0.0,0,0.0,Don't Stop Me Now
+136,0.0,0,0.0,Don't Stop Me Now
+137,0.0,0,0.0,Don't Stop Me Now
+138,12.980917666666668,G#-1,9.0,Don't Stop Me Now
+139,82.377305,E2,5.0,Don't Stop Me Now
+140,93.6784465,F#2,7.0,Don't Stop Me Now
+141,126.9531784,B2,12.0,Don't Stop Me Now
+142,82.0302368,E2,5.0,Don't Stop Me Now
+143,154.14703883333334,D#3,4.0,Don't Stop Me Now
+144,319.9569702,D#4,4.0,Don't Stop Me Now
+145,0.0,0,0.0,Don't Stop Me Now
+146,131.38727833333334,C3,1.0,Don't Stop Me Now
+147,177.8105528,F3,6.0,Don't Stop Me Now
+148,378.86622616666665,F#4,7.0,Don't Stop Me Now
+149,180.6198426,F#3,7.0,Don't Stop Me Now
+150,261.11490779999997,C4,1.0,Don't Stop Me Now
+151,407.67909750000007,G#4,9.0,Don't Stop Me Now
+152,357.89847100000003,F4,6.0,Don't Stop Me Now
+153,373.8674978333333,F#4,7.0,Don't Stop Me Now
+154,215.73673079999998,A3,10.0,Don't Stop Me Now
+155,169.8688202,F3,6.0,Don't Stop Me Now
+156,214.66178383333332,A3,10.0,Don't Stop Me Now
+157,0.0,0,0.0,Don't Stop Me Now
+158,107.4442688,A2,10.0,Don't Stop Me Now
+159,828.1289061666666,G#5,9.0,Don't Stop Me Now
+160,199.315329,G3,8.0,Don't Stop Me Now
+161,82.0956065,E2,5.0,Don't Stop Me Now
+162,759.9927186,F#5,7.0,Don't Stop Me Now
+163,159.3702942,D#3,4.0,Don't Stop Me Now
+164,52.89809666666667,G#1,9.0,Don't Stop Me Now
+165,93.3614136,F#2,7.0,Don't Stop Me Now
+166,68.35747283333333,C#2,2.0,Don't Stop Me Now
+167,0.0,0,0.0,Don't Stop Me Now
+168,93.8360594,F#2,7.0,Don't Stop Me Now
+169,647.8999021666666,E5,5.0,Don't Stop Me Now
+170,59.384765599999994,A#1,11.0,Don't Stop Me Now
+171,49.6398498,G1,8.0,Don't Stop Me Now
+172,176.50911699999997,F3,6.0,Don't Stop Me Now
+173,179.00360099999997,F3,6.0,Don't Stop Me Now
+174,50.706787166666665,G#1,9.0,Don't Stop Me Now
+175,68.789679,C#2,2.0,Don't Stop Me Now
+176,294.304901,D4,3.0,Don't Stop Me Now
+177,329.62153616666666,E4,5.0,Don't Stop Me Now
+178,359.25912780000004,F4,6.0,Don't Stop Me Now
+179,411.60178220000006,G#4,9.0,Don't Stop Me Now
+180,414.3673401666667,G#4,9.0,Don't Stop Me Now
+181,290.20331120000003,D4,3.0,Don't Stop Me Now
+182,51.74135066666667,G#1,9.0,Don't Stop Me Now
+183,72.65271,D2,3.0,Don't Stop Me Now
+184,39.6502136,D#1,4.0,Don't Stop Me Now
+185,138.89003766666667,C#3,2.0,Don't Stop Me Now
+186,62.121141,B1,12.0,Don't Stop Me Now
+187,109.34261566666669,A2,10.0,Don't Stop Me Now
+188,244.7731048,B3,12.0,Don't Stop Me Now
+189,181.96816379999999,F#3,7.0,Don't Stop Me Now
+190,307.81579583333337,D#4,4.0,Don't Stop Me Now
+191,409.8267578,G#4,9.0,Don't Stop Me Now
+192,413.553174,G#4,9.0,Don't Stop Me Now
+193,68.35239666666666,C#2,2.0,Don't Stop Me Now
+194,104.0326172,G#2,9.0,Don't Stop Me Now
+195,109.56861366666665,A2,10.0,Don't Stop Me Now
+196,330.65217299999995,E4,5.0,Don't Stop Me Now
+197,218.84773560000002,A3,10.0,Don't Stop Me Now
+198,255.97966250000002,C4,1.0,Don't Stop Me Now
+199,49.6355378,G1,8.0,Don't Stop Me Now
+200,569.4280598333334,C#5,2.0,Don't Stop Me Now
+201,0.0,0,0.0,Don't Stop Me Now
+202,0.0,0,0.0,Don't Stop Me Now
+203,192.53341166666667,G3,8.0,Don't Stop Me Now
+204,416.42962040000003,G#4,9.0,Don't Stop Me Now
+205,385.25756820000004,G4,8.0,Don't Stop Me Now
+206,274.11645,C#4,2.0,Don't Stop Me Now
+207,204.29390600000002,G#3,9.0,Don't Stop Me Now
+208,178.97009766666667,F3,6.0,Don't Stop Me Now
+209,160.4796206,E3,5.0,Don't Stop Me Now
+210,151.901114,D#3,4.0,Don't Stop Me Now
+211,356.1412301666667,F4,6.0,Don't Stop Me Now
+212,580.4665832,D5,3.0,Don't Stop Me Now
+213,694.4798583333333,F5,6.0,Don't Stop Me Now
+214,628.8615358,D#5,4.0,Don't Stop Me Now
+215,720.4863282,F#5,7.0,Don't Stop Me Now
+216,612.7138468333334,D#5,4.0,Don't Stop Me Now
+217,494.5517212,B4,12.0,Don't Stop Me Now
+218,0.0,0,0.0,Don't Stop Me Now
+219,0.0,0,0.0,Don't Stop Me Now
+220,147.8314392,D3,3.0,Don't Stop Me Now
+221,276.6281281666666,C#4,2.0,Don't Stop Me Now
+222,206.34385359999996,G#3,9.0,Don't Stop Me Now
+223,287.7750856,D4,3.0,Don't Stop Me Now
+224,374.3103943333333,F#4,7.0,Don't Stop Me Now
+225,415.1806030000001,G#4,9.0,Don't Stop Me Now
+226,413.9318695,G#4,9.0,Don't Stop Me Now
+227,0.0,0,0.0,Don't Stop Me Now
+228,398.2672486,G4,8.0,Don't Stop Me Now
+229,562.2043863333333,C#5,2.0,Don't Stop Me Now
+230,611.4864868,D#5,4.0,Don't Stop Me Now
+231,618.9992186,D#5,4.0,Don't Stop Me Now
+232,518.0159405,C5,1.0,Don't Stop Me Now
+233,439.0952028,A4,10.0,Don't Stop Me Now
+234,389.08950550000003,G4,8.0,Don't Stop Me Now
+235,163.4367554,E3,5.0,Don't Stop Me Now
+236,209.3562774,G#3,9.0,Don't Stop Me Now
+237,105.52667766666667,G#2,9.0,Don't Stop Me Now
+238,0.0,0,0.0,Don't Stop Me Now
+239,0.0,0,0.0,Don't Stop Me Now
+240,69.96950283333332,C#2,2.0,Don't Stop Me Now
+241,35.2878174,C#1,2.0,Don't Stop Me Now
+242,0.0,0,0.0,Don't Stop Me Now
+243,279.8313842,C#4,2.0,Don't Stop Me Now
+244,291.157953,D4,3.0,Don't Stop Me Now
+245,398.2074915,G4,8.0,Don't Stop Me Now
+246,547.5329710000001,C#5,2.0,Don't Stop Me Now
+247,594.0397236666666,D5,3.0,Don't Stop Me Now
+248,626.6925416,D#5,4.0,Don't Stop Me Now
+249,625.7354612,D#5,4.0,Don't Stop Me Now
+250,361.8788148333333,F#4,7.0,Don't Stop Me Now
+251,409.70001840000003,G#4,9.0,Don't Stop Me Now
+252,270.2135194,C#4,2.0,Don't Stop Me Now
+253,296.80018083333334,D4,3.0,Don't Stop Me Now
+254,155.49426880000001,D#3,4.0,Don't Stop Me Now
+255,116.7380905,A#2,11.0,Don't Stop Me Now
+256,331.992569,E4,5.0,Don't Stop Me Now
+257,197.85560900000002,G3,8.0,Don't Stop Me Now
+258,96.41338350000001,G2,8.0,Don't Stop Me Now
+259,46.8464264,F#1,7.0,Don't Stop Me Now
+260,192.04391999999999,G3,8.0,Don't Stop Me Now
+261,265.70573720000004,C4,1.0,Don't Stop Me Now
+262,209.71212759999997,G#3,9.0,Don't Stop Me Now
+263,387.71786,G4,8.0,Don't Stop Me Now
+264,326.3752566,E4,5.0,Don't Stop Me Now
+265,265.7510804,C4,1.0,Don't Stop Me Now
+266,342.7031048333334,F4,6.0,Don't Stop Me Now
+267,412.38527239999996,G#4,9.0,Don't Stop Me Now
+268,411.3485006666667,G#4,9.0,Don't Stop Me Now
+269,338.174286,E4,5.0,Don't Stop Me Now
+270,559.6220458,C#5,2.0,Don't Stop Me Now
+271,450.6669821666667,A4,10.0,Don't Stop Me Now
+272,419.1657776,G#4,9.0,Don't Stop Me Now
+273,637.0902048333334,D#5,4.0,Don't Stop Me Now
+274,341.20004259999996,F4,6.0,Don't Stop Me Now
+275,301.9714996,D4,3.0,Don't Stop Me Now
+276,169.23236583333332,E3,5.0,Don't Stop Me Now
+277,373.0997682,F#4,7.0,Don't Stop Me Now
+278,226.4076966,A3,10.0,Don't Stop Me Now
+279,122.42472083333332,B2,12.0,Don't Stop Me Now
+280,54.345959400000005,A1,10.0,Don't Stop Me Now
+281,226.51913966666666,A#3,11.0,Don't Stop Me Now
+282,195.142389,G3,8.0,Don't Stop Me Now
+283,338.0086548,E4,5.0,Don't Stop Me Now
+284,412.07935066666664,G#4,9.0,Don't Stop Me Now
+285,414.1138244,G#4,9.0,Don't Stop Me Now
+286,241.21753433333333,B3,12.0,Don't Stop Me Now
+287,311.15355220000004,D#4,4.0,Don't Stop Me Now
+288,268.44343879999997,C4,1.0,Don't Stop Me Now
+289,205.880104,G#3,9.0,Don't Stop Me Now
+290,83.686203,E2,5.0,Don't Stop Me Now
+291,0.0,0,0.0,Don't Stop Me Now
+292,0.0,0,0.0,Don't Stop Me Now
+293,0.0,0,0.0,Don't Stop Me Now
+294,0.0,0,0.0,Don't Stop Me Now
+295,0.0,0,0.0,Don't Stop Me Now
+296,0.0,0,0.0,Don't Stop Me Now
+297,0.0,0,0.0,Don't Stop Me Now
+298,0.0,0,0.0,Don't Stop Me Now
+299,0.0,0,0.0,Don't Stop Me Now
+0,191.56124366666668,G3,8.0,I Want To Break Free
+1,373.9854798,F#4,7.0,I Want To Break Free
+2,129.20620216666669,C3,1.0,I Want To Break Free
+3,0.0,0,0.0,I Want To Break Free
+4,46.728128,F#1,7.0,I Want To Break Free
+5,361.30049383333335,F#4,7.0,I Want To Break Free
+6,424.8884462000001,G#4,9.0,I Want To Break Free
+7,139.59929916666667,C#3,2.0,I Want To Break Free
+8,0.0,0,0.0,I Want To Break Free
+9,521.4091705999999,C5,1.0,I Want To Break Free
+10,404.780965,G#4,9.0,I Want To Break Free
+11,338.532733,E4,5.0,I Want To Break Free
+12,234.6807676,A#3,11.0,I Want To Break Free
+13,179.895251,F#3,7.0,I Want To Break Free
+14,420.85189840000004,G#4,9.0,I Want To Break Free
+15,248.05794283333333,B3,12.0,I Want To Break Free
+16,186.19211420000002,F#3,7.0,I Want To Break Free
+17,0.0,0,0.0,I Want To Break Free
+18,355.0295968333333,F4,6.0,I Want To Break Free
+19,199.66578959999998,G3,8.0,I Want To Break Free
+20,637.3641078333334,D#5,4.0,I Want To Break Free
+21,0.0,0,0.0,I Want To Break Free
+22,0.0,0,0.0,I Want To Break Free
+23,336.98379,E4,5.0,I Want To Break Free
+24,484.87467019999997,B4,12.0,I Want To Break Free
+25,0.0,0,0.0,I Want To Break Free
+26,362.02750149999997,F#4,7.0,I Want To Break Free
+27,303.092676,D#4,4.0,I Want To Break Free
+28,284.75157183333334,C#4,2.0,I Want To Break Free
+29,100.7539246,G2,8.0,I Want To Break Free
+30,0.0,0,0.0,I Want To Break Free
+31,253.65141533333335,B3,12.0,I Want To Break Free
+32,372.54805880000004,F#4,7.0,I Want To Break Free
+33,139.28314716666668,C#3,2.0,I Want To Break Free
+34,0.0,0,0.0,I Want To Break Free
+35,66.3000428,C2,1.0,I Want To Break Free
+36,236.29704800000002,A#3,11.0,I Want To Break Free
+37,435.5635194,A4,10.0,I Want To Break Free
+38,236.00734860000003,A#3,11.0,I Want To Break Free
+39,331.0375491666667,E4,5.0,I Want To Break Free
+40,413.7180114000001,G#4,9.0,I Want To Break Free
+41,344.25101466666666,F4,6.0,I Want To Break Free
+42,205.85294199999998,G#3,9.0,I Want To Break Free
+43,165.8598816,E3,5.0,I Want To Break Free
+44,390.92170216666665,G4,8.0,I Want To Break Free
+45,268.42121579999997,C4,1.0,I Want To Break Free
+46,141.98078666666666,C#3,2.0,I Want To Break Free
+47,119.76177360000001,A#2,11.0,I Want To Break Free
+48,0.0,0,0.0,I Want To Break Free
+49,104.08546966666667,G#2,9.0,I Want To Break Free
+50,282.2121276,C#4,2.0,I Want To Break Free
+51,0.0,0,0.0,I Want To Break Free
+52,215.40543616666665,A3,10.0,I Want To Break Free
+53,430.5794922,A4,10.0,I Want To Break Free
+54,272.19217449999996,C#4,2.0,I Want To Break Free
+55,195.2507996,G3,8.0,I Want To Break Free
+56,0.0,0,0.0,I Want To Break Free
+57,0.0,0,0.0,I Want To Break Free
+58,0.0,0,0.0,I Want To Break Free
+59,248.8533448,B3,12.0,I Want To Break Free
+60,261.21530666666666,C4,1.0,I Want To Break Free
+61,311.994037,D#4,4.0,I Want To Break Free
+62,248.1983948333333,B3,12.0,I Want To Break Free
+63,70.9476928,C#2,2.0,I Want To Break Free
+64,297.7725708,D4,3.0,I Want To Break Free
+65,754.319931,F#5,7.0,I Want To Break Free
+66,188.9141176,F#3,7.0,I Want To Break Free
+67,269.1183675,C4,1.0,I Want To Break Free
+68,156.05140999999998,D#3,4.0,I Want To Break Free
+69,172.0681702,F3,6.0,I Want To Break Free
+70,306.94246933333335,D#4,4.0,I Want To Break Free
+71,264.5700256,C4,1.0,I Want To Break Free
+72,181.6599974,F#3,7.0,I Want To Break Free
+73,302.236646,D4,3.0,I Want To Break Free
+74,328.2520386,E4,5.0,I Want To Break Free
+75,764.7869873333333,G5,8.0,I Want To Break Free
+76,54.2757324,A1,10.0,I Want To Break Free
+77,307.8591432,D#4,4.0,I Want To Break Free
+78,183.66840366666665,F#3,7.0,I Want To Break Free
+79,139.1277986,C#3,2.0,I Want To Break Free
+80,107.97671516666666,A2,10.0,I Want To Break Free
+81,346.5400574,F4,6.0,I Want To Break Free
+82,411.0464478,G#4,9.0,I Want To Break Free
+83,165.06767783333336,E3,5.0,I Want To Break Free
+84,266.40500480000003,C4,1.0,I Want To Break Free
+85,128.5227142,C3,1.0,I Want To Break Free
+86,241.63138833333332,B3,12.0,I Want To Break Free
+87,260.3932922,C4,1.0,I Want To Break Free
+88,0.0,0,0.0,I Want To Break Free
+89,0.0,0,0.0,I Want To Break Free
+90,354.818451,F4,6.0,I Want To Break Free
+91,267.0617726666667,C4,1.0,I Want To Break Free
+92,234.6849732,A#3,11.0,I Want To Break Free
+93,175.05900333333332,F3,6.0,I Want To Break Free
+94,141.999362,C#3,2.0,I Want To Break Free
+95,145.3414002,D3,3.0,I Want To Break Free
+96,323.62929266666663,E4,5.0,I Want To Break Free
+97,329.1778076,E4,5.0,I Want To Break Free
+98,171.26264039999998,F3,6.0,I Want To Break Free
+99,442.84772733333335,A4,10.0,I Want To Break Free
+100,361.56486499999994,F#4,7.0,I Want To Break Free
+101,250.75507866666666,B3,12.0,I Want To Break Free
+102,96.4950576,G2,8.0,I Want To Break Free
+103,200.3262666,G3,8.0,I Want To Break Free
+104,329.34683233333334,E4,5.0,I Want To Break Free
+105,213.17229000000003,G#3,9.0,I Want To Break Free
+106,0.0,0,0.0,I Want To Break Free
+107,81.54161060000001,E2,5.0,I Want To Break Free
+108,214.0404054,A3,10.0,I Want To Break Free
+109,336.9008128333333,E4,5.0,I Want To Break Free
+110,65.5654846,C2,1.0,I Want To Break Free
+111,0.0,0,0.0,I Want To Break Free
+112,279.59238683333336,C#4,2.0,I Want To Break Free
+113,328.52199099999996,E4,5.0,I Want To Break Free
+114,259.02533983333336,C4,1.0,I Want To Break Free
+115,0.0,0,0.0,I Want To Break Free
+116,174.4056824,F3,6.0,I Want To Break Free
+117,241.5962015,B3,12.0,I Want To Break Free
+118,334.10023179999996,E4,5.0,I Want To Break Free
+119,265.628955,C4,1.0,I Want To Break Free
+120,137.38540650000002,C#3,2.0,I Want To Break Free
+121,368.4620972,F#4,7.0,I Want To Break Free
+122,355.08557616666667,F4,6.0,I Want To Break Free
+123,133.0460326,C3,1.0,I Want To Break Free
+124,0.0,0,0.0,I Want To Break Free
+125,306.0145975,D#4,4.0,I Want To Break Free
+126,384.4375916,G4,8.0,I Want To Break Free
+127,440.08407100000005,A4,10.0,I Want To Break Free
+128,247.13782340000003,B3,12.0,I Want To Break Free
+129,248.73237319999998,B3,12.0,I Want To Break Free
+130,0.0,0,0.0,I Want To Break Free
+131,0.0,0,0.0,I Want To Break Free
+132,99.2969636,G2,8.0,I Want To Break Free
+133,171.27150233333336,F3,6.0,I Want To Break Free
+134,181.0805116,F#3,7.0,I Want To Break Free
+135,286.87592566666666,D4,3.0,I Want To Break Free
+136,371.4692382,F#4,7.0,I Want To Break Free
+137,370.9958436,F#4,7.0,I Want To Break Free
+138,330.33421599999997,E4,5.0,I Want To Break Free
+139,327.348761,E4,5.0,I Want To Break Free
+140,329.20095833333335,E4,5.0,I Want To Break Free
+141,327.85766,E4,5.0,I Want To Break Free
+142,65.49536739999999,C2,1.0,I Want To Break Free
+143,0.0,0,0.0,I Want To Break Free
+0,38.77752566666667,D#1,4.0,Radio Ga Ga
+1,117.89904779999999,A#2,11.0,Radio Ga Ga
+2,202.425623,G#3,9.0,Radio Ga Ga
+3,83.2225958,E2,5.0,Radio Ga Ga
+4,17.437058999999998,C#0,2.0,Radio Ga Ga
+5,57.824541,A#1,11.0,Radio Ga Ga
+6,345.5334532,F4,6.0,Radio Ga Ga
+7,135.96292100000002,C#3,2.0,Radio Ga Ga
+8,266.92855840000004,C4,1.0,Radio Ga Ga
+9,52.723999000000006,G#1,9.0,Radio Ga Ga
+10,206.14030966666667,G#3,9.0,Radio Ga Ga
+11,115.5331848,A#2,11.0,Radio Ga Ga
+12,309.1227112,D#4,4.0,Radio Ga Ga
+13,146.229009,D3,3.0,Radio Ga Ga
+14,245.8019714,B3,12.0,Radio Ga Ga
+15,180.08967600000003,F#3,7.0,Radio Ga Ga
+16,363.52471319999995,F#4,7.0,Radio Ga Ga
+17,345.233191,F4,6.0,Radio Ga Ga
+18,309.07872533333335,D#4,4.0,Radio Ga Ga
+19,278.4682984,C#4,2.0,Radio Ga Ga
+20,241.40037016666668,B3,12.0,Radio Ga Ga
+21,285.9241943999999,D4,3.0,Radio Ga Ga
+22,233.76895159999998,A#3,11.0,Radio Ga Ga
+23,138.97117616666668,C#3,2.0,Radio Ga Ga
+24,102.51994320000001,G#2,9.0,Radio Ga Ga
+25,105.6471946,G#2,9.0,Radio Ga Ga
+26,147.49385966666668,D3,3.0,Radio Ga Ga
+27,280.2326538,C#4,2.0,Radio Ga Ga
+28,160.629959,E3,5.0,Radio Ga Ga
+29,281.7289856,C#4,2.0,Radio Ga Ga
+30,204.83700860000005,G#3,9.0,Radio Ga Ga
+31,302.0057983333334,D4,3.0,Radio Ga Ga
+32,236.48733520000002,A#3,11.0,Radio Ga Ga
+33,300.59217816666666,D4,3.0,Radio Ga Ga
+34,314.60638439999997,D#4,4.0,Radio Ga Ga
+35,368.94837019999994,F#4,7.0,Radio Ga Ga
+36,248.30850966666662,B3,12.0,Radio Ga Ga
+37,375.0717348,F#4,7.0,Radio Ga Ga
+38,356.62666019999995,F4,6.0,Radio Ga Ga
+39,197.83471183333336,G3,8.0,Radio Ga Ga
+40,232.280548,A#3,11.0,Radio Ga Ga
+41,240.15075166666668,B3,12.0,Radio Ga Ga
+42,262.1886352,C4,1.0,Radio Ga Ga
+43,121.8956542,B2,12.0,Radio Ga Ga
+44,157.66483833333334,D#3,4.0,Radio Ga Ga
+45,313.86221919999997,D#4,4.0,Radio Ga Ga
+46,363.286967,F#4,7.0,Radio Ga Ga
+47,180.472583,F#3,7.0,Radio Ga Ga
+48,366.7981444,F#4,7.0,Radio Ga Ga
+49,218.38588449999997,A3,10.0,Radio Ga Ga
+50,374.31314679999997,F#4,7.0,Radio Ga Ga
+51,209.3528808,G#3,9.0,Radio Ga Ga
+52,350.9336343333334,F4,6.0,Radio Ga Ga
+53,298.0741824,D4,3.0,Radio Ga Ga
+54,323.1618193333333,E4,5.0,Radio Ga Ga
+55,350.387677,F4,6.0,Radio Ga Ga
+56,166.00220960000001,E3,5.0,Radio Ga Ga
+57,364.8798421666666,F#4,7.0,Radio Ga Ga
+58,245.63616940000003,B3,12.0,Radio Ga Ga
+59,366.13422860000003,F#4,7.0,Radio Ga Ga
+60,272.8288523333333,C#4,2.0,Radio Ga Ga
+61,310.17146,D#4,4.0,Radio Ga Ga
+62,214.77498383333332,A3,10.0,Radio Ga Ga
+63,356.353845,F4,6.0,Radio Ga Ga
+64,357.4373718,F4,6.0,Radio Ga Ga
+65,374.94868450000007,F#4,7.0,Radio Ga Ga
+66,406.90688480000006,G#4,9.0,Radio Ga Ga
+67,249.05582166666667,B3,12.0,Radio Ga Ga
+68,393.598877,G4,8.0,Radio Ga Ga
+69,371.8678528,F#4,7.0,Radio Ga Ga
+70,327.11742150000003,E4,5.0,Radio Ga Ga
+71,201.37231119999998,G3,8.0,Radio Ga Ga
+72,168.812793,E3,5.0,Radio Ga Ga
+73,223.7312228333333,A3,10.0,Radio Ga Ga
+74,380.527223,F#4,7.0,Radio Ga Ga
+75,175.308407,F3,6.0,Radio Ga Ga
+76,292.0216368,D4,3.0,Radio Ga Ga
+77,52.4164978,G#1,9.0,Radio Ga Ga
+78,242.56267283333332,B3,12.0,Radio Ga Ga
+79,50.708837800000005,G#1,9.0,Radio Ga Ga
+80,241.96260583333333,B3,12.0,Radio Ga Ga
+81,105.0074646,G#2,9.0,Radio Ga Ga
+82,219.3713256,A3,10.0,Radio Ga Ga
+83,59.04311116666667,A#1,11.0,Radio Ga Ga
+84,291.62465800000007,D4,3.0,Radio Ga Ga
+85,193.095215,G3,8.0,Radio Ga Ga
+86,183.80461633333334,F#3,7.0,Radio Ga Ga
+87,252.3061766,B3,12.0,Radio Ga Ga
+88,205.9144236666667,G#3,9.0,Radio Ga Ga
+89,196.9755554,G3,8.0,Radio Ga Ga
+90,131.82140199999998,C3,1.0,Radio Ga Ga
+91,183.55396533333337,F#3,7.0,Radio Ga Ga
+92,286.9280334,D4,3.0,Radio Ga Ga
+93,249.90743516666666,B3,12.0,Radio Ga Ga
+94,109.8915894,A2,10.0,Radio Ga Ga
+95,246.33220220000004,B3,12.0,Radio Ga Ga
+96,115.80229200000001,A#2,11.0,Radio Ga Ga
+97,343.55004879999996,F4,6.0,Radio Ga Ga
+98,336.93286120000005,E4,5.0,Radio Ga Ga
+99,308.38346333333334,D#4,4.0,Radio Ga Ga
+100,383.22901,G4,8.0,Radio Ga Ga
+101,343.6218873333333,F4,6.0,Radio Ga Ga
+102,347.58244620000005,F4,6.0,Radio Ga Ga
+103,0.0,0,0.0,Radio Ga Ga
+104,0.0,0,0.0,Radio Ga Ga
+105,160.22848520000002,E3,5.0,Radio Ga Ga
+106,129.10284933333335,C3,1.0,Radio Ga Ga
+107,110.35773319999998,A2,10.0,Radio Ga Ga
+108,208.7482852,G#3,9.0,Radio Ga Ga
+109,147.46155283333334,D3,3.0,Radio Ga Ga
+110,176.59650879999998,F3,6.0,Radio Ga Ga
+111,174.6558838,F3,6.0,Radio Ga Ga
+112,297.5932261666667,D4,3.0,Radio Ga Ga
+113,315.1956728,D#4,4.0,Radio Ga Ga
+114,345.3271991666666,F4,6.0,Radio Ga Ga
+115,317.1067038,D#4,4.0,Radio Ga Ga
+116,358.0785158,F4,6.0,Radio Ga Ga
+117,222.43622833333333,A3,10.0,Radio Ga Ga
+118,206.1853272,G#3,9.0,Radio Ga Ga
+119,163.60174560000002,E3,5.0,Radio Ga Ga
+120,230.15502949999998,A#3,11.0,Radio Ga Ga
+121,255.29900179999998,C4,1.0,Radio Ga Ga
+122,0.0,0,0.0,Radio Ga Ga
+123,0.0,0,0.0,Radio Ga Ga
+124,288.83883679999997,D4,3.0,Radio Ga Ga
+125,216.1787313333333,A3,10.0,Radio Ga Ga
+126,189.037213,F#3,7.0,Radio Ga Ga
+127,355.7451425,F4,6.0,Radio Ga Ga
+128,212.589221,G#3,9.0,Radio Ga Ga
+129,357.5267028,F4,6.0,Radio Ga Ga
+130,166.7437795,E3,5.0,Radio Ga Ga
+131,390.6398012,G4,8.0,Radio Ga Ga
+132,201.09389040000002,G3,8.0,Radio Ga Ga
+133,322.0802765,E4,5.0,Radio Ga Ga
+134,275.3177186,C#4,2.0,Radio Ga Ga
+135,252.97222383333335,B3,12.0,Radio Ga Ga
+136,207.7138672,G#3,9.0,Radio Ga Ga
+137,366.257178,F#4,7.0,Radio Ga Ga
+138,339.0105643333333,E4,5.0,Radio Ga Ga
+139,571.5422971999999,D5,3.0,Radio Ga Ga
+140,350.70789850000006,F4,6.0,Radio Ga Ga
+141,319.95700700000003,D#4,4.0,Radio Ga Ga
+142,355.6608522,F4,6.0,Radio Ga Ga
+143,307.8782908333333,D#4,4.0,Radio Ga Ga
+144,451.0711302000001,A4,10.0,Radio Ga Ga
+145,300.15761699999996,D4,3.0,Radio Ga Ga
+146,411.25777683333325,G#4,9.0,Radio Ga Ga
+147,265.286969,C4,1.0,Radio Ga Ga
+148,406.31971266666665,G#4,9.0,Radio Ga Ga
+149,317.5666992,D#4,4.0,Radio Ga Ga
+150,184.6060334,F#3,7.0,Radio Ga Ga
+151,101.73939633333333,G#2,9.0,Radio Ga Ga
+152,325.30083320000006,E4,5.0,Radio Ga Ga
+153,145.87324516666663,D3,3.0,Radio Ga Ga
+154,17.7184372,C#0,2.0,Radio Ga Ga
+155,0.0,0,0.0,Radio Ga Ga
+156,0.0,0,0.0,Radio Ga Ga
+157,0.0,0,0.0,Radio Ga Ga
+158,0.0,0,0.0,Radio Ga Ga
+159,58.710118666666666,A#1,11.0,Radio Ga Ga
+160,69.9515258,C#2,2.0,Radio Ga Ga
+161,0.0,0,0.0,Radio Ga Ga
+162,67.96593019999999,C#2,2.0,Radio Ga Ga
+163,17.5312698,C#0,2.0,Radio Ga Ga
+164,0.0,0,0.0,Radio Ga Ga
+165,0.0,0,0.0,Radio Ga Ga
+166,0.0,0,0.0,Radio Ga Ga
+167,0.0,0,0.0,Radio Ga Ga
+168,157.16448680000002,D#3,4.0,Radio Ga Ga
+169,0.0,0,0.0,Radio Ga Ga
+170,68.84268180000001,C#2,2.0,Radio Ga Ga
+171,17.7043702,C#0,2.0,Radio Ga Ga
+172,0.0,0,0.0,Radio Ga Ga
+173,0.0,0,0.0,Radio Ga Ga
+174,0.0,0,0.0,Radio Ga Ga
+175,0.0,0,0.0,Radio Ga Ga
+176,0.0,0,0.0,Radio Ga Ga
+177,99.44620766666667,G2,8.0,Radio Ga Ga
+178,185.6330994,F#3,7.0,Radio Ga Ga
+179,282.3362486,C#4,2.0,Radio Ga Ga
+180,201.50942999999998,G3,8.0,Radio Ga Ga
+181,71.4902648,D2,3.0,Radio Ga Ga
+182,348.30422466666664,F4,6.0,Radio Ga Ga
+183,265.6843566,C4,1.0,Radio Ga Ga
+184,296.068451,D4,3.0,Radio Ga Ga
+185,320.1365103333333,D#4,4.0,Radio Ga Ga
+186,348.2680176,F4,6.0,Radio Ga Ga
+187,349.1475576666667,F4,6.0,Radio Ga Ga
+188,139.99437240000003,C#3,2.0,Radio Ga Ga
+189,0.0,0,0.0,Radio Ga Ga
+190,349.98110966666667,F4,6.0,Radio Ga Ga
+191,183.3452972,F#3,7.0,Radio Ga Ga
+192,0.0,0,0.0,Radio Ga Ga
+193,0.0,0,0.0,Radio Ga Ga
+194,212.24615459999995,G#3,9.0,Radio Ga Ga
+195,300.320704,D4,3.0,Radio Ga Ga
+196,0.0,0,0.0,Radio Ga Ga
+197,0.0,0,0.0,Radio Ga Ga
+198,117.13600666666666,A#2,11.0,Radio Ga Ga
+199,368.33464380000004,F#4,7.0,Radio Ga Ga
+200,58.61902866666667,A#1,11.0,Radio Ga Ga
+201,50.18479,G1,8.0,Radio Ga Ga
+202,414.2856808,G#4,9.0,Radio Ga Ga
+203,368.1731211666667,F#4,7.0,Radio Ga Ga
+204,321.3904358,E4,5.0,Radio Ga Ga
+205,447.7492066,A4,10.0,Radio Ga Ga
+206,326.48312899999996,E4,5.0,Radio Ga Ga
+207,500.6588868,B4,12.0,Radio Ga Ga
+208,352.4601388333333,F4,6.0,Radio Ga Ga
+209,414.39686280000006,G#4,9.0,Radio Ga Ga
+210,406.7959962,G#4,9.0,Radio Ga Ga
+211,114.0302175,A#2,11.0,Radio Ga Ga
+212,104.84065700000001,G#2,9.0,Radio Ga Ga
+213,222.60596866666666,A3,10.0,Radio Ga Ga
+214,87.090135,F2,6.0,Radio Ga Ga
+215,0.0,0,0.0,Radio Ga Ga
+0,186.1152598333333,F#3,7.0,We Are The Champions
+1,260.62684939999997,C4,1.0,We Are The Champions
+2,171.85164883333331,F3,6.0,We Are The Champions
+3,0.0,0,0.0,We Are The Champions
+4,199.2505218,G3,8.0,We Are The Champions
+5,259.92647316666665,C4,1.0,We Are The Champions
+6,103.80870359999999,G#2,9.0,We Are The Champions
+7,31.43559516666667,B0,12.0,We Are The Champions
+8,208.55017260000005,G#3,9.0,We Are The Champions
+9,153.7871306,D#3,4.0,We Are The Champions
+10,0.0,0,0.0,We Are The Champions
+11,160.0574584,D#3,4.0,We Are The Champions
+12,256.5183716,C4,1.0,We Are The Champions
+13,258.6235021666667,C4,1.0,We Are The Champions
+14,51.720880199999996,G#1,9.0,We Are The Champions
+15,137.376325,C#3,2.0,We Are The Champions
+16,248.529407,B3,12.0,We Are The Champions
+17,62.1699218,B1,12.0,We Are The Champions
+18,0.0,0,0.0,We Are The Champions
+19,211.3406862,G#3,9.0,We Are The Champions
+20,306.2815576666667,D#4,4.0,We Are The Champions
+21,104.4299102,G#2,9.0,We Are The Champions
+22,0.0,0,0.0,We Are The Champions
+23,176.72182216666667,F3,6.0,We Are The Champions
+24,185.1132812,F#3,7.0,We Are The Champions
+25,290.964215,D4,3.0,We Are The Champions
+26,264.66540016666664,C4,1.0,We Are The Champions
+27,440.77127060000004,A4,10.0,We Are The Champions
+28,476.14575683333334,A#4,11.0,We Are The Champions
+29,177.3077394,F3,6.0,We Are The Champions
+30,94.201239,F#2,7.0,We Are The Champions
+31,79.08293149999999,D#2,4.0,We Are The Champions
+32,94.560907,F#2,7.0,We Are The Champions
+33,116.45827233333334,A#2,11.0,We Are The Champions
+34,1083.4326356,C#6,2.0,We Are The Champions
+35,194.87124640000002,G3,8.0,We Are The Champions
+36,55.33769733333333,A1,10.0,We Are The Champions
+37,259.1711364,C4,1.0,We Are The Champions
+38,102.00035700000001,G#2,9.0,We Are The Champions
+39,37.2173945,D1,3.0,We Are The Champions
+40,0.0,0,0.0,We Are The Champions
+41,593.9419886666667,D5,3.0,We Are The Champions
+42,234.56324460000002,A#3,11.0,We Are The Champions
+43,473.46259760000004,A#4,11.0,We Are The Champions
+44,323.7491098333333,E4,5.0,We Are The Champions
+45,304.65286260000005,D#4,4.0,We Are The Champions
+46,243.84273783333333,B3,12.0,We Are The Champions
+47,58.700506600000004,A#1,11.0,We Are The Champions
+48,95.8908234,G2,8.0,We Are The Champions
+49,147.50629183333334,D3,3.0,We Are The Champions
+50,52.64658820000001,G#1,9.0,We Are The Champions
+51,0.0,0,0.0,We Are The Champions
+52,0.0,0,0.0,We Are The Champions
+53,89.08367919999999,F2,6.0,We Are The Champions
+54,75.04264316666666,D2,3.0,We Are The Champions
+55,78.314331,D#2,4.0,We Are The Champions
+56,144.6484984,D3,3.0,We Are The Champions
+57,194.75104283333334,G3,8.0,We Are The Champions
+58,88.44250480000001,F2,6.0,We Are The Champions
+59,209.79061899999996,G#3,9.0,We Are The Champions
+60,286.42568466666665,D4,3.0,We Are The Champions
+61,0.0,0,0.0,We Are The Champions
+62,0.0,0,0.0,We Are The Champions
+63,176.33904420000002,F3,6.0,We Are The Champions
+64,70.4410462,C#2,2.0,We Are The Champions
+65,370.5057296666667,F#4,7.0,We Are The Champions
+66,353.05161160000006,F4,6.0,We Are The Champions
+67,351.8166096666667,F4,6.0,We Are The Champions
+68,354.50253899999996,F4,6.0,We Are The Champions
+69,353.018268,F4,6.0,We Are The Champions
+70,293.7307558333334,D4,3.0,We Are The Champions
+71,419.25556020000005,G#4,9.0,We Are The Champions
+72,0.0,0,0.0,We Are The Champions
+73,0.0,0,0.0,We Are The Champions
+74,0.0,0,0.0,We Are The Champions
+75,32.7574005,C1,1.0,We Are The Champions
+76,211.2721558,G#3,9.0,We Are The Champions
+77,259.6162566,C4,1.0,We Are The Champions
+78,117.850347,A#2,11.0,We Are The Champions
+79,113.85852059999999,A#2,11.0,We Are The Champions
+80,231.0168176666667,A#3,11.0,We Are The Champions
+81,262.4368042,C4,1.0,We Are The Champions
+82,155.50596000000002,D#3,4.0,We Are The Champions
+83,62.440490833333335,B1,12.0,We Are The Champions
+84,239.9136168,B3,12.0,We Are The Champions
+85,262.9163878,C4,1.0,We Are The Champions
+86,267.6164908333334,C4,1.0,We Are The Champions
+87,208.1923064,G#3,9.0,We Are The Champions
+88,161.71950516666666,E3,5.0,We Are The Champions
+89,142.27280880000004,C#3,2.0,We Are The Champions
+90,43.848407,F1,6.0,We Are The Champions
+91,211.24835483333334,G#3,9.0,We Are The Champions
+92,318.6313294,D#4,4.0,We Are The Champions
+93,97.67135366666668,G2,8.0,We Are The Champions
+94,0.0,0,0.0,We Are The Champions
+95,256.83444199999997,C4,1.0,We Are The Champions
+96,308.3227641666667,D#4,4.0,We Are The Champions
+97,309.0921876,D#4,4.0,We Are The Champions
+98,59.883831799999996,A#1,11.0,We Are The Champions
+99,100.3525135,G2,8.0,We Are The Champions
+100,262.0141724,C4,1.0,We Are The Champions
+101,185.51585883333334,F#3,7.0,We Are The Champions
+102,170.8120788,F3,6.0,We Are The Champions
+103,449.3790954,A4,10.0,We Are The Champions
+104,311.7929383333333,D#4,4.0,We Are The Champions
+105,83.932611,E2,5.0,We Are The Champions
+106,78.19466150000001,D#2,4.0,We Are The Champions
+107,94.9121582,F#2,7.0,We Are The Champions
+108,94.76156,F#2,7.0,We Are The Champions
+109,230.07372016666667,A#3,11.0,We Are The Champions
+110,699.7084106,F5,6.0,We Are The Champions
+111,450.0170166,A4,10.0,We Are The Champions
+112,126.27469383333334,B2,12.0,We Are The Champions
+113,220.2563172,A3,10.0,We Are The Champions
+114,73.60315716666668,D2,3.0,We Are The Champions
+115,0.0,0,0.0,We Are The Champions
+116,102.9686768,G#2,9.0,We Are The Champions
+117,340.5651855,F4,6.0,We Are The Champions
+118,373.4341278,F#4,7.0,We Are The Champions
+119,487.3693846,B4,12.0,We Are The Champions
+120,345.95180766666664,F4,6.0,We Are The Champions
+121,301.43879400000003,D4,3.0,We Are The Champions
+122,295.5408376666667,D4,3.0,We Are The Champions
+123,59.0587524,A#1,11.0,We Are The Champions
+124,37.535086,D1,3.0,We Are The Champions
+125,182.36393233333334,F#3,7.0,We Are The Champions
+126,0.0,0,0.0,We Are The Champions
+127,203.8521678333333,G#3,9.0,We Are The Champions
+128,439.22398080000005,A4,10.0,We Are The Champions
+129,272.5044248,C#4,2.0,We Are The Champions
+130,304.25978583333335,D#4,4.0,We Are The Champions
+131,157.46309820000002,D#3,4.0,We Are The Champions
+132,167.3835694,E3,5.0,We Are The Champions
+133,312.8624928333333,D#4,4.0,We Are The Champions
+134,88.21284800000001,F2,6.0,We Are The Champions
+135,203.75393166666666,G#3,9.0,We Are The Champions
+136,335.80683600000003,E4,5.0,We Are The Champions
+137,141.84911499999998,C#3,2.0,We Are The Champions
+138,126.31844083333333,B2,12.0,We Are The Champions
+139,173.82583319999998,F3,6.0,We Are The Champions
+140,163.5874075,E3,5.0,We Are The Champions
+141,339.5014036,F4,6.0,We Are The Champions
+142,347.3033692,F4,6.0,We Are The Champions
+143,201.31211349999998,G3,8.0,We Are The Champions
+144,195.06900619999996,G3,8.0,We Are The Champions
+145,159.06755679999998,D#3,4.0,We Are The Champions
+146,247.19533033333335,B3,12.0,We Are The Champions
+147,0.0,0,0.0,We Are The Champions
+148,214.66702783333335,A3,10.0,We Are The Champions
+149,441.9047852,A4,10.0,We Are The Champions
+150,429.5318236,A4,10.0,We Are The Champions
+151,426.7077941666667,G#4,9.0,We Are The Champions
+152,335.7075194,E4,5.0,We Are The Champions
+153,197.34721249999998,G3,8.0,We Are The Champions
+154,58.3839478,A#1,11.0,We Are The Champions
+155,636.4131104,D#5,4.0,We Are The Champions
+156,51.913691166666666,G#1,9.0,We Are The Champions
+157,26.689041200000002,G#0,9.0,We Are The Champions
+158,0.0,0,0.0,We Are The Champions
+159,39.952769,D#1,4.0,We Are The Champions
+160,0.0,0,0.0,We Are The Champions
+161,0.0,0,0.0,We Are The Champions
+162,0.0,0,0.0,We Are The Champions
+163,157.6049744,D#3,4.0,We Are The Champions
+164,287.0084635,D4,3.0,We Are The Champions
+165,156.8238206,D#3,4.0,We Are The Champions
+166,234.84886683333332,A#3,11.0,We Are The Champions
+167,351.4260314,F4,6.0,We Are The Champions
+168,153.8446594,D#3,4.0,We Are The Champions
+169,0.0,0,0.0,We Are The Champions
+170,140.152176,C#3,2.0,We Are The Champions
+171,0.0,0,0.0,We Are The Champions
+172,0.0,0,0.0,We Are The Champions
+173,0.0,0,0.0,We Are The Champions
+174,0.0,0,0.0,We Are The Champions
+175,0.0,0,0.0,We Are The Champions
+176,0.0,0,0.0,We Are The Champions
+177,58.69504799999999,A#1,11.0,We Are The Champions
+178,0.0,0,0.0,We Are The Champions
+179,0.0,0,0.0,We Are The Champions
+180,0.0,0,0.0,We Are The Champions
+181,0.0,0,0.0,We Are The Champions
+182,0.0,0,0.0,We Are The Champions
+183,0.0,0,0.0,We Are The Champions
+184,0.0,0,0.0,We Are The Champions
+185,0.0,0,0.0,We Are The Champions
+186,0.0,0,0.0,We Are The Champions
+187,0.0,0,0.0,We Are The Champions
+188,0.0,0,0.0,We Are The Champions
+189,0.0,0,0.0,We Are The Champions
+190,0.0,0,0.0,We Are The Champions
+191,0.0,0,0.0,We Are The Champions
+192,0.0,0,0.0,We Are The Champions
+193,0.0,0,0.0,We Are The Champions
+194,0.0,0,0.0,We Are The Champions
+195,0.0,0,0.0,We Are The Champions
+196,0.0,0,0.0,We Are The Champions
+197,0.0,0,0.0,We Are The Champions
+0,146.82928983333332,D3,3.0,We Will Rock You
+1,379.642865,F#4,7.0,We Will Rock You
+2,270.1387888333333,C#4,2.0,We Will Rock You
+3,602.9657898,D5,3.0,We Will Rock You
+4,507.1597290000001,B4,12.0,We Will Rock You
+5,798.2308401666666,G5,8.0,We Will Rock You
+6,339.01291499999996,E4,5.0,We Will Rock You
+7,197.10448449999998,G3,8.0,We Will Rock You
+8,202.6107542,G#3,9.0,We Will Rock You
+9,175.014215,F3,6.0,We Will Rock You
+10,213.07377883333334,G#3,9.0,We Will Rock You
+11,107.70402220000001,A2,10.0,We Will Rock You
+12,155.9596802,D#3,4.0,We Will Rock You
+13,157.32212066666668,D#3,4.0,We Will Rock You
+14,121.89970100000001,B2,12.0,We Will Rock You
+15,128.38445533333334,C3,1.0,We Will Rock You
+16,0.0,0,0.0,We Will Rock You
+17,0.0,0,0.0,We Will Rock You
+18,284.97627016666667,C#4,2.0,We Will Rock You
+19,234.2862214,A#3,11.0,We Will Rock You
+20,250.01350416666665,B3,12.0,We Will Rock You
+21,32.0542878,C1,1.0,We Will Rock You
+22,17.5478318,C#0,2.0,We Will Rock You
+23,0.0,0,0.0,We Will Rock You
+24,188.7358092,F#3,7.0,We Will Rock You
+25,259.47970580000003,C4,1.0,We Will Rock You
+26,159.7393035,D#3,4.0,We Will Rock You
+27,189.7299928,F#3,7.0,We Will Rock You
+28,373.85917149999995,F#4,7.0,We Will Rock You
+29,215.57459120000004,A3,10.0,We Will Rock You
+30,196.2179564,G3,8.0,We Will Rock You
+31,137.37138633333333,C#3,2.0,We Will Rock You
+32,1978.6103576,B6,12.0,We Will Rock You
+33,242.5299176666667,B3,12.0,We Will Rock You
+34,208.57598280000002,G#3,9.0,We Will Rock You
+35,69.59010620000001,C#2,2.0,We Will Rock You
+36,343.33626050000004,F4,6.0,We Will Rock You
+37,129.0275574,C3,1.0,We Will Rock You
+38,238.79716799999997,A#3,11.0,We Will Rock You
+39,53.558807333333334,A1,10.0,We Will Rock You
+40,93.1595642,F#2,7.0,We Will Rock You
+41,119.12374616666666,A#2,11.0,We Will Rock You
+42,258.234906,C4,1.0,We Will Rock You
+43,326.8007874,E4,5.0,We Will Rock You
+44,144.2724915,D3,3.0,We Will Rock You
+45,0.0,0,0.0,We Will Rock You
+46,0.0,0,0.0,We Will Rock You
+47,84.0272706,E2,5.0,We Will Rock You
+48,316.6395326,D#4,4.0,We Will Rock You
+49,214.4230295,A3,10.0,We Will Rock You
+50,198.959668,G3,8.0,We Will Rock You
+51,67.5088134,C#2,2.0,We Will Rock You
+52,269.3545176666667,C#4,2.0,We Will Rock You
+53,446.47265619999996,A4,10.0,We Will Rock You
+54,109.213211,A2,10.0,We Will Rock You
+55,128.0359862,C3,1.0,We Will Rock You
+56,287.52562259999996,D4,3.0,We Will Rock You
+57,173.2862726666667,F3,6.0,We Will Rock You
+58,151.8230774,D#3,4.0,We Will Rock You
+59,152.9051696,D#3,4.0,We Will Rock You
+60,349.1443076666667,F4,6.0,We Will Rock You
+61,178.5351988,F3,6.0,We Will Rock You
+62,252.95259083333335,B3,12.0,We Will Rock You
+63,46.0953826,F#1,7.0,We Will Rock You
+64,141.1385254,C#3,2.0,We Will Rock You
+65,176.39794916666668,F3,6.0,We Will Rock You
+66,72.0071106,D2,3.0,We Will Rock You
+67,198.336731,G3,8.0,We Will Rock You
+68,194.1049438,G3,8.0,We Will Rock You
+69,0.0,0,0.0,We Will Rock You
+70,69.51606500000001,C#2,2.0,We Will Rock You
+71,76.350122,D#2,4.0,We Will Rock You
+72,242.47843000000003,B3,12.0,We Will Rock You
+73,298.138916,D4,3.0,We Will Rock You
+74,158.6875732,D#3,4.0,We Will Rock You
+75,0.0,0,0.0,We Will Rock You
+76,162.580905,E3,5.0,We Will Rock You
+77,188.6579468,F#3,7.0,We Will Rock You
+78,278.1238251666667,C#4,2.0,We Will Rock You
+79,172.6590272,F3,6.0,We Will Rock You
+80,79.68974816666666,D#2,4.0,We Will Rock You
+81,0.0,0,0.0,We Will Rock You
+82,279.6011718,C#4,2.0,We Will Rock You
+83,0.0,0,0.0,We Will Rock You
+84,0.0,0,0.0,We Will Rock You
+85,0.0,0,0.0,We Will Rock You
+86,0.0,0,0.0,We Will Rock You
+87,0.0,0,0.0,We Will Rock You

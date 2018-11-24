@@ -1,0 +1,314 @@
+,#,TITLE,ARTIST,RELEASE,BPM,ENERGY,DANCE,LOUD,VALENCE,LENGTH,ACOUSTIC,popularity,positiveness,loudness,pop_score,total_songs,album_name 
+0,1,My Fairy King,Queen,1973-02-05,101,53,35,-10,30,4:06,53,31,sad,quiet,popular,8,On Air
+1,2,Keep Yourself Alive,Queen,1973-02-05,135,76,51,-8,46,3:48,23,50,neutral,quiet,super popular,8,On Air
+2,3,Doing All Right,Queen,1973-02-05,149,33,37,-13,24,4:11,41,32,sad,quiet,popular,8,On Air
+3,4,Liar (At The BBC),Queen,1973-02-05,143,64,32,-9,39,6:28,4,28,neutral,quiet,popular,8,On Air
+4,5,Ogre Battle,Queen,1973-02-05,101,82,32,-6,42,3:57,26,26,neutral,quiet,popular,8,On Air
+5,6,Great King Rat,Queen,1973-02-05,131,77,38,-8,33,5:56,14,25,sad,quiet,popular,8,On Air
+6,7,Modern Times Rock 'N' Roll,Queen,1973-02-05,114,82,40,-8,48,2:00,8,24,neutral,quiet,not so popular,8,On Air
+7,8,Son And Daughter,Queen,1973-02-05,140,82,36,-9,50,7:09,8,25,neutral,quiet,popular,8,On Air
+8,9,Keep Yourself Alive - Remastered 2011,Queen,1973-07-13,134,72,45,-9,59,3:47,27,41,neutral,quiet,popular,10,Queen
+9,10,Doing Alright - Remastered 2011,Queen,1973-07-13,71,29,29,-12,17,4:09,74,37,sad,quiet,popular,10,Queen
+10,11,Great King Rat - Remastered 2011,Queen,1973-07-13,135,85,35,-12,43,5:43,4,36,neutral,quiet,popular,10,Queen
+11,12,My Fairy King - Remastered 2011,Queen,1973-07-13,101,51,33,-10,28,4:08,36,35,sad,quiet,popular,10,Queen
+12,13,Liar - Remastered 2011,Queen,1973-07-13,74,82,23,-7,29,6:24,0,34,sad,quiet,popular,10,Queen
+13,14,The Night Comes Down - Remastered 2011,Queen,1973-07-13,143,58,40,-12,67,4:23,69,33,happy,quiet,popular,10,Queen
+14,15,Modern Times Rock 'N Roll - Remastered 2011,Queen,1973-07-13,116,94,47,-9,46,1:48,7,32,neutral,quiet,popular,10,Queen
+15,16,Son And Daughter - Remastered 2011,Queen,1973-07-13,145,72,33,-8,74,3:20,13,32,happy,quiet,popular,10,Queen
+16,17,Jesus - Remastered 2011,Queen,1973-07-13,114,77,35,-7,52,3:44,17,31,neutral,quiet,popular,10,Queen
+17,18,Seven Seas Of Rhye - Remastered 2011,Queen,1973-07-13,129,47,25,-13,4,1:17,76,32,sad,quiet,popular,10,Queen
+18,19,Procession - Remastered 2011,Queen,1974-03-08,124,8,32,-23,39,1:13,75,32,neutral,quiet,popular,11,Queen II
+19,20,Father To Son - Remastered 2011,Queen,1974-03-08,151,65,17,-11,22,6:14,21,33,sad,quiet,popular,11,Queen II
+20,21,White Queen (As It Began) - Remastered 2011,Queen,1974-03-08,153,31,25,-12,18,4:33,83,33,sad,quiet,popular,11,Queen II
+21,22,Some Day One Day - Remastered 2011,Queen,1974-03-08,115,59,36,-14,66,4:22,28,31,neutral,quiet,popular,11,Queen II
+22,23,The Loser In The End - Remastered 2011,Queen,1974-03-08,145,84,38,-8,69,4:01,4,30,happy,quiet,popular,11,Queen II
+23,24,Ogre Battle - Remastered 2011,Queen,1974-03-08,110,83,26,-10,23,4:08,36,32,sad,quiet,popular,11,Queen II
+24,25,The Fairy Feller's Master-Stroke - Remastered 2011,Queen,1974-03-08,159,91,44,-9,66,2:41,25,31,neutral,quiet,popular,11,Queen II
+25,26,Nevermore - Remastered 2011,Queen,1974-03-08,120,34,38,-11,21,1:19,86,33,sad,quiet,popular,11,Queen II
+26,27,The March Of The Black Queen - Remastered 2011,Queen,1974-03-08,113,70,33,-8,16,6:33,8,36,sad,quiet,popular,11,Queen II
+27,28,Funny How Love Is - Remastered 2011,Queen,1974-03-08,146,95,45,-8,46,2:50,0,29,neutral,quiet,popular,11,Queen II
+28,29,Seven Seas Of Rhye - Remastered 2011,Queen,1974-03-08,127,89,35,-6,40,2:49,11,34,neutral,quiet,popular,11,Queen II
+29,30,Brighton Rock - Remastered 2011,Queen,1974-11-08,137,85,36,-9,34,5:10,35,38,neutral,quiet,popular,13,Sheer Heart Attack
+30,31,Killer Queen - Remastered 2011,Queen,1974-11-08,117,64,57,-6,60,3:00,34,48,neutral,quiet,popular,13,Sheer Heart Attack
+31,32,Tenement Funster - Remastered 2011,Queen,1974-11-08,168,69,30,-7,55,2:47,6,34,neutral,quiet,popular,13,Sheer Heart Attack
+32,33,Flick Of The Wrist - Remastered 2011,Queen,1974-11-08,149,83,33,-6,57,3:17,6,35,neutral,quiet,popular,13,Sheer Heart Attack
+33,34,Lily Of The Valley - Remastered 2011,Queen,1974-11-08,79,29,24,-10,44,1:45,59,34,neutral,quiet,popular,13,Sheer Heart Attack
+34,35,Now I'm Here - Remastered 2011,Queen,1974-11-08,133,76,49,-7,53,4:13,3,35,neutral,quiet,popular,13,Sheer Heart Attack
+35,36,In The Lap Of The Gods - Remastered 2011,Queen,1974-11-08,81,56,19,-6,22,3:23,58,33,sad,quiet,popular,13,Sheer Heart Attack
+36,37,Stone Cold Crazy - Remastered 2011,Queen,1974-11-08,120,93,43,-7,46,2:14,2,38,neutral,quiet,popular,13,Sheer Heart Attack
+37,38,Dear Friends - Remastered 2011,Queen,1974-11-08,82,5,29,-16,56,1:08,90,31,neutral,quiet,popular,13,Sheer Heart Attack
+38,39,Misfire - Remastered 2011,Queen,1974-11-08,126,86,61,-7,96,1:50,7,31,happy,quiet,popular,13,Sheer Heart Attack
+39,40,Bring Back That Leroy Brown - Remastered 2011,Queen,1974-11-08,118,67,66,-6,87,2:15,36,31,happy,quiet,popular,13,Sheer Heart Attack
+40,41,She Makes Me (Stormtrooper In Stilettos) - Remastered 2011,Queen,1974-11-08,77,54,46,-8,38,4:09,17,30,neutral,quiet,popular,13,Sheer Heart Attack
+41,42,In The Lap Of The Gods... Revisited - Remastered 2011,Queen,1974-11-08,132,59,42,-9,48,3:47,36,32,neutral,quiet,popular,13,Sheer Heart Attack
+42,43,Death On Two Legs (Dedicated To...) - Remastered 2011,Queen,1975-11-21,125,70,40,-6,49,3:43,35,42,neutral,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+43,44,Lazing On A Sunday Afternoon - Remastered 2011,Queen,1975-11-21,132,57,63,-9,72,1:07,46,41,happy,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+44,45,I'm In Love With My Car - Remastered 2011,Queen,1975-11-21,144,81,30,-9,32,3:05,1,44,sad,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+45,46,You're My Best Friend - Remastered 2011,Queen,1975-11-21,119,76,51,-7,55,2:51,16,45,neutral,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+46,47,39 - Remastered 2011,Queen,1975-11-21,102,57,52,-10,39,3:31,3,42,neutral,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+47,48,Sweet Lady - Remastered 2011,Queen,1975-11-21,119,84,32,-9,58,4:02,1,39,neutral,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+48,49,Seaside Rendezvous - Remastered 2011,Queen,1975-11-21,168,71,45,-5,76,2:14,41,39,happy,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+49,50,The Prophet's Song - Remastered 2011,Queen,1975-11-21,140,46,40,-10,20,8:21,31,39,sad,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+50,51,Love Of My Life - Remastered 2011,Queen,1975-11-21,78,19,36,-11,27,3:37,93,45,sad,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+51,52,Good Company - Remastered 2011,Queen,1975-11-21,183,41,50,-11,53,3:23,79,38,neutral,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+52,53,Bohemian Rhapsody - Remastered 2011,Queen,1975-11-21,143,40,40,-10,23,5:54,25,46,sad,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+53,54,God Save The Queen - Remastered 2011,Queen,1975-11-21,95,31,19,-15,27,1:15,67,38,sad,quiet,popular,12,A Night At The Opera (Deluxe Remastered Version)
+54,55,Tie Your Mother Down - Remastered 2011,Queen,1976-12-10,135,89,29,-6,16,4:47,13,36,sad,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+55,56,You Take My Breath Away - Remastered 2011,Queen,1976-12-10,104,22,31,-15,7,5:06,96,36,sad,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+56,57,Long Away - Remastered 2011,Queen,1976-12-10,117,75,48,-6,32,3:33,15,31,sad,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+57,58,The Millionaire Waltz - Remastered 2011,Queen,1976-12-10,141,34,34,-7,35,4:55,64,33,neutral,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+58,59,You And I - Remastered 2011,Queen,1976-12-10,134,87,53,-6,57,3:26,11,32,neutral,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+59,60,Somebody To Love - Remastered 2011,Queen,1976-12-10,110,68,49,-7,41,4:56,17,45,neutral,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+60,61,White Man - Remastered 2011,Queen,1976-12-10,143,70,32,-8,21,4:58,9,31,sad,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+61,62,Good Old-Fashioned Lover Boy - Remastered 2011,Queen,1976-12-10,97,49,55,-7,38,2:53,54,38,neutral,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+62,63,Drowse - Remastered 2011,Queen,1976-12-10,145,57,44,-10,48,3:43,19,29,neutral,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+63,64,Teo Torriatte (Let Us Cling Together) - Remastered 2011,Queen,1976-12-10,142,24,28,-10,13,5:56,70,30,sad,quiet,popular,10,A Day At The Races (Deluxe Remastered Version)
+64,65,We Will Rock You,Queen,1977-10-28,81,43,69,-10,52,2:02,64,43,neutral,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+65,66,We Are The Champions,Queen,1977-10-28,95,48,46,-7,20,3:01,23,45,sad,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+66,67,Sheer Heart Attack,Queen,1977-10-28,185,87,17,-8,44,3:25,1,34,neutral,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+67,68,"All Dead, All Dead",Queen,1977-10-28,132,7,47,-16,22,3:10,71,34,sad,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+68,69,Spread Your Wings,Queen,1977-10-28,174,45,38,-12,48,4:34,47,34,neutral,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+69,70,Fight From The Inside,Queen,1977-10-28,90,70,58,-11,35,3:03,23,31,neutral,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+70,71,"Get Down, Make Love",Queen,1977-10-28,143,56,45,-9,49,3:51,46,32,neutral,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+71,72,Sleeping On The Sidewalk,Queen,1977-10-28,129,63,60,-11,62,3:07,53,29,neutral,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+72,73,Who Needs You,Queen,1977-10-28,121,34,85,-15,91,3:06,23,30,happy,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+73,74,It's Late,Queen,1977-10-28,182,57,29,-9,56,6:26,27,33,neutral,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+74,75,My Melancholy Blues,Queen,1977-10-28,103,16,50,-17,10,3:29,78,34,sad,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+75,76,We Will Rock You - 1991 Bonus Remix Ruined By Rick Rubin,Queen,1977-10-28,164,77,42,-11,28,5:01,33,28,sad,quiet,popular,12,News Of The World (Deluxe Remastered Version)
+76,77,Mustapha,Queen,1978-11-10,153,72,61,-9,56,3:01,43,33,neutral,quiet,popular,15,Jazz (Deluxe Remastered Version)
+77,78,Fat Bottomed Girls,Queen,1978-11-10,178,66,25,-10,40,4:16,4,47,neutral,quiet,popular,15,Jazz (Deluxe Remastered Version)
+78,79,Jealousy,Queen,1978-11-10,81,23,59,-14,23,3:14,42,34,sad,quiet,popular,15,Jazz (Deluxe Remastered Version)
+79,80,Bicycle Race,Queen,1978-11-10,165,55,39,-11,69,3:02,7,48,happy,quiet,popular,15,Jazz (Deluxe Remastered Version)
+80,81,If You Can't Beat Them,Queen,1978-11-10,140,66,43,-10,72,4:15,0,33,happy,quiet,popular,15,Jazz (Deluxe Remastered Version)
+81,82,Let Me Entertain You,Queen,1978-11-10,210,82,30,-8,66,3:02,3,32,neutral,quiet,popular,15,Jazz (Deluxe Remastered Version)
+82,83,Dead On Time,Queen,1978-11-10,144,85,31,-9,52,3:23,1,30,neutral,quiet,popular,15,Jazz (Deluxe Remastered Version)
+83,84,In Only Seven Days,Queen,1978-11-10,115,35,52,-13,46,2:29,32,30,neutral,quiet,popular,15,Jazz (Deluxe Remastered Version)
+84,85,Dreamers Ball,Queen,1978-11-10,92,30,62,-11,43,3:30,76,32,neutral,quiet,popular,15,Jazz (Deluxe Remastered Version)
+85,86,Fun It,Queen,1978-11-10,114,48,83,-11,89,3:29,9,29,happy,quiet,popular,15,Jazz (Deluxe Remastered Version)
+86,87,Leaving Home Ain't Easy,Queen,1978-11-10,108,30,50,-15,22,3:15,4,29,sad,quiet,popular,15,Jazz (Deluxe Remastered Version)
+87,88,Don't Stop Me Now,Queen,1978-11-10,156,75,56,-10,62,3:30,7,44,neutral,quiet,popular,15,Jazz (Deluxe Remastered Version)
+88,89,More Of That Jazz,Queen,1978-11-10,174,58,37,-10,51,4:15,2,30,neutral,quiet,popular,15,Jazz (Deluxe Remastered Version)
+89,90,Fat Bottomed Girls - 1991 Bonus Remix,Queen,1978-11-10,178,62,23,-10,38,4:23,0,30,neutral,quiet,popular,15,Jazz (Deluxe Remastered Version)
+90,91,Bicycle Race - 1991 Bonus Remix,Queen,1978-11-10,86,65,57,-13,60,4:58,4,24,neutral,quiet,not so popular,15,Jazz (Deluxe Remastered Version)
+91,92,We Will Rock You - Live,Queen,1979-06-22,168,90,16,-11,34,3:17,0,26,neutral,quiet,popular,13,Live Killers
+92,93,Let Me Entertain You - Live,Queen,1979-06-22,145,92,18,-11,32,3:17,1,23,sad,quiet,not so popular,13,Live Killers
+93,94,Death On Two Legs,Queen,1979-06-22,137,63,39,-12,36,3:33,26,23,neutral,quiet,not so popular,13,Live Killers
+94,95,Killer Queen - Live,Queen,1979-06-22,125,40,55,-17,77,1:58,56,25,happy,quiet,popular,13,Live Killers
+95,96,Bicycle Race - Live,Queen,1979-06-22,88,54,37,-14,60,1:29,68,24,neutral,quiet,not so popular,13,Live Killers
+96,97,I'm In Love With My Car - Live,Queen,1979-06-22,157,82,26,-12,42,2:01,4,23,neutral,quiet,not so popular,13,Live Killers
+97,98,"Get Down, Make Love - Live",Queen,1979-06-22,80,62,26,-13,11,4:31,64,22,sad,quiet,not so popular,13,Live Killers
+98,99,You're My Best Friend - Live,Queen,1979-06-22,127,57,48,-13,69,2:10,28,23,happy,quiet,not so popular,13,Live Killers
+99,100,Now I'm Here - Live,Queen,1979-06-22,150,78,25,-13,15,8:43,18,21,sad,quiet,not so popular,13,Live Killers
+100,101,Dreamers Ball - Live,Queen,1979-06-22,93,28,57,-17,36,3:42,76,20,neutral,quiet,not so popular,13,Live Killers
+101,102,Love Of My Life - Live,Queen,1979-06-22,84,58,22,-13,34,4:59,86,24,neutral,quiet,not so popular,13,Live Killers
+102,103,39 - Live,Queen,1979-06-22,104,57,50,-15,77,3:27,18,21,happy,quiet,not so popular,13,Live Killers
+103,104,Keep Yourself Alive - Live,Queen,1979-06-22,150,86,31,-12,40,4:00,7,21,neutral,quiet,not so popular,13,Live Killers
+104,105,Dragon Attack,Queen,1980-06-27,88,71,69,-11,61,4:19,13,32,neutral,quiet,popular,10,The Game (Deluxe Remastered Version)
+105,106,Another One Bites The Dust,Queen,1980-06-27,110,37,93,-13,77,3:36,7,39,happy,quiet,popular,10,The Game (Deluxe Remastered Version)
+106,107,Need Your Loving Tonight,Queen,1980-06-27,138,70,62,-10,86,2:49,19,31,happy,quiet,popular,10,The Game (Deluxe Remastered Version)
+107,108,Crazy Little Thing Called Love,Queen,1980-06-27,77,57,62,-13,75,2:43,51,39,happy,quiet,popular,10,The Game (Deluxe Remastered Version)
+108,109,Rock It (Prime Jive),Queen,1980-06-27,160,81,47,-11,59,4:33,17,29,neutral,quiet,popular,10,The Game (Deluxe Remastered Version)
+109,110,Don't Try Suicide,Queen,1980-06-27,135,35,77,-14,64,3:53,29,30,neutral,quiet,popular,10,The Game (Deluxe Remastered Version)
+110,111,Sail Away Sweet Sister,Queen,1980-06-27,80,35,53,-13,29,3:33,64,28,sad,quiet,popular,10,The Game (Deluxe Remastered Version)
+111,112,Coming Soon,Queen,1980-06-27,137,78,69,-11,90,2:51,1,26,happy,quiet,popular,10,The Game (Deluxe Remastered Version)
+112,113,Save Me,Queen,1980-06-27,82,34,50,-12,36,3:48,26,31,neutral,quiet,popular,10,The Game (Deluxe Remastered Version)
+113,114,Dragon Attack - 1991 Bonus Remix,Queen,1980-06-27,180,85,77,-12,80,4:22,1,23,happy,quiet,not so popular,10,The Game (Deluxe Remastered Version)
+114,115,Flash's Theme - Remastered 2011,Queen,1980-12-05,109,53,49,-12,19,3:30,54,41,sad,quiet,popular,24,Flash Gordon
+115,116,In The Space Capsule (The Love Theme) - Remastered 2011,Queen,1980-12-05,107,47,25,-14,14,2:43,4,27,sad,quiet,popular,24,Flash Gordon
+116,117,Ming's Theme (In The Court Of Ming The Merciless) - Remastered 2011,Queen,1980-12-05,120,3,36,-18,3,2:41,41,25,sad,quiet,popular,24,Flash Gordon
+117,118,The Ring (Hypnotic Seduction Of Dale) - Remastered 2011,Queen,1980-12-05,83,7,41,-21,4,0:57,95,23,sad,quiet,not so popular,24,Flash Gordon
+118,119,Football Fight - Remastered 2011,Queen,1980-12-05,184,88,38,-7,36,1:29,0,26,neutral,quiet,popular,24,Flash Gordon
+119,120,In The Death Cell (Love Theme Reprise) - Remastered 2011,Queen,1980-12-05,81,33,24,-15,6,2:25,57,23,sad,quiet,not so popular,24,Flash Gordon
+120,121,Execution Of Flash - Remastered 2011,Queen,1980-12-05,82,10,31,-19,12,1:06,61,22,sad,quiet,not so popular,24,Flash Gordon
+121,122,The Kiss (Aura Resurrects Flash) - Remastered 2011,Queen,1980-12-05,136,25,22,-13,5,1:45,79,22,sad,quiet,not so popular,24,Flash Gordon
+122,123,Arboria (Planet Of The Tree Men) - Remastered 2011,Queen,1980-12-05,69,8,32,-26,7,1:41,98,21,sad,quiet,not so popular,24,Flash Gordon
+123,124,Escape From The Swamp - Remastered 2011,Queen,1980-12-05,91,25,33,-20,21,1:43,72,21,sad,quiet,not so popular,24,Flash Gordon
+124,125,Flash To The Rescue - Remastered 2011,Queen,1980-12-05,113,52,61,-15,13,2:43,21,25,sad,quiet,popular,24,Flash Gordon
+125,126,Vultan's Theme (Attack Of The Hawk Men) - Remastered 2011,Queen,1980-12-05,77,90,30,-8,50,1:13,0,24,neutral,quiet,not so popular,24,Flash Gordon
+126,127,Battle Theme - Remastered 2011,Queen,1980-12-05,114,93,22,-7,58,2:18,0,26,neutral,quiet,popular,24,Flash Gordon
+127,128,The Wedding March - Remastered 2011,Queen,1980-12-05,74,45,21,-8,53,0:56,21,23,neutral,quiet,not so popular,24,Flash Gordon
+128,129,Marriage Of Dale And Ming (And Flash Approaching) - Remastered 2011,Queen,1980-12-05,116,50,38,-9,36,2:04,21,22,neutral,quiet,not so popular,24,Flash Gordon
+129,130,Crash Dive On Mingo City - Remastered 2011,Queen,1980-12-05,116,89,45,-11,17,1:01,43,22,sad,quiet,not so popular,24,Flash Gordon
+130,131,Flash's Theme Reprise - Remastered 2011,Queen,1980-12-05,109,67,38,-7,56,1:24,6,24,neutral,quiet,not so popular,24,Flash Gordon
+131,132,The Hero - Remastered 2011,Queen,1980-12-05,120,81,32,-7,41,3:33,4,27,neutral,quiet,popular,24,Flash Gordon
+132,133,Flash - Single Version,Queen,1980-12-05,108,65,47,-11,34,2:48,19,52,neutral,quiet,super popular,24,Flash Gordon
+133,134,The Hero - October 1980... Revisited,Queen,1980-12-05,121,79,34,-7,35,2:56,0,23,neutral,quiet,not so popular,24,Flash Gordon
+134,135,The Kiss - Early Version / March 1980,Queen,1980-12-05,204,28,25,-12,11,1:11,94,19,sad,quiet,not so popular,24,Flash Gordon
+135,136,Football Fight - Early Version / No Synths! / February 1980,Queen,1980-12-05,183,92,31,-9,43,1:55,0,19,neutral,quiet,not so popular,24,Flash Gordon
+136,137,Flash - Live In Montreal / November 1981,Queen,1980-12-05,114,80,58,-8,35,2:12,0,21,neutral,quiet,not so popular,24,Flash Gordon
+137,138,The Hero - Live In Montreal / November 1981,Queen,1980-12-05,113,89,27,-7,45,1:48,0,19,neutral,quiet,not so popular,24,Flash Gordon
+138,139,Staying Power,Queen,1982-05-03,115,67,81,-13,43,4:12,10,26,neutral,quiet,popular,12,Hot Space (Deluxe Remastered Version)
+139,140,Dancer,Queen,1982-05-03,100,34,74,-12,59,3:49,4,26,neutral,quiet,popular,12,Hot Space (Deluxe Remastered Version)
+140,141,Back Chat,Queen,1982-05-03,119,66,78,-13,67,4:35,12,25,happy,quiet,popular,12,Hot Space (Deluxe Remastered Version)
+141,142,Body Language,Queen,1982-05-03,133,35,84,-16,38,4:33,3,28,neutral,quiet,popular,12,Hot Space (Deluxe Remastered Version)
+142,143,Action This Day,Queen,1982-05-03,166,33,72,-13,88,3:33,5,23,happy,quiet,not so popular,12,Hot Space (Deluxe Remastered Version)
+143,144,Put Out The Fire,Queen,1982-05-03,92,71,54,-11,55,3:19,25,23,neutral,quiet,not so popular,12,Hot Space (Deluxe Remastered Version)
+144,145,Life Is Real (Song For Lennon),Queen,1982-05-03,81,34,56,-14,36,3:33,65,24,neutral,quiet,not so popular,12,Hot Space (Deluxe Remastered Version)
+145,146,Calling All Girls,Queen,1982-05-03,138,57,61,-12,63,3:52,5,23,neutral,quiet,not so popular,12,Hot Space (Deluxe Remastered Version)
+146,147,Las Palabras De Amor,Queen,1982-05-03,81,41,39,-13,14,4:32,17,24,sad,quiet,not so popular,12,Hot Space (Deluxe Remastered Version)
+147,148,Cool Cat,Queen,1982-05-03,74,34,82,-13,85,3:29,32,31,happy,quiet,popular,12,Hot Space (Deluxe Remastered Version)
+148,149,Under Pressure,Queen,1982-05-03,114,54,66,-13,47,4:06,42,51,neutral,quiet,super popular,12,Hot Space (Deluxe Remastered Version)
+149,150,Body Language - 1991 Bonus Remix,Queen,1982-05-03,134,57,77,-13,59,4:44,0,23,neutral,quiet,not so popular,12,Hot Space (Deluxe Remastered Version)
+150,151,Radio Ga Ga,Queen,1984-02-27,112,38,75,-13,66,5:48,13,45,neutral,quiet,popular,12,The Works (Deluxe Remastered Version)
+151,152,Tear It Up,Queen,1984-02-27,90,67,53,-10,35,3:26,12,32,neutral,quiet,popular,12,The Works (Deluxe Remastered Version)
+152,153,It's A Hard Life,Queen,1984-02-27,82,44,43,-12,29,4:10,38,32,sad,quiet,popular,12,The Works (Deluxe Remastered Version)
+153,154,Man On The Prowl,Queen,1984-02-27,75,73,56,-9,92,3:28,23,28,happy,quiet,popular,12,The Works (Deluxe Remastered Version)
+154,155,Machines (Back To Humans),Queen,1984-02-27,112,79,63,-10,43,5:10,2,26,neutral,quiet,popular,12,The Works (Deluxe Remastered Version)
+155,156,I Want To Break Free,Queen,1984-02-27,109,29,87,-16,74,3:20,6,45,happy,quiet,popular,12,The Works (Deluxe Remastered Version)
+156,157,Keep Passing The Open Windows,Queen,1984-02-27,161,64,52,-11,52,5:21,4,29,neutral,quiet,popular,12,The Works (Deluxe Remastered Version)
+157,158,Hammer To Fall,Queen,1984-02-27,128,69,41,-9,60,4:27,14,38,neutral,quiet,popular,12,The Works (Deluxe Remastered Version)
+158,159,Is This The World We Created,Queen,1984-02-27,78,11,40,-19,17,2:13,85,31,sad,quiet,popular,12,The Works (Deluxe Remastered Version)
+159,160,I Go Crazy,Queen,1984-02-27,86,92,35,-9,43,3:42,26,27,neutral,quiet,popular,12,The Works (Deluxe Remastered Version)
+160,161,Radio Ga Ga - Extended Remix,Queen,1984-02-27,112,46,79,-12,67,6:51,24,26,happy,quiet,popular,12,The Works (Deluxe Remastered Version)
+161,162,I Want To Break Free - Extended Mix,Queen,1984-02-27,109,42,79,-11,61,7:12,6,28,neutral,quiet,popular,12,The Works (Deluxe Remastered Version)
+162,163,One Vision,Queen,1986-06-02,120,86,45,-12,28,5:11,7,32,sad,quiet,popular,11,A Kind of Magic
+163,164,A Kind Of Magic,Queen,1986-06-02,130,61,69,-11,69,4:24,2,35,happy,quiet,popular,11,A Kind of Magic
+164,165,One Year Of Love,Queen,1986-06-02,111,28,58,-14,14,4:28,29,30,sad,quiet,popular,11,A Kind of Magic
+165,166,Pain Is So Close To Pleasure,Queen,1986-06-02,112,49,77,-12,65,4:22,5,26,neutral,quiet,popular,11,A Kind of Magic
+166,167,Friends Will Be Friends,Queen,1986-06-02,150,43,35,-12,38,4:03,6,27,neutral,quiet,popular,11,A Kind of Magic
+167,168,Who Wants To Live Forever,Queen,1986-06-02,139,20,17,-17,4,5:15,46,37,sad,quiet,popular,11,A Kind of Magic
+168,169,Gimme The Prize (Kurgan's Theme),Queen,1986-06-02,84,88,26,-11,11,4:33,11,26,sad,quiet,popular,11,A Kind of Magic
+169,170,Don't Lose Your Head,Queen,1986-06-02,120,72,53,-14,38,4:38,0,23,neutral,quiet,not so popular,11,A Kind of Magic
+170,171,Princes Of The Universe,Queen,1986-06-02,96,73,25,-12,38,3:32,16,33,neutral,quiet,popular,11,A Kind of Magic
+171,172,Forever - Remix,Queen,1986-06-02,70,9,24,-20,4,3:20,94,24,sad,quiet,not so popular,11,A Kind of Magic
+172,173,One Vision,Queen,1986-06-02,120,86,57,-11,21,6:28,3,24,sad,quiet,not so popular,11,A Kind of Magic
+173,174,Party,Queen,1989-05-22,135,76,67,-10,81,2:24,1,24,happy,quiet,not so popular,14,The Miracle
+174,175,Khashoggi's Ship,Queen,1989-05-22,95,76,51,-10,60,2:47,21,24,neutral,quiet,not so popular,14,The Miracle
+175,176,The Miracle,Queen,1989-05-22,92,56,50,-9,50,5:02,23,29,neutral,quiet,popular,14,The Miracle
+176,177,I Want It All,Queen,1989-05-22,135,71,27,-10,48,4:33,4,37,neutral,quiet,popular,14,The Miracle
+177,178,The Invisible Man,Queen,1989-05-22,120,63,74,-12,67,3:56,15,29,happy,quiet,popular,14,The Miracle
+178,179,Breakthru,Queen,1989-05-22,90,74,58,-11,38,4:08,4,28,neutral,quiet,popular,14,The Miracle
+179,180,Rain Must Fall,Queen,1989-05-22,112,66,73,-11,97,4:23,14,24,happy,quiet,not so popular,14,The Miracle
+180,181,Scandal,Queen,1989-05-22,103,63,64,-11,54,4:42,3,26,neutral,quiet,popular,14,The Miracle
+181,182,My Baby Does Me,Queen,1989-05-22,91,31,81,-16,69,3:23,3,22,happy,quiet,not so popular,14,The Miracle
+182,183,Was It All Worth It,Queen,1989-05-22,90,74,35,-10,19,5:45,17,23,sad,quiet,not so popular,14,The Miracle
+183,184,Hang On In There,Queen,1989-05-22,122,65,56,-11,39,3:46,11,21,neutral,quiet,not so popular,14,The Miracle
+184,185,Chinese Torture,Queen,1989-05-22,66,57,33,-14,13,1:44,49,20,sad,quiet,not so popular,14,The Miracle
+185,186,"The Invisible Man - 12"" Version (Extended Mix)",Queen,1989-05-22,120,60,80,-12,51,5:28,4,18,neutral,quiet,not so popular,14,The Miracle
+186,187,"Scandal - 12"" Mix (Album Version)",Queen,1989-05-22,105,85,69,-11,59,6:34,0,18,neutral,quiet,not so popular,14,The Miracle
+187,188,Innuendo,Queen,1991-02-05,68,46,23,-16,25,6:31,10,36,sad,quiet,popular,12,Innuendo
+188,189,I'm Going Slightly Mad,Queen,1991-02-05,116,57,63,-15,37,4:22,57,33,neutral,quiet,popular,12,Innuendo
+189,190,Headlong,Queen,1991-02-05,144,75,60,-13,44,4:38,27,31,neutral,quiet,popular,12,Innuendo
+190,191,I Can't Live With You,Queen,1991-02-05,92,64,49,-12,51,4:34,18,28,neutral,quiet,popular,12,Innuendo
+191,192,Don't Try So Hard,Queen,1991-02-05,78,28,31,-15,11,3:39,63,28,sad,quiet,popular,12,Innuendo
+192,193,Ride The Wild Wind,Queen,1991-02-05,114,70,57,-13,38,4:41,0,26,neutral,quiet,popular,12,Innuendo
+193,194,All God's People,Queen,1991-02-05,182,63,31,-14,30,4:21,22,25,sad,quiet,popular,12,Innuendo
+194,195,These Are The Days Of Our Lives,Queen,1991-02-05,112,26,70,-17,61,4:14,32,36,neutral,quiet,popular,12,Innuendo
+195,196,Delilah,Queen,1991-02-05,109,29,73,-18,53,3:34,35,30,neutral,quiet,popular,12,Innuendo
+196,197,The Hitman,Queen,1991-02-05,90,88,42,-13,28,4:56,0,26,sad,quiet,popular,12,Innuendo
+197,198,Bijou,Queen,1991-02-05,78,22,26,-17,7,3:36,92,26,sad,quiet,popular,12,Innuendo
+198,199,The Show Must Go On,Queen,1991-02-05,83,50,30,-11,12,4:32,52,41,sad,quiet,popular,12,Innuendo
+199,200,It's A Beautiful Day,Queen,1995-11-06,87,16,15,-13,4,2:33,60,31,sad,quiet,popular,13,Ultimate Queen
+200,201,Made In Heaven,Queen,1995-11-06,78,76,37,-7,41,5:25,32,34,neutral,quiet,popular,13,Ultimate Queen
+201,202,Let Me Live,Queen,1995-11-06,157,71,31,-7,50,4:46,16,30,neutral,quiet,popular,13,Ultimate Queen
+202,203,Mother Love,Queen,1995-11-06,92,46,49,-8,15,4:46,17,31,sad,quiet,popular,13,Ultimate Queen
+203,204,My Life Has Been Saved,Queen,1995-11-06,102,62,57,-7,29,3:15,5,26,sad,quiet,popular,13,Ultimate Queen
+204,205,I Was Born To Love You,Queen,1995-11-06,139,91,44,-6,51,4:50,11,32,neutral,quiet,popular,13,Ultimate Queen
+205,206,Heaven For Everyone,Queen,1995-11-06,110,45,60,-9,29,5:36,36,26,sad,quiet,popular,13,Ultimate Queen
+206,207,Too Much Love Will Kill You,Queen,1995-11-06,147,39,32,-9,18,4:20,36,32,sad,quiet,popular,13,Ultimate Queen
+207,208,You Don't Fool Me,Queen,1995-11-06,122,77,59,-9,57,5:25,13,28,neutral,quiet,popular,13,Ultimate Queen
+208,209,A Winter's Tale,Queen,1995-11-06,71,52,24,-8,16,3:49,19,25,sad,quiet,popular,13,Ultimate Queen
+209,210,It's A Beautiful Day (Reprise),Queen,1995-11-06,128,60,37,-11,4,3:01,4,25,sad,quiet,popular,13,Ultimate Queen
+210,211,Yeah,Queen,1995-11-06,0,0,0,-17,0,0:04,0,0,sad,quiet,not so popular,13,Ultimate Queen
+211,212,Untitled,Queen,1995-11-06,128,1,17,-33,3,22:33,70,25,sad,quiet,popular,13,Ultimate Queen
+212,213,One Vision - Live at Wembley '86,Queen,1992-05-26,128,99,22,-3,7,5:50,0,34,sad,quiet,popular,32,Live at Wembley '86
+213,214,Tie Your Mother Down - Live at Wembley '86,Queen,1992-05-26,146,100,21,-3,4,4:06,6,34,sad,quiet,popular,32,Live at Wembley '86
+214,215,In The Lap Of The Gods - Live at Wembley '86,Queen,1992-05-26,86,74,12,-5,15,2:29,8,31,sad,quiet,popular,32,Live at Wembley '86
+215,216,Seven Seas Of Rhye - Live at Wembley '86,Queen,1992-05-26,130,97,19,-3,21,1:18,27,32,sad,quiet,popular,32,Live at Wembley '86
+216,217,Tear It Up - Live at Wembley '86,Queen,1992-05-26,97,98,20,-4,18,2:12,2,31,sad,quiet,popular,32,Live at Wembley '86
+217,218,A Kind Of Magic - Live at Wembley '86,Queen,1992-05-26,134,96,26,-4,15,8:41,8,34,sad,quiet,popular,32,Live at Wembley '86
+218,219,Under Pressure - Live at Wembley '86,Queen,1992-05-26,122,98,37,-3,31,3:41,26,38,sad,quiet,popular,32,Live at Wembley '86
+219,220,Another One Bites The Dust - Live at Wembley '86,Queen,1992-05-26,116,98,53,-5,12,5:59,13,36,sad,quiet,popular,32,Live at Wembley '86
+220,221,Who Wants To Live Forever - Live at Wembley '86,Queen,1992-05-26,74,74,11,-6,8,4:08,49,33,sad,quiet,popular,32,Live at Wembley '86
+221,222,I Want To Break Free - Live at Wembley '86,Queen,1992-05-26,118,94,45,-4,36,3:34,22,36,neutral,quiet,popular,32,Live at Wembley '86
+222,223,Impromptu - Live at Wembley '86,Queen,1992-05-26,121,92,30,-6,38,2:57,21,30,neutral,quiet,popular,32,Live at Wembley '86
+223,224,Brighton Rock Solo - Live at Wembley '86,Queen,1992-05-26,148,90,26,-8,16,9:11,88,29,sad,quiet,popular,32,Live at Wembley '86
+224,225,Now I'm Here - Live at Wembley '86,Queen,1992-05-26,147,99,23,-4,26,6:20,3,29,sad,quiet,popular,32,Live at Wembley '86
+225,226,Love Of My Life - Live at Wembley,Queen,1992-05-26,79,66,20,-9,12,4:49,76,35,sad,quiet,popular,32,Live at Wembley '86
+226,227,Is This The World We Created - Live at Wembley '86,Queen,1992-05-26,78,50,30,-7,9,2:58,77,29,sad,quiet,popular,32,Live at Wembley '86
+227,228,(You're So Square) Baby I Don't Care - Live at Wembley '86,Queen,1992-05-26,99,93,42,-4,43,1:36,64,29,neutral,quiet,popular,32,Live at Wembley '86
+228,229,Hello Mary Lou (Goodbye Heart) - Live at Wembley '86,Queen,1992-05-26,95,97,40,-4,34,1:51,66,29,neutral,quiet,popular,32,Live at Wembley '86
+229,230,Tutti Frutti - Live at Wembley '86,Queen,1992-05-26,96,99,25,-3,14,3:24,61,29,sad,quiet,popular,32,Live at Wembley '86
+230,231,Gimme Some Lovin' - Live at Wembley '86,Queen,1992-05-26,155,98,28,-4,15,0:55,2,28,sad,quiet,popular,32,Live at Wembley '86
+231,232,Bohemian Rhapsody - Live at Wembley '86,Queen,1992-05-26,151,94,23,-4,32,5:51,51,40,sad,quiet,popular,32,Live at Wembley '86
+232,233,Hammer To Fall - Live at Wembley '86,Queen,1992-05-26,135,98,22,-4,7,6:04,4,33,sad,quiet,popular,32,Live at Wembley '86
+233,234,Crazy Little Thing Called Love - Live at Wembley '86,Queen,1992-05-26,144,99,21,-3,19,5:59,56,33,sad,quiet,popular,32,Live at Wembley '86
+234,235,Big Spender - Live at Wembley '86,Queen,1992-05-26,103,99,37,-4,9,1:06,9,27,sad,quiet,popular,32,Live at Wembley '86
+235,236,Radio Ga Ga - Live at Wembley '86,Queen,1992-05-26,114,97,40,-4,37,5:57,9,37,neutral,quiet,popular,32,Live at Wembley '86
+236,237,We Will Rock You - Live at Wembley '86,Queen,1992-05-26,180,98,36,-5,4,2:48,2,35,sad,quiet,popular,32,Live at Wembley '86
+237,238,Friends Will Be Friends - Live at Wembley '86,Queen,1992-05-26,151,90,30,-3,46,2:06,29,29,neutral,quiet,popular,32,Live at Wembley '86
+238,239,We Are The Champions - Live at Wembley '86,Queen,1992-05-26,95,90,28,-3,25,4:05,39,34,sad,quiet,popular,32,Live at Wembley '86
+239,240,God Save The Queen - Live at Wembley '86,Queen,1992-05-26,79,89,15,-8,7,1:36,44,28,sad,quiet,popular,32,Live at Wembley '86
+240,241,A Kind Of Magic - Live at Wembley '86 (July 11),Queen,1992-05-26,134,92,30,-6,21,7:10,1,26,sad,quiet,popular,32,Live at Wembley '86
+241,242,Another One Bites The Dust - Live at Wembley '86 (July 11),Queen,1992-05-26,116,93,67,-5,28,4:28,2,29,sad,quiet,popular,32,Live at Wembley '86
+242,243,Crazy Little Thing Called Love - Live at Wembley '86 (July 11),Queen,1992-05-26,147,94,34,-4,42,5:55,4,27,neutral,quiet,popular,32,Live at Wembley '86
+243,244,Tavaski Szel Vizet Araszt - Live,Queen,1992-05-26,88,46,25,-10,15,1:53,79,25,sad,quiet,popular,32,Live at Wembley '86
+244,245,Intro - Live,Queen,2007-10-29,85,86,8,-9,7,1:59,0,28,sad,quiet,popular,28,Queen Rock Montreal
+245,246,We Will Rock You (Fast) - Live,Queen,2007-10-29,179,98,15,-4,12,3:06,0,33,sad,quiet,popular,28,Queen Rock Montreal
+246,247,Let Me Entertain You - Live,Queen,2007-10-29,78,99,31,-4,23,2:49,0,29,sad,quiet,popular,28,Queen Rock Montreal
+247,248,Play The Game - Live,Queen,2007-10-29,167,85,23,-5,26,3:57,3,32,sad,quiet,popular,28,Queen Rock Montreal
+248,249,Somebody To Love - Live,Queen,2007-10-29,116,89,42,-5,28,7:53,3,38,sad,quiet,popular,28,Queen Rock Montreal
+249,250,Killer Queen - Live,Queen,2007-10-29,122,88,54,-5,72,2:00,6,34,happy,quiet,popular,28,Queen Rock Montreal
+250,251,I'm In Love With My Car - Live,Queen,2007-10-29,160,95,21,-5,55,2:03,0,30,neutral,quiet,popular,28,Queen Rock Montreal
+251,252,"Get Down, Make Love - Live",Queen,2007-10-29,106,80,33,-7,13,4:46,38,29,sad,quiet,popular,28,Queen Rock Montreal
+252,253,Save Me - Live,Queen,2007-10-29,82,69,34,-5,29,4:15,3,30,sad,quiet,popular,28,Queen Rock Montreal
+253,254,Now I'm Here - Live,Queen,2007-10-29,152,95,27,-5,19,5:32,0,28,sad,quiet,popular,28,Queen Rock Montreal
+254,255,Dragon Attack - Live,Queen,2007-10-29,91,94,47,-5,53,3:12,0,28,neutral,quiet,popular,28,Queen Rock Montreal
+255,256,Now I'm Here (Reprise) - Live,Queen,2007-10-29,82,87,19,-8,10,1:53,2,26,sad,quiet,popular,28,Queen Rock Montreal
+256,257,Love Of My Life - Live,Queen,2007-10-29,92,30,30,-13,16,3:57,74,33,sad,quiet,popular,28,Queen Rock Montreal
+257,258,Under Pressure - Live,Queen,2007-10-29,115,94,45,-4,24,3:49,0,33,sad,quiet,popular,28,Queen Rock Montreal
+258,259,Keep Yourself Alive - Live,Queen,2007-10-29,143,95,40,-5,50,3:29,0,29,neutral,quiet,popular,28,Queen Rock Montreal
+259,260,Drum And Tympani Solo - Live,Queen,2007-10-29,108,53,36,-12,38,3:00,6,27,neutral,quiet,popular,28,Queen Rock Montreal
+260,261,Guitar Solo - Live,Queen,2007-10-29,74,72,30,-11,21,5:11,67,26,sad,quiet,popular,28,Queen Rock Montreal
+261,262,Flash - Live,Queen,2007-10-29,114,86,58,-5,39,2:11,0,27,neutral,quiet,popular,28,Queen Rock Montreal
+262,263,The Hero - Live,Queen,2007-10-29,115,95,25,-5,35,1:51,0,26,neutral,quiet,popular,28,Queen Rock Montreal
+263,264,Crazy Little Thing Called Love - Live,Queen,2007-10-29,155,88,32,-6,39,4:16,0,32,neutral,quiet,popular,28,Queen Rock Montreal
+264,265,Jailhouse Rock - Live,Queen,2007-10-29,190,97,22,-6,20,2:33,0,29,sad,quiet,popular,28,Queen Rock Montreal
+265,266,Bohemian Rhapsody - Live,Queen,2007-10-29,152,85,27,-6,28,5:29,6,37,sad,quiet,popular,28,Queen Rock Montreal
+266,267,Tie Your Mother Down - Live,Queen,2007-10-29,148,97,19,-4,23,3:53,0,28,sad,quiet,popular,28,Queen Rock Montreal
+267,268,Another One Bites The Dust - Live,Queen,2007-10-29,112,91,76,-6,34,4:01,3,31,neutral,quiet,popular,28,Queen Rock Montreal
+268,269,Sheer Heart Attack - Live,Queen,2007-10-29,103,100,35,-4,9,3:54,0,26,sad,quiet,popular,28,Queen Rock Montreal
+269,270,We Will Rock You - Live,Queen,2007-10-29,176,97,40,-5,16,2:09,0,33,sad,quiet,popular,28,Queen Rock Montreal
+270,271,We Are The Champions - Live,Queen,2007-10-29,197,85,14,-4,15,3:28,2,34,sad,quiet,popular,28,Queen Rock Montreal
+271,272,God Save The Queen - Live,Queen,2007-10-29,78,90,18,-9,30,1:28,30,26,sad,quiet,popular,28,Queen Rock Montreal
+272,273,"Now I'm Here - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,134,90,32,-8,14,4:43,8,36,sad,quiet,popular,19,A Night at the Odeon
+273,274,"Ogre Battle - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,103,91,24,-8,7,5:19,27,30,sad,quiet,popular,19,A Night at the Odeon
+274,275,"White Queen (As It Began) - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,147,81,21,-8,36,5:31,49,30,neutral,quiet,popular,19,A Night at the Odeon
+275,276,"Bohemian Rhapsody - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,143,67,34,-8,35,2:28,53,35,neutral,quiet,popular,19,A Night at the Odeon
+276,277,"Killer Queen - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,125,82,55,-8,42,2:08,16,36,neutral,quiet,popular,19,A Night at the Odeon
+277,278,"The March of the Black Queen - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,125,97,35,-6,5,1:30,4,31,sad,quiet,popular,19,A Night at the Odeon
+278,279,"Bohemian Rhapsody - Reprise / Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,141,72,28,-10,11,1:02,88,31,sad,quiet,popular,19,A Night at the Odeon
+279,280,"Bring Back That Leroy Brown - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,124,90,40,-10,36,1:32,54,30,neutral,quiet,popular,19,A Night at the Odeon
+280,281,"Brighton Rock - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,139,95,25,-8,17,2:24,44,30,sad,quiet,popular,19,A Night at the Odeon
+281,282,"Guitar Solo - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,72,77,36,-11,46,6:37,86,30,neutral,quiet,popular,19,A Night at the Odeon
+282,283,"Son and Daughter - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,147,93,22,-9,21,1:44,14,28,sad,quiet,popular,19,A Night at the Odeon
+283,284,"Keep Yourself Alive - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,137,95,35,-9,21,4:33,13,30,sad,quiet,popular,19,A Night at the Odeon
+284,285,"Liar - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,153,88,22,-9,12,8:45,9,28,sad,quiet,popular,19,A Night at the Odeon
+285,286,"In the Lap of the Gods... Revisited - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,94,91,20,-10,3,5:24,42,28,sad,quiet,popular,19,A Night at the Odeon
+286,287,"Big Spender - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,173,92,24,-8,7,1:24,1,28,sad,quiet,popular,19,A Night at the Odeon
+287,288,"Jailhouse Rock Medley - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,85,97,17,-9,3,9:21,11,29,sad,quiet,popular,19,A Night at the Odeon
+288,289,"Seven Seas of Rhye - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,129,95,30,-6,16,3:11,6,27,sad,quiet,popular,19,A Night at the Odeon
+289,290,"See What a Fool I've Been - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,161,86,18,-7,31,4:22,9,26,sad,quiet,popular,19,A Night at the Odeon
+290,291,"God Save The Queen - Live At The Hammersmith Odeon, London / 1975",Queen,2015-01-01,102,57,20,-13,53,1:23,54,26,neutral,quiet,popular,19,A Night at the Odeon
+291,292,20th Century Fox Fanfare,Queen,2018-10-19,81,70,34,-6,56,0:25,60,38,neutral,quiet,popular,22,Bohemian Rhapsody (The Original Soundtrack)
+292,293,Somebody To Love,Queen,2018-10-19,111,72,49,-7,38,4:56,21,74,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+293,294,Doing All Right - ...Revisited,Smile,2018-10-19,145,45,37,-9,40,3:17,24,70,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+294,295,Keep Yourself Alive - Live At The Rainbow,Queen,2018-10-19,139,98,29,-6,28,3:56,2,69,sad,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+295,296,Killer Queen,Queen,2018-10-19,117,68,56,-6,63,2:59,40,73,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+296,297,Fat Bottomed Girls - Live In Paris,Queen,2018-10-19,92,92,31,-6,35,4:38,10,70,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+297,298,Bohemian Rhapsody,Queen,2018-10-19,149,41,38,-10,27,5:55,27,75,sad,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+298,299,Now I'm Here - Live At The Hammersmith Odeon,Queen,2018-10-19,134,93,35,-7,14,4:26,11,69,sad,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+299,300,Crazy Little Thing Called Love,Queen,2018-10-19,77,77,63,-7,71,2:43,72,70,happy,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+300,301,Love Of My Life - Live At Rock In Rio,Queen,2018-10-19,78,59,13,-12,8,4:29,81,71,sad,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+301,302,We Will Rock You - Movie Mix,Queen,2018-10-19,81,58,65,-6,42,2:09,12,70,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+302,303,Another One Bites The Dust,Queen,2018-10-19,110,53,93,-7,76,3:35,11,72,happy,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+303,304,I Want To Break Free,Queen,2018-10-19,109,41,81,-9,51,3:43,12,73,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+304,305,Under Pressure - Remastered,Queen,2018-10-19,114,71,67,-8,46,4:04,46,71,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+305,306,Who Wants To Live Forever,Queen,2018-10-19,140,36,19,-9,4,5:14,62,69,sad,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+306,307,Bohemian Rhapsody - Live Aid,Queen,2018-10-19,78,80,39,-6,30,2:28,37,70,sad,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+307,308,Radio Ga Ga - Live Aid,Queen,2018-10-19,119,94,40,-7,36,4:06,1,74,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+308,309,Ay-Oh - Live Aid,Queen,2018-10-19,114,89,36,-11,61,0:41,92,72,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+309,310,Hammer To Fall - Live Aid,Queen,2018-10-19,141,98,22,-6,14,4:04,1,71,sad,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+310,311,We Are The Champions - Live Aid,Queen,2018-10-19,101,91,34,-5,21,3:57,18,71,sad,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+311,312,Don't Stop Me Now - ...Revisited,Queen,2018-10-19,155,91,46,-6,38,3:38,2,71,neutral,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)
+312,313,The Show Must Go On,Queen,2018-10-19,84,69,42,-7,7,4:32,45,69,sad,quiet,super popular,22,Bohemian Rhapsody (The Original Soundtrack)

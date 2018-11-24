@@ -1,0 +1,13 @@
+project,task,minutes
+Project 1,Typing code,30
+Project 1,Rewriting code,60
+Project 1,Reading StackOverflow, 180
+Project 2,Typing code,10
+Project 2,Rewriting code,80
+Project 2,Reading StackOverflow, 40
+Project 3,Typing code,50
+Project 3,Rewriting code,10
+Project 3,Reading StackOverflow, 200
+Project 4,Typing code,10
+Project 4,Rewriting code,10
+Project 4,Reading StackOverflow, 10
