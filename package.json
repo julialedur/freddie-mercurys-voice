@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir docs --public-url /d3-radial-charts"
+    "build": "parcel build src/index.html --out-dir docs --public-url /freddie-mercurys-voice"
   },
   "jest": {
     "setupFiles": [
