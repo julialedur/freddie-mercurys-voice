@@ -50,7 +50,7 @@ function ready(data) {
     left: 0
   }
 
-  var width = 800 - margin.left - margin.right
+  var width = 825 - margin.left - margin.right
   var height = 375 - margin.top - margin.bottom
 
   var x = d3.scaleLinear().range([0, width])
@@ -79,7 +79,7 @@ function ready(data) {
   // Compute x,y coordinates (have a little extra separation when we switch volumes)
   for (i = 0, j = 0 ; i < pianoKeys.length ; ++i) {
     node = pianoKeys[i]
-    node.x = j * groupSep + i * (width - 4 * groupSep) / (pianoKeys.length - 1) + 120
+    node.x = j * groupSep + i * (width - 4 * groupSep) / (pianoKeys.length - 1) + 155
     node.y = height
   }
 
@@ -177,7 +177,7 @@ function ready(data) {
     .attr('repeatCount', 'indefinite')
     .attr('fill', 'freeze')
     .attr('values', function (d) {
-      return [0,0,0,0,0,-d.source.x+140,-d.source.x+140,-d.source.x+140,-d.source.x+140,-d.source.x+140, 0,0,0,0,0].join(';')
+      return [0,0,0,0,0,-d.source.x+160,-d.source.x+160,-d.source.x+160,-d.source.x+160,-d.source.x+160, 0,0,0,0,0].join(';')
     })
 
   // Append name, low/high keys as siblings
