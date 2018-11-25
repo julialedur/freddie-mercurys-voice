@@ -1,116 +1,179 @@
-<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <style>
-      svg { 
-        margin: 0 auto;
-      }
-
-      #chart-1 svg {
-        display: block;
-      }
-
-      h1 { margin-bottom: 2rem; }
-
-      body {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        background-color: #1A0846;
-        color: #ffffff
-      }
-
-      h3 { 
-        margin-top: 3rem; 
-        margin-bottom: 1rem;
-      }
-
-      .container {
-/*        max-width: 56rem;
-*/      }
-
-      img.block {
-        display: block;
-        border: solid #333 1p;
-        margin: 0 auto;
-      }
-
-      .axis line, .axis path {
-        stroke-width: 0.5;
-        stroke: #999;
-      }
-
-      #chart-2 svg, #chart-3 svg, #chart-4 svg, #chart-6 svg {
-        display: block;
-        margin: 0 auto;
-      }
-
-       .sticky {
-            position: -webkit-sticky;
-            position: sticky;
-            top: 0;
-          }
-
-          /* Set the sticky things 2% from the top */
-          .sticky {
-            top: 1vh;
-            align-self: flex-start;
-          }
-
-          /* Minimum height of 70% of the screen */
-          .step {
-            min-height: 75vh;
-          }
-
-          .step > p {
-            background: rgb(58, 16, 165);
-            padding: 10px 0;
-            margin-bottom: 0;
-            padding-bottom: 1rem;
-          }
-
-          .step > ul, .step > h2, .step > h3 {
-            background: #1A0846;
-          }
-
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
   </head>
 </head>
+
 <body>
+<div style="position: relative;display:block; z-index: -99; width: 100%; background-color:#000;">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/N0dbGGvsjf8?controls=0&amp&rel=0&autoplay=1&mute=1&autohide=1&showinfo=0;start=1&loop=1&playlist=N0dbGGvsjf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen crossorigin="anonymous"></iframe>
+
+  <div class="header overlay" style="position:absolute;height:100%;width:100%;overflow:hidden;">
+    <div class="container jumbotron bg-clear">
+      <h1 class="display-4">Freddie Mercury's voice visualized</h1>
+      <p class="lead"><b>Freddie Mercury</b>, British singer-songwriter and lead vocalist of rock band <b>Queen</b>, defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. With timeless hits like <i>Bohemian Rhapsody</i> and <i>Don't Stop Me Now</i>, his unique stage presence and four-octave vocal range has left a resounding legacy that provokes and inspires listeners and musicians alike.</p>
+  <p class="lead">We will explore various dimensions of Freddie Mercury's songs using audio analysis. We hypothesize that there exists a correlation between features of his songs and song popularity.
+  We also investigate how much more powerful his voice is compared to other great vocalists.</p>
+    </div>
+  </div>
+</div>
 <div class="container">
   <div class="row">
     <div class="col-12">
-
-    <br><br><h1><font size="30">Freddie Mercury's</font><br>voice visualized</h1>
-
-    <div class="row mt-5">
-        <div class="col-lg-12">
-              <h3>Chart 1: Dots and scrollytelling</h3>
-              <p>I'm still going to change the shapes and the text of the steps. This is just an example. If you have ideas of what might be cool to put here, let me know! :)</p>
-        <div class="offset-4 col-lg-3 sticky">
-          <div id="chart-1"></div>
-        </div>
-       
-        <div class="col-lg-4">
-
-          <div class='step' id="freddie">
-            <p>This is Freddie Mercury</p>
+      <div class="row mt-5">
+          <div class="col-lg-12">
+                <h3>Chart 1: Dots and scrollytelling</h3>
+                <p>I'm still going to change the shapes and the text of the steps. This is just an example. If you have ideas of what might be cool to put here, let me know! :)</p>
+          <div class="offset-4 col-lg-3 sticky">
+            <div id="chart-1"></div>
           </div>
-          <div class='step' id="crown">
-            <p>He was the vocalist of Queen.</p>
-          </div>
-          <div class='step' id="circle">
-            <p>The band has 313 songs on Spotify.</p>
-          </div>
-          <div class='step' id="color">
-            <p>We obtained data for the most popular tracks to analyze Freddie Mercury's voice.</p>
+
+          <div class="col-lg-4">
+            <div class='step' id="freddie">
+              <p>This is Freddie Mercury</p>
+            </div>
+            <div class='step' id="crown">
+              <p>He was the vocalist of Queen.</p>
+            </div>
+            <div class='step' id="circle">
+              <p>The band has 313 songs on Spotify.</p>
+            </div>
+            <div class='step' id="color">
+              <p>We obtained data for the most popular tracks to analyze Freddie Mercury's voice.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
+<!-- Vocal Range Chart -->
+<div class="range" style="position:relative;width:100%;overflow:hidden;padding-top:3rem;">
+  <div class="container">
+    <h1 class="display-4">A Range Unlike Others</h1>
+    <p class="lead">One of <b>Freddie Mercury</b>'s greatest claims to fame is his four-octave vocal range. A 2016 study concluded was that Mercury's vocal cords moved faster than the average person's. "While a typical vibrato will fluctuate between 5.4 Hz and 6.9 Hz, Mercury’s was 7.04 Hz," Consequence of Sound reported.</p>
+    <p class="font-italic">Hover over each vocalist's range to see the corresponding low and high piano keys.</p>
+    <div class="bg-clear" id="chart-2-container">
+      <svg class="vocal-range" id="chart-2"></svg>
+      <svg version="1.1" id="piano" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024.7 74.4" enable-background="new 0 0 1024.7 74.4" xml:space="preserve" style="display: inline;">
+        <rect id="piano-case" x="0" fill="#B4ABAC" width="1024.7" height="74.4"></rect>
+        <rect id="spacer" x="-12.3" y="10.2" fill="#B4ABAC" width="2.7" height="16.4"></rect>
+        <rect class="white-key" id="key1" x="2.7" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key3" x="23.5" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key5" x="44.4" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key6" x="65.2" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key8" x="86.1" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key10" x="106.9" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key12" x="127.7" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key13" x="148.6" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key15" x="169.4" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key17" x="190.3" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key18" x="211.1" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key20" x="232" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key22" x="252.8" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key24" x="273.6" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key25" x="294.5" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key27" x="315.3" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key29" x="336.2" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key30" x="357" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key32" x="377.9" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key34" x="398.7" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key36" x="419.5" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key37" x="440.4" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key39" x="461.2" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key41" x="482.1" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key42" x="502.9" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key44" x="523.8" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key46" x="544.6" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key48" x="565.4" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key49" x="586.3" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key51" x="607.1" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key53" x="628" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key54" x="648.8" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key56" x="669.6" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key58" x="690.5" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key60" x="711.3" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key61" x="732.2" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key63" x="753" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key65" x="773.9" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key66" x="794.7" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key68" x="815.5" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key70" x="836.4" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key72" x="857.2" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key73" x="878.1" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key75" x="898.9" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key77" x="919.8" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key78" x="940.6" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key80" x="961.5" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key82" x="982.3" width="18.7" height="70.8"></rect>
+        <rect class="white-key" id="key84" x="1003.1" width="18.7" height="70.8"></rect>
+        <polyline class="black-key" id="key2" points="28.1,0 28.1,47.6 16.8,47.6 16.8,0 "></polyline>
+        <polyline class="black-key" id="key4" points="48.9,0 48.9,47.6 37.7,47.6 37.7,0 "></polyline>
+
+        <polyline class="black-key" id="key7" points="90.6,0 90.6,47.6 79.4,47.6 79.4,0 "></polyline>
+        <polyline class="black-key" id="key9" points="111.5,0 111.5,47.6 100.2,47.6 100.2,0 "></polyline>
+        <polyline class="black-key" id="key11" points="132.3,0 132.3,47.6 121,47.6 121,0 "></polyline>
+
+        <polyline class="black-key" id="key14" points="174,0 174,47.6 162.7,47.6 162.7,0 "></polyline>
+        <polyline class="black-key" id="key16" points="194.8,0 194.8,47.6 183.6,47.6 183.6,0 "></polyline>
+
+        <polyline class="black-key" id="key19" points="236.5,0 236.5,47.6 225.3,47.6 225.3,0 "></polyline>
+        <polyline class="black-key" id="key21" points="257.4,0 257.4,47.6 246.1,47.6 246.1,0 "></polyline>
+        <polyline class="black-key" id="key23" points="278.2,0 278.2,47.6 266.9,47.6 266.9,0 "></polyline>
+
+        <polyline class="black-key" id="key26" points="319.9,0 319.9,47.6 308.6,47.6 308.6,0 "></polyline>
+        <polyline class="black-key" id="key28" points="340.7,0 340.7,47.6 329.5,47.6 329.5,0 "></polyline>
+
+        <polyline class="black-key" id="key31" points="382.4,0 382.4,47.6 371.2,47.6 371.2,0 "></polyline>
+        <polyline class="black-key" id="key33" points="403.3,0 403.3,47.6 392,47.6 392,0 "></polyline>
+        <polyline class="black-key" id="key35" points="424.1,0 424.1,47.6 412.8,47.6 412.8,0 "></polyline>
+
+        <polyline class="black-key" id="key38" points="465.8,0 465.8,47.6 454.5,47.6 454.5,0 "></polyline>
+        <polyline class="black-key" id="key40" points="486.6,0 486.6,47.6 475.4,47.6 475.4,0 "></polyline>
+
+        <polyline class="black-key" id="key43" points="528.3,0 528.3,47.6 517.1,47.6 517.1,0 "></polyline>
+        <polyline class="black-key" id="key45" points="549.2,0 549.2,47.6 537.9,47.6 537.9,0 "></polyline>
+        <polyline class="black-key" id="key47" points="570,0 570,47.6 558.7,47.6 558.7,0 "></polyline>
+
+        <polyline class="black-key" id="key50" points="611.7,0 611.7,47.6 600.4,47.6 600.4,0 "></polyline>
+        <polyline class="black-key" id="key52" points="632.5,0 632.5,47.6 621.3,47.6 621.3,0 "></polyline>
+
+        <polyline class="black-key" id="key55" points="674.2,0 674.2,47.6 663,47.6 663,0 "></polyline>
+        <polyline class="black-key" id="key57" points="695.1,0 695.1,47.6 683.8,47.6 683.8,0 "></polyline>
+        <polyline class="black-key" id="key59" points="715.9,0 715.9,47.6 704.6,47.6 704.6,0 "></polyline>
+
+        <polyline class="black-key" id="key62" points="757.6,0 757.6,47.6 746.3,47.6 746.3,0 "></polyline>
+        <polyline class="black-key" id="key64" points="778.4,0 778.4,47.6 767.2,47.6 767.2,0 "></polyline>
+
+        <polyline class="black-key" id="key67" points="820.1,0 820.1,47.6 808.9,47.6 808.9,0 "></polyline>
+        <polyline class="black-key" id="key69" points="841,0 841,47.6 829.7,47.6 829.7,0 "></polyline>
+        <polyline class="black-key" id="key71" points="861.8,0 861.8,47.6 850.5,47.6 850.5,0 "></polyline>
+
+        <polyline class="black-key" id="key74" points="903.5,0 903.5,47.6 892.2,47.6 892.2,0 "></polyline>
+        <polyline class="black-key" id="key76" points="924.3,0 924.3,47.6 913.1,47.6 913.1,0 "></polyline>
+
+        <polyline class="black-key" id="key79" points="966,0 966,47.6 954.8,47.6 954.8,0 "></polyline>
+        <polyline class="black-key" id="key81" points="986.9,0 986.9,47.6 975.6,47.6 975.6,0 "></polyline>
+        <polyline class="black-key" id="key83" points="1007.7,0 1007.7,47.6 996.4,47.6 996.4,0 "></polyline>
+
+        <text transform="matrix(1 0 0 1 150.6071 66.6646)" fill="#010101" font-family="'DejaVuSerifCondensed-Bold'" font-size="10.6181">C2</text>
+        <text transform="matrix(1 0 0 1 296.9431 67.7271)" fill="#010101" font-family="'DejaVuSerifCondensed-Bold'" font-size="10.6181">C3</text>
+        <text transform="matrix(1 0 0 1 443.2809 66.6646)" fill="#010101" font-family="'DejaVuSerifCondensed-Bold'" font-size="10.6181">C4</text>
+        <text transform="matrix(1 0 0 1 588.5583 66.6646)" fill="#010101" font-family="'DejaVuSerifCondensed-Bold'" font-size="10.6181">C5</text>
+        <text transform="matrix(1 0 0 1 733.8278 66.6646)" fill="#010101" font-family="'DejaVuSerifCondensed-Bold'" font-size="10.6181">C6</text>
+        <text transform="matrix(1 0 0 1 881.2321 66.6646)" fill="#010101" font-family="'DejaVuSerifCondensed-Bold'" font-size="10.6181">C7</text>
+        <text transform="matrix(1 0 0 1 5.3337 66.6646)" fill="#010101" font-family="'DejaVuSerifCondensed-Bold'" font-size="10.6181">C1</text>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<!-- Song Chart -->
+<div class="container">
     <h3>Chart 1: a test to see how the data looks like (Bohemian Rhapsody).
     </h3>
     <p>Dataset is <code>data/bohemian-notes.csv</code>(This file is chart-3.js)<br>
@@ -133,19 +196,37 @@
 
     </div>
   </div>
-
   </div>
 
   <!-- Now we include our actual visualization -->
-  
+  <!-- <script src="https://d3js.org/d3-queue.v3.min.js"></script> -->
   <script src="chart-1.js"></script>
+  <script src="chart-2.js"></script>
   <script src="chart-3.js"></script>
   <script src="chart-3b.js"></script>
   <script src="chart-4.js"></script>
   <script src="scrollytelling.js"></script>
-
-
-</div>
 </body>
-</html>
+<div class="footer opaque overlay pale-link">
+    <div class="container bg-clear">
+      <h1 class="display-4" style="text-align:left;">Credits</h1>
+      <h2 class="lead">Team</h2>
+      <ul>
+        <li>Julia Ledur (jlg2263)</li>
+        <li>Ivy Chen (ic2389)</li>
+        <li>Natachi Mez (nm2881)</li>
+        <li>Fei-Tzin Lee (fl2301)</li>
+      </ul>
 
+      <h2 class="lead">References</h2>
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/watch?v=N0dbGGvsjf8">Freddie Mercury Performing Bohemian Rhapsody Live</a>
+        </li>
+        <li>
+          <a href="http://mentalfloss.com/article/22465/facts-about-freddie-mercury">Facts About Freddie Mercury</a>
+        </li>
+      </ul>
+    </div>
+</div>
+</html>

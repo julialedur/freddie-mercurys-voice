@@ -1,0 +1,175 @@
+svg {
+  margin: 0 auto;
+}
+
+#chart-1 svg {
+  display: block;
+}
+
+h1 { margin-bottom: 2rem; }
+
+body {
+  background-color: #1A0846;
+  color: #fff;
+  height: 100%;
+  positon: relative;
+}
+
+h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+/*        max-width: 56rem;
+*/      }
+
+img.block {
+  display: block;
+  border: solid #333 1p;
+  margin: 0 auto;
+}
+
+.axis line, .axis path {
+  stroke-width: 0.5;
+  stroke: #999;
+}
+
+#chart-2 svg, #chart-3 svg, #chart-4 svg, #chart-6 svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Set the sticky things 2% from the top */
+.sticky {
+  top: 10%;
+  align-self: flex-start;
+}
+
+/* Minimum height of 70% of the screen */
+.step {
+  min-height: 75vh;
+}
+
+.step > p {
+  background: rgb(58, 16, 165);
+  padding: 10px 0;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+.step > ul, .step > h2, .step > h3 {
+  background: #1A0846;
+}
+
+
+// misc
+.header {
+  width: 100%;
+  padding-top: 6rem;
+  top:0;
+}
+
+.footer {
+  width: 100%;
+  bottom:0;
+  padding: 4rem 0;
+}
+
+.overlay{
+  background: linear-gradient(to bottom, rgba(252, 70, 107, 0.2), rgba(63, 94, 251, 0.3)), rgba(2,23,86, 0.4);
+}
+
+.opaque {
+  background-color: rgba(2,23,86, 1.0);
+}
+
+.dark-blue {
+  background-color: rgba(17, 86, 141, 1);
+}
+
+.gradient-1 {
+  background-image: rgba(2,23,86, .7); /* Old browsers */
+  background-image: -webkit-linear-gradient(-45deg, rgba(2,23,86,.7) 15%,rgba(25,63,248,.7) 50%,rgba(70,55,238,.7) 95%); /* Chrome10-25,Safari5.1-6 */
+  background-image: linear-gradient(135deg, rgba(2,23,86,.7) 15%,rgba(25,63,248,.7) 50%,rgba(70,55,238,.7) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+h1,h2,h3,h4,h5,span,p {
+  font-family: Segoe UI, Helvetica, sans-serif;
+}
+
+.jumbotron.bg-clear {
+  background: none;
+  background-color: transparent;
+  color: #fbcdb0;
+}
+
+#chart-2-container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#piano {
+  margin-left: 160px;
+}
+
+.range {
+  background: linear-gradient(135deg, rgba(2,23,86,.5) 15%,rgba(25,63,248,.5) 50%,rgba(70,55,238,.5) 95%), url('https://worshiphousemedia.s3.amazonaws.com/images/main/s/mo/pow/mo/stageconcertlights.jpg');
+  background-size: cover;
+}
+
+.credits {
+  background: linear-gradient(0deg,rgba(17, 86, 141, .5),rgba(17, 86, 141, .5)), url('https://www.oulunylioppilaslehti.fi/wp-content/uploads/2018/11/bohemianrhapsody_pressi10.jpg');
+  background-size: cover;
+}
+
+.arc {
+  fill:none;
+  stroke-width: 2;
+  stroke:#fff;
+  overflow: visible !important;
+
+  rect {
+    // stroke-width: 18;
+    fill: white;
+  }
+
+  circle {
+    fill: red;
+    stroke: red;
+  }
+}
+
+
+.arc rect[name="Freddie Mercury"] {
+  // stroke-width: 24;
+  stroke: rgba(254, 106, 144, 1) !important;
+  fill: rgba(254, 106, 144, 1);
+}
+
+.arc text {
+  stroke-width: .5;
+  font-family: 'Source Sans Pro';
+  fill: rgba(254, 204, 177, 1);
+}
+
+#piano {
+  background-color: rgba(2,23,86, 1.0);
+}
+
+.pale-link a {
+  color: #fbcdb0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pale-link a:hover {
+  text-decoration: none;
+  color: rgba(254, 106, 144, 1);
+}
