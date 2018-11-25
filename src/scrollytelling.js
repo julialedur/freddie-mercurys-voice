@@ -13,7 +13,7 @@ if (module.hot) {
 
 enterView({
   selector: '.step',
-  offset: 0.4,
+  offset: 0.9,
   enter: function(element) {
     element.classList.add('entered')
 

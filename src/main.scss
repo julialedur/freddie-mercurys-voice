@@ -9,10 +9,10 @@ svg {
 h1 { margin-bottom: 2rem; }
 
 body {
-  // padding-top: 2rem;
-  padding-bottom: 2rem;
   background-color: #1A0846;
-  color: #ffffff
+  color: #fff;
+  height: 100%;
+  positon: relative;
 }
 
 h3 {
@@ -48,7 +48,7 @@ img.block {
 
 /* Set the sticky things 2% from the top */
 .sticky {
-  top: 1vh;
+  top: 10%;
   align-self: flex-start;
 }
 
@@ -69,10 +69,17 @@ img.block {
 }
 
 
+// misc
 .header {
   width: 100%;
   padding-top: 6rem;
   top:0;
+}
+
+.footer {
+  width: 100%;
+  bottom:0;
+  padding: 4rem 0;
 }
 
 .overlay{
