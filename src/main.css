@@ -33,6 +33,14 @@ img.block {
   margin: 0 auto;
 }
 
+.button-animation {
+  background-color: #2C007D;
+  text-align: center;
+  margin-left: 15%;
+  font-family: 'Open Sans', serif;
+  font-size: 17px;
+} 
+
 .axis line, .axis path {
   stroke-width: 0.5;
   stroke: #999;

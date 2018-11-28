@@ -71,9 +71,10 @@ function ready(datapoints) {
     finished[d] = {}
     finished[d]['happy'] = 0
     finished[d]['neutral'] = 0
-    finished[d]['sad'] = 0
+    finished[d]['sad'] = 0 
   })
   function updateDisplay(d) {
+    d3.select(this)
     var total = 0
     Object.keys(finished).forEach(popularity => {
       Object.keys(finished[popularity]).forEach(positiveness => {
