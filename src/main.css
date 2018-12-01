@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-  background-color: #1A0846;
+  background-color: #1a0846;
   color: #fff;
   height: 100%;
   position: relative;
@@ -43,6 +43,18 @@ img.block {
   margin: 0 auto;
 }
 
+#total {
+  font-size: 1.5rem;
+  padding: .1rem .25rem;
+  background: #fff;
+  border-radius: .25rem;
+  color: #1a0846;
+}
+
+.pop-text {
+  overflow: auto;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -68,7 +80,7 @@ img.block {
 }
 
 .step > ul, .step > h2, .step > h3 {
-  background: #1A0846;
+  background: #1a0846;
 }
 
 .overlay-intro {
