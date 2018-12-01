@@ -6,23 +6,26 @@ svg {
   display: block;
 }
 
-h1 { margin-bottom: 2rem; }
+h1 {
+  margin-bottom: 2rem;
+}
 
 body {
   background-color: #1A0846;
   color: #fff;
   height: 100%;
-  positon: relative;
+  position: relative;
+  width: 100%;
+
+  & > div:first-child {
+    overflow-x: hidden;
+  }
 }
 
 h3 {
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
-
-.container {
-/*        max-width: 56rem;
-*/      }
 
 img.block {
   display: block;
@@ -68,6 +71,19 @@ img.block {
   background: #1A0846;
 }
 
+// gradients
+.overlay-intro {
+  background: linear-gradient(to top, rgba(26,8,70,1), rgba(99,26,115,0.5), rgba(255,143,135,0.3));
+}
+
+.overlay {
+  background: linear-gradient(to bottom, rgba(26, 8, 70, 1), rgba(99, 26, 115, 0.8), rgba(255, 143, 135, 0.7));
+}
+
+.credits {
+  background: linear-gradient(0deg, #1A0846,#631A73, #FF8F87), url('https://www.oulunylioppilaslehti.fi/wp-content/uploads/2018/11/bohemianrhapsody_pressi10.jpg');
+  background-size: cover;
+}
 
 // misc
 .header {
@@ -80,10 +96,6 @@ img.block {
   width: 100%;
   bottom:0;
   padding: 4rem 0;
-}
-
-.overlay{
-  background: linear-gradient(to bottom, rgba(252, 70, 107, 0.2), rgba(63, 94, 251, 0.3)), rgba(2,23,86, 0.4);
 }
 
 .opaque {
@@ -101,14 +113,8 @@ img.block {
 }
 
 h1,h2,h3,h4,h5,span,p {
-  font-family: Segoe UI, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Helvetica, sans-serif;
 }
-
-// .jumbotron.bg-clear {
-//   background: none;
-//   background-color: transparent;
-//   color: #fbcdb0;
-// }
 
 #chart-2-container {
   margin-top: 4rem;
@@ -120,12 +126,7 @@ h1,h2,h3,h4,h5,span,p {
 }
 
 .range {
-  background: linear-gradient(135deg, #1A0846 15%,#2C007D) 50%,rgba(70,55,238,.5) 95%), url('https://worshiphousemedia.s3.amazonaws.com/images/main/s/mo/pow/mo/stageconcertlights.jpg');
-  background-size: cover;
-}
-
-.credits {
-  background: linear-gradient(0deg, #1A0846,#2C007D), url('https://www.oulunylioppilaslehti.fi/wp-content/uploads/2018/11/bohemianrhapsody_pressi10.jpg');
+  background: linear-gradient(135deg, #1A0846 15%, #2C007D 50%, rgba(70,55,238,.5) 95%), url('https://worshiphousemedia.s3.amazonaws.com/images/main/s/mo/pow/mo/stageconcertlights.jpg');
   background-size: cover;
 }
 
@@ -178,8 +179,6 @@ h1,h2,h3,h4,h5,span,p {
   color: rgba(254, 106, 144, 1);
 }
 
-
-// === START D3tip
 .d3-tip {
   line-height: 1;
   padding: .5rem;
@@ -208,4 +207,3 @@ h1,h2,h3,h4,h5,span,p {
   top: 100%;
   left: 0;
 }
-// === END D3tip

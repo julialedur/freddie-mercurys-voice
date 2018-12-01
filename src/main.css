@@ -14,7 +14,12 @@ body {
   background-color: #1A0846;
   color: #fff;
   height: 100%;
-  positon: relative;
+  position: relative;
+  width: 100%;
+}
+
+body > div:first-child {
+  overflow-x: hidden;
 }
 
 h3 {
@@ -22,24 +27,11 @@ h3 {
   margin-bottom: 1rem;
 }
 
-.container {
-  /*        max-width: 56rem;
-*/
-}
-
 img.block {
   display: block;
   border: solid #333 1p;
   margin: 0 auto;
 }
-
-.button-animation {
-  background-color: #2C007D;
-  text-align: center;
-  margin-left: 15%;
-  font-family: 'Open Sans', serif;
-  font-size: 17px;
-} 
 
 .axis line, .axis path {
   stroke-width: 0.5;
@@ -79,6 +71,19 @@ img.block {
   background: #1A0846;
 }
 
+.overlay-intro {
+  background: linear-gradient(to top, #1a0846, rgba(99, 26, 115, 0.5), rgba(255, 143, 135, 0.3));
+}
+
+.overlay {
+  background: linear-gradient(to bottom, #1a0846, rgba(99, 26, 115, 0.8), rgba(255, 143, 135, 0.7));
+}
+
+.credits {
+  background: linear-gradient(0deg, #1A0846, #631A73, #FF8F87), url("https://www.oulunylioppilaslehti.fi/wp-content/uploads/2018/11/bohemianrhapsody_pressi10.jpg");
+  background-size: cover;
+}
+
 .header {
   width: 100%;
   padding-top: 6rem;
@@ -91,17 +96,9 @@ img.block {
   padding: 4rem 0;
 }
 
-.overlay-intro {
-  background: linear-gradient(to top,  rgba(26, 8, 70, 1), rgba(99,26,115, 0.5) , rgba(255,143,135, 0.3));
+.opaque {
+  background-color: #021756;
 }
-
-.overlay {
-  background: linear-gradient(to bottom,  rgba(26, 8, 70, 1), rgba(99,26,115, 0.8) , rgba(255,143,135, 0.7));
-}
-
-/* .opaque {
-  background-color: #1A0846;
-} */
 
 .dark-blue {
   background-color: #11568d;
@@ -117,13 +114,7 @@ img.block {
 }
 
 h1, h2, h3, h4, h5, span, p {
-  font-family: Segoe UI, Helvetica, sans-serif;
-}
-
-.jumbotron.bg-clear {
-  background: none;
-  background-color: transparent;
-  color: #fbcdb0;
+  font-family: 'Segoe UI', Helvetica, sans-serif;
 }
 
 #chart-2-container {
@@ -136,12 +127,7 @@ h1, h2, h3, h4, h5, span, p {
 }
 
 .range {
-  background: linear-gradient(135deg, #1A0846 15%,#2C007D) 50%,rgba(70,55,238,.5) 95%, url('https://worshiphousemedia.s3.amazonaws.com/images/main/s/mo/pow/mo/stageconcertlights.jpg');
-  background-size: cover;
-}
-
-.credits {
-  background: linear-gradient(0deg, #1A0846,#631A73, #FF8F87), url('https://www.oulunylioppilaslehti.fi/wp-content/uploads/2018/11/bohemianrhapsody_pressi10.jpg');
+  background: linear-gradient(135deg, #1A0846 15%, #2C007D 50%, rgba(70, 55, 238, 0.5) 95%), url("https://worshiphousemedia.s3.amazonaws.com/images/main/s/mo/pow/mo/stageconcertlights.jpg");
   background-size: cover;
 }
 

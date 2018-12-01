@@ -11,25 +11,40 @@ if (module.hot) {
   module.hot.accept(() => window.location.reload())
 }
 
-enterView({
-  selector: '.step',
-  offset: 0.9,
-  enter: function(element) {
-    element.classList.add('entered')
+// Scroll actions for dots
+enterView(
+  {
+    selector: '.step',
+    offset: 0.9,
+    enter: function(element) {
+      element.classList.add('entered')
+      // Trigger stepin for current step
+      d3.select(element).dispatch('stepin')
+    },
+    exit: function(element) {
+      element.classList.remove('entered')
 
-    // Trigger stepin for current step
-    d3.select(element).dispatch('stepin')
-  },
-  exit: function(element) {
-    element.classList.remove('entered')
+      // Trigger stepout for current step
+      d3.select(element).dispatch('stepout')
 
-    // Trigger stepout for current step
-    d3.select(element).dispatch('stepout')
-
-    // Trigger stepin for previous step (if it exists)
-    var previous = element.previousElementSibling
-    if (previous && previous.classList.contains('step')) {
-      d3.select(previous).dispatch('stepin')
+      // Trigger stepin for previous step (if it exists)
+      var previous = element.previousElementSibling
+      if (previous && previous.classList.contains('step')) {
+        d3.select(previous).dispatch('stepin')
+      }
     }
   }
-})
+)
+
+// Scroll actions for Valence v. Popularity
+enterView(
+  {
+    selector: '#chart-4',
+    offset: 0.7,
+    enter: function(element) {
+      element.classList.add('entered')
+      d3.select(element).dispatch('stepin')
+    },
+    once: true // enter just once
+  }
+)

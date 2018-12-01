@@ -325,7 +325,6 @@ function ready(data) {
         .transition()
         .duration(500)
         .style('transform', function(d) {
-          console.log(d.source.x)
           return 'translateX(' + 0 + 'px)'
         })
         .on('end', function (e) {
