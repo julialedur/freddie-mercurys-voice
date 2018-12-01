@@ -1,4 +1,5 @@
 import * as d3 from 'd3'
+import $ from 'jquery'
 
 var margin = { top: 25, left: 100, right: 150, bottom: 0 }
 var width = 800 - margin.left - margin.right
@@ -53,8 +54,6 @@ d3.csv(require('./data/popularityxvalence.csv'))
   })
 
 function ready(datapoints) {
-  console.log('chart 4 data', datapoints)
-
   var colorScale = d3
     .scaleOrdinal()
     .domain(['sad', 'neutral', 'happy'])
@@ -67,12 +66,8 @@ function ready(datapoints) {
   // Setting things like finished['super popular']['sad'] = 0
   var finished = {}
 
-  yPositionScale.domain().forEach(d => {
-    finished[d] = {}
-    finished[d]['happy'] = 0
-    finished[d]['neutral'] = 0
-    finished[d]['sad'] = 0 
-  })
+  clearDisplay()
+
   function updateDisplay(d) {
     d3.select(this)
     var total = 0
@@ -201,7 +196,38 @@ function ready(datapoints) {
   // that group is the x/y offset (the wiggle)
   // then add a circle inside of that which will
   // follow the path (the offset makes it not quite)
-  holder
+
+  // Starts transition for a circle
+  function startTransition(d) {
+    // What are the points it should be tweening between?
+    var pathPoints = points[d.popularity]
+    // How fast between each segment?
+    var speed = Math.random() * circleSpeed + circleSpeed
+    // Start the circle at the the point
+    // initialize the transition easing, speed, etc
+    var circle = d3
+      .select(this)
+      .attr('transform', `translate(${pathPoints[0]})`)
+      .transition()
+      .delay(d._delay)
+      .duration(speed)
+      .ease(d3.easeLinear)
+    // This is like a forEach, but it will
+    // stop once we're past the width
+    pathPoints.every(point => {
+      circle = circle.transition().attr('transform', `translate(${point})`)
+      return point[0] + d._offsetX < width
+    })
+    // Once we're at the end, update the totals and restart
+    circle.on('end', function(d) {
+      // Don't need to wait to start next time
+      d._delay = 0
+      updateTotals.apply(this, arguments) // makes the counter work
+      // startTransition.apply(this, arguments) // makes the animation restart
+    })
+  }
+
+  var circles = holder
     .selectAll('g')
     .data(datapoints)
     .enter()
@@ -210,34 +236,29 @@ function ready(datapoints) {
     .append('circle')
     .attr('fill', d => colorScale(d.positiveness))
     .attr('r', circleRadius)
-    .each(function startTransition(d) {
-      // What are the points it should be tweening between?
-      var pathPoints = points[d.popularity]
-      // How fast between each segment?
-      var speed = Math.random() * circleSpeed + circleSpeed
-      // Start the circle at the the point
-      // initialize the transition easing, speed, etc
-      var circle = d3
-        .select(this)
-        .attr('transform', `translate(${pathPoints[0]})`)
-        .transition()
-        .delay(d._delay)
-        .duration(speed)
-        .ease(d3.easeLinear)
-      // This is like a forEach, but it will
-      // stop once we're past the width
-      pathPoints.every(point => {
-        circle = circle.transition().attr('transform', `translate(${point})`)
-        return point[0] + d._offsetX < width
-      })
-      // Once we're at the end, update the totals and restart
-      circle.on('end', function(d) {
-        // Don't need to wait to start next time
-        d._delay = 0
-        updateTotals.apply(this, arguments) // makes the counter work
-        // startTransition.apply(this, arguments) // makes the animation restart
-      })
+
+  // reset display and totals
+  function clearDisplay() {
+    $('#total').text(0)
+    yPositionScale.domain().forEach(d => {
+      finished[d] = {}
+      finished[d]['happy'] = 0
+      finished[d]['neutral'] = 0
+      finished[d]['sad'] = 0
     })
+  }
+
+  d3.select('#chart-4').on('stepin', () => {
+    // Restart on stepin each time
+    clearDisplay()
+    circles.each(startTransition)
+  })
+
+  $('#replay-animation').on('click', function (e) {
+    d3.select('#chart-4').dispatch('stepin')
+  })
+
+
   // Here's where the circle/path mask should go
   // svg.append('text')
   //   .text('Mask on lines or remove margins')

@@ -38,7 +38,6 @@ d3.csv(require('./data/bohemian-notes.csv'))
   .catch(err => console.log('Failed on', err))
 
 function ready(datapoints) {
-  console.log(datapoints)
   // datapoints.push(datapoints[0])
 
   let seconds = datapoints.map(d => d.second)

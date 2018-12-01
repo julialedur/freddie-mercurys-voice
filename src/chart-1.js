@@ -46,9 +46,6 @@ function ready([
   crownCoordinates,
   circleCoordinates
 ]) {
-  console.log(datapoints)
-  console.log(coordinates)
-
   datapoints.forEach((d, i) => {
     d.x = coordinates[i].x
     d.y = coordinates[i].y
