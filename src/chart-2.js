@@ -7,7 +7,7 @@ var files = {
   pianoKeys:
     'https://gist.githubusercontent.com/the-observables/8e7112072ca33e2b131d50904d511c6d/raw/00649cb06625d9783f84128de8085b1a5dcce428/piano-keys.csv',
   vocalRangeData:
-    'https://gist.githubusercontent.com/the-observables/f948fd87e91e517b0416aa31f3fe43e5/raw/03ef5378c1432fb603456eac0bea813ca8e5bf79/vocal-ranges-all.csv'
+    'https://gist.githubusercontent.com/the-observables/f948fd87e91e517b0416aa31f3fe43e5/raw/44da20fcdc62f9f203b61ff08140d43024aed1e0/vocal-ranges-all.csv'
 }
 var promises = []
 
@@ -233,11 +233,14 @@ function ready(data) {
       return idx * padding
     })
     .attr("x", function (d) {
-      return d.source.x + 10
+      return d.source.x + 8
     })
     .attr("opacity", "1")
     .style('font-size', ".8rem")
-    .text(function (d) { return d.low.slice(0,-1) })
+    .text(function (d) {
+      // return d.low.slice(0,-1)
+      return d.low
+    })
     .on('mouseover', low_tip.show)
     .on('mouseout', low_tip.hide)
 
@@ -253,11 +256,14 @@ function ready(data) {
       return idx * padding
     })
     .attr("x", function (d) {
-      return d.target.x - 20
+      return d.target.x - 25
     })
     .attr("opacity", "1")
     .style('font-size', ".8rem")
-    .text(function (d) { return d.high.slice(0, -1) })
+    .text(function (d) {
+      // return d.high.slice(0, -1)
+      return d.high
+    })
     .on('mouseover', high_tip.show)
     .on('mouseout', high_tip.hide)
 
