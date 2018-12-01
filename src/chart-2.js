@@ -4,31 +4,36 @@ import d3Tip from 'd3-tip'
 d3.tip = d3Tip
 
 var files = {
-  'pianoKeys': 'https://gist.githubusercontent.com/the-observables/8e7112072ca33e2b131d50904d511c6d/raw/00649cb06625d9783f84128de8085b1a5dcce428/piano-keys.csv',
-  'vocalRangeData': 'https://gist.githubusercontent.com/the-observables/f948fd87e91e517b0416aa31f3fe43e5/raw/03ef5378c1432fb603456eac0bea813ca8e5bf79/vocal-ranges-all.csv'}
+  pianoKeys:
+    'https://gist.githubusercontent.com/the-observables/8e7112072ca33e2b131d50904d511c6d/raw/00649cb06625d9783f84128de8085b1a5dcce428/piano-keys.csv',
+  vocalRangeData:
+    'https://gist.githubusercontent.com/the-observables/f948fd87e91e517b0416aa31f3fe43e5/raw/03ef5378c1432fb603456eac0bea813ca8e5bf79/vocal-ranges-all.csv'
+}
 var promises = []
 
 Object.keys(files).forEach(function(filename) {
-  promises.push(d3.csv(files[filename], function(d) {
-    if (filename == 'pianoKeys') {
-      return {
-        id: +d.id,
-        key: d.key,
-        set: +d.set,
+  promises.push(
+    d3.csv(files[filename], function(d) {
+      if (filename == 'pianoKeys') {
+        return {
+          id: +d.id,
+          key: d.key,
+          set: +d.set
+        }
+      } else {
+        return {
+          name: d.name,
+          range: d.range,
+          low: d.low,
+          low_song: d['low-song'],
+          low_data: +d['data-low'],
+          high: d.high,
+          high_song: d['high-song'],
+          high_data: +d['data-high']
+        }
       }
-    } else {
-      return {
-        name: d.name,
-        range: d.range,
-        low: d.low,
-        low_song: d["low-song"],
-        low_data: +d["data-low"],
-        high: d.high,
-        high_song: d["high-song"],
-        high_data: +d["data-high"]
-      }
-    }
-  }))
+    })
+  )
 })
 
 Promise.all(promises)
@@ -77,25 +82,34 @@ function ready(data) {
   var idToNode = {}
 
   // modify data
-  pianoKeys.forEach(function (n) {
+  pianoKeys.forEach(function(n) {
     idToNode[n.id] = n
   })
 
-  vocalRangeData.forEach(function (e) {
+  vocalRangeData.forEach(function(e) {
     e.source = idToNode[e.low_data]
     e.target = idToNode[e.high_data]
   })
 
   // Compute x,y coordinates (have a little extra separation when we switch volumes)
-  for (i = 0, j = 0 ; i < pianoKeys.length ; ++i) {
+  for (i = 0, j = 0; i < pianoKeys.length; ++i) {
     node = pianoKeys[i]
-    node.x = j * groupSep + i * (width - 4 * groupSep) / (pianoKeys.length - 1) + 145
+    node.x =
+      j * groupSep + (i * (width - 4 * groupSep)) / (pianoKeys.length - 1) + 145
     node.y = height
   }
 
   // nodeRadius.domain(d3.extent(pianoKeys, function (d) { return d.chapters.length }))
-  nodeRadius.domain(d3.extent(pianoKeys, function (d) { return 2 }))
-  linkWidth.domain(d3.extent(vocalRangeData, function (d) { return 2 }))
+  nodeRadius.domain(
+    d3.extent(pianoKeys, function(d) {
+      return 2
+    })
+  )
+  linkWidth.domain(
+    d3.extent(vocalRangeData, function(d) {
+      return 2
+    })
+  )
   let padding = 42
 
   var low_tip = d3.tip()
@@ -134,32 +148,30 @@ function ready(data) {
     // })
     // rect attr
     .attr('height', '18px')
-    .attr('width', function (d) {
+    .attr('width', function(d) {
       return d.target.x - d.source.x
     })
-    .attr('x', function (d) {
+    .attr('x', function(d) {
       return d.source.x
     })
-    .attr('y', function (d) {
+    .attr('y', function(d) {
       let idx = vocalRangeData.findIndex(x => x.name === d.name)
-      return (idx-.3)*padding
+      return (idx - 0.3) * padding
     })
     // global
-    .attr('name', function (d) {
+    .attr('name', function(d) {
       return d.name
     })
     .attr('class', 'link')
-    .on('mouseover', function (d) {
+    .on('mouseover', function(d) {
       link.style('stroke', null)
       // d3.select(this).style('stroke', '#d62333')
 
       // color piano keys
       let l = pianoKeys.find(x => x.id === parseInt(d.low_data))
       let h = pianoKeys.find(x => x.id === parseInt(d.high_data))
-      d3.selectAll("#key"+l.id)
-        .attr("fill", "rgb(241, 194, 162)")
-      d3.selectAll("#key"+h.id)
-        .attr("fill", "rgb(241, 194, 162)")
+      d3.selectAll('#key' + l.id).attr('fill', 'rgb(241, 194, 162)')
+      d3.selectAll('#key' + h.id).attr('fill', 'rgb(241, 194, 162)')
       // d3.selectAll('.white-key, .black-key')
       //   .attr("fill", function (e) {
       //     let id = d3.select(this).attr('id').slice(3)
@@ -174,49 +186,51 @@ function ready(data) {
       //   return node_d === d.source || node_d === d.target ? 'black' : null
       // })
     })
-    .on('mouseout', function (d) {
+    .on('mouseout', function(d) {
       link.style('stroke', null)
       d3.select(this).style('stroke', null)
       // node.style('fill', null)
       let l = pianoKeys.find(x => x.id === parseInt(d.low_data))
       let h = pianoKeys.find(x => x.id === parseInt(d.high_data))
       if (l.key.length == 1) {
-        d3.selectAll("#key"+l.id)
-          .attr("fill", "white")
+        d3.selectAll('#key' + l.id).attr('fill', 'white')
       } else {
-        d3.selectAll("#key"+l.id)
-          .attr("fill", null)
+        d3.selectAll('#key' + l.id).attr('fill', null)
       }
 
       if (h.key.length == 1) {
-        d3.selectAll("#key"+h.id)
-          .attr("fill", "white")
+        d3.selectAll('#key' + h.id).attr('fill', 'white')
       } else {
-        d3.selectAll("#key"+h.id)
-          .attr("fill", null)
+        d3.selectAll('#key' + h.id).attr('fill', null)
       }
     })
 
   // Append name, low/high keys as siblings
-  link.enter().append('text')
-      .data(vocalRangeData)
-      .attr("dy", function (d) {
-        let idx = vocalRangeData.findIndex(x => x.name === d.name)
-        return (idx) * padding
-      })
-      .attr("dx", "0")
-      .attr("opacity", "1")
-      .style('font-size', "1rem")
-      .text(function (d) { return d.name })
+  link
+    .enter()
+    .append('text')
+    .data(vocalRangeData)
+    .attr('dy', function(d) {
+      let idx = vocalRangeData.findIndex(x => x.name === d.name)
+      return idx * padding
+    })
+    .attr('dx', '0')
+    .attr('opacity', '1')
+    .style('font-size', '1rem')
+    .text(function(d) {
+      return d.name
+    })
 
-  link.enter().append('text')
+  link
+    .enter()
+    .append('text')
     .data(vocalRangeData)
     .attr('class', function (d) {
       return 'range-key-low'
     })
     .attr("y", function (d) {
       let idx = vocalRangeData.findIndex(x => x.name === d.name)
-      return (idx) * padding
+      return idx * padding
     })
     .attr("x", function (d) {
       return d.source.x + 10
@@ -227,14 +241,16 @@ function ready(data) {
     .on('mouseover', low_tip.show)
     .on('mouseout', low_tip.hide)
 
-  link.enter().append('text')
+  link
+    .enter()
+    .append('text')
     .data(vocalRangeData)
     .attr('class', function (d) {
       return 'range-key-high'
     })
     .attr("y", function (d) {
       let idx = vocalRangeData.findIndex(x => x.name === d.name)
-      return (idx) * padding
+      return idx * padding
     })
     .attr("x", function (d) {
       return d.target.x - 20
@@ -272,21 +288,31 @@ function ready(data) {
   //   node.append('title').text(function (d) { return d.name })
 
   // Mouseover effects
-  d3.selectAll(".white-key").on("mouseover", function(d){
-    let id = d3.select(this).attr('id').slice(3)
-    let key = pianoKeys.find(x => x.id === parseInt(id))
-    d3.select(this).attr("fill", "white")
-  }).on("mouseout", function(d){
-    d3.select(this).attr("fill", "white")
-  })
+  d3.selectAll('.white-key')
+    .on('mouseover', function(d) {
+      let id = d3
+        .select(this)
+        .attr('id')
+        .slice(3)
+      let key = pianoKeys.find(x => x.id === parseInt(id))
+      d3.select(this).attr('fill', 'white')
+    })
+    .on('mouseout', function(d) {
+      d3.select(this).attr('fill', 'white')
+    })
 
-  d3.selectAll(".black-key").on("mouseover", function(d){
-    let id = d3.select(this).attr('id').slice(3)
-    let key = pianoKeys.find(x => x.id === parseInt(id))
-    d3.select(this).attr("fill", "black")
-  }).on("mouseout", function(d){
-    d3.select(this).attr("fill", "black")
-  })
+  d3.selectAll('.black-key')
+    .on('mouseover', function(d) {
+      let id = d3
+        .select(this)
+        .attr('id')
+        .slice(3)
+      let key = pianoKeys.find(x => x.id === parseInt(id))
+      d3.select(this).attr('fill', 'black')
+    })
+    .on('mouseout', function(d) {
+      d3.select(this).attr('fill', 'black')
+    })
 
   // Button toggle effects
   $('.chart-2-toggle').on('click', function(e) {
