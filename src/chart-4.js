@@ -53,8 +53,6 @@ d3.csv(require('./data/popularityxvalence.csv'))
   })
 
 function ready(datapoints) {
-  console.log('chart 4 data', datapoints)
-
   var colorScale = d3
     .scaleOrdinal()
     .domain(['sad', 'neutral', 'happy'])

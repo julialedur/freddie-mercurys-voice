@@ -1,4 +1,7 @@
 import * as d3 from 'd3'
+import $ from 'jquery';
+import d3Tip from 'd3-tip'
+d3.tip = d3Tip
 
 var files = {
   'pianoKeys': 'https://gist.githubusercontent.com/the-observables/8e7112072ca33e2b131d50904d511c6d/raw/00649cb06625d9783f84128de8085b1a5dcce428/piano-keys.csv',
@@ -29,6 +32,13 @@ Object.keys(files).forEach(function(filename) {
 })
 
 Promise.all(promises)
+  .then(function (data) {
+    // Color piano keys
+    d3.selectAll(".black-key").attr("fill", "black")
+    d3.selectAll(".white-key").attr("fill", "white")
+
+    return data
+  })
   .then(ready)
   .catch(err => console.log('Failed on', err))
 
@@ -51,17 +61,17 @@ function ready(data) {
   }
 
   var width = 1020 - margin.left - margin.right
-  var height = 375 - margin.top - margin.bottom
+  var height = 325 - margin.top - margin.bottom
 
   var x = d3.scaleLinear().range([0, width])
 
-  // var svgNode = d3.select(DOM.svg(width, height))
-  var svgNode = d3.select('.vocal-range')
+  // var vis = d3.select(DOM.svg(width, height))
+  var vis = d3.select('.vocal-range')
     .attr('class', 'arc')
     .attr('width', width + margin.left + margin.right)
     .attr('height', height + margin.top + margin.bottom)
 
-  var svg = svgNode.append('g')
+  var svg = vis.append('g')
     .attr('transform', 'translate(' + margin.left + ',-' + margin.top + ')')
 
   var idToNode = {}
@@ -88,6 +98,23 @@ function ready(data) {
   linkWidth.domain(d3.extent(vocalRangeData, function (d) { return 2 }))
   let padding = 42
 
+  var low_tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-10, 0])
+    .html(function(d) {
+      return "<span>" + d.low_song + "</span>";
+    })
+
+  var high_tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-10, 0])
+    .html(function(d) {
+      return "<span>" + d.high_song + "</span>";
+    })
+
+  vis.call(low_tip)
+  vis.call(high_tip)
+
   var link = svg.append('g')
     .attr('class', 'links')
     // .selectAll('path')
@@ -95,7 +122,7 @@ function ready(data) {
     .data(vocalRangeData)
 
   // link.enter().append('path')
-  link.enter().append('rect')
+  var bars = link.enter().append('rect')
     // .attr('d', function (d) {
     //   // return ['M', d.source.x, height, 'A',
     //   //   (d.source.x - d.target.x)/2, ',',
@@ -169,16 +196,6 @@ function ready(data) {
           .attr("fill", null)
       }
     })
-  .append('animateTransform')
-    .attr('attributeName', 'transform')
-    .attr('type', 'translate')
-    .attr('dur', '5s')
-    .attr('begin', '0s end+2s')
-    .attr('repeatCount', 'indefinite')
-    .attr('fill', 'freeze')
-    .attr('values', function (d) {
-      return [0,0,0,0,0,-d.source.x+160,-d.source.x+160,-d.source.x+160,-d.source.x+160,-d.source.x+160, 0,0,0,0,0].join(';')
-    })
 
   // Append name, low/high keys as siblings
   link.enter().append('text')
@@ -194,31 +211,39 @@ function ready(data) {
 
   link.enter().append('text')
     .data(vocalRangeData)
-    .attr('class', 'range-key')
-    .attr("dy", function (d) {
+    .attr('class', function (d) {
+      return 'range-key-low'
+    })
+    .attr("y", function (d) {
       let idx = vocalRangeData.findIndex(x => x.name === d.name)
       return (idx) * padding
     })
-    .attr("dx", function (d) {
-      return d.source.x - 25
+    .attr("x", function (d) {
+      return d.source.x + 10
     })
-    .attr("opacity", "0")
-    .style('font-size', ".75rem")
+    .attr("opacity", "1")
+    .style('font-size', ".8rem")
     .text(function (d) { return d.low.slice(0,-1) })
+    .on('mouseover', low_tip.show)
+    .on('mouseout', low_tip.hide)
 
   link.enter().append('text')
     .data(vocalRangeData)
-    .attr('class', 'range-key')
-    .attr("dy", function (d) {
+    .attr('class', function (d) {
+      return 'range-key-high'
+    })
+    .attr("y", function (d) {
       let idx = vocalRangeData.findIndex(x => x.name === d.name)
       return (idx) * padding
     })
-    .attr("dx", function (d) {
-      return d.target.x + 10
+    .attr("x", function (d) {
+      return d.target.x - 20
     })
-    .attr("opacity", "0")
-    .style('font-size', ".75rem")
+    .attr("opacity", "1")
+    .style('font-size', ".8rem")
     .text(function (d) { return d.high.slice(0, -1) })
+    .on('mouseover', high_tip.show)
+    .on('mouseout', high_tip.hide)
 
   //   var node = svg.append('g')
   //     .attr('class', 'nodes')
@@ -263,7 +288,38 @@ function ready(data) {
     d3.select(this).attr("fill", "black")
   })
 
-  // Color piano keys
-  d3.selectAll(".black-key").attr("fill", "black")
-  d3.selectAll(".white-key").attr("fill", "white")
+  // Button toggle effects
+  $('.chart-2-toggle').on('click', function(e) {
+    // Change to default state
+    if ($(this).hasClass('animate')) {
+      $(this).removeClass('animate');
+      $(this).text('Compare Ranges');
+
+      bars
+        .transition()
+        .duration(500)
+        .style('transform', function(d) {
+          console.log(d.source.x)
+          return 'translateX(' + 0 + 'px)'
+        })
+        .on('end', function (e) {
+          $('#piano').css('visibility', 'visible');
+          $('.range-key-low, .range-key-high').show();
+        })
+
+    } else {
+    // Change to animated state
+      $(this).addClass('animate');
+      $(this).text('View Original');
+      $('#piano').css('visibility', 'hidden');
+      $('.range-key-low, .range-key-high').hide();
+
+      bars
+        .transition()
+        .duration(500)
+        .style('transform', function(d) {
+          return 'translateX(' + (-d.source.x+160) + 'px)'
+        })
+    }
+  });
 }

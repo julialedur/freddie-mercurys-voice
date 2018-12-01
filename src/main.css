@@ -149,15 +149,20 @@ h1, h2, h3, h4, h5, span, p {
   stroke: red;
 }
 
-.arc rect[name="Freddie Mercury"] {
-  stroke: #fe6a90 !important;
-  fill: #fe6a90;
-}
-
 .arc text {
   stroke-width: .5;
   font-family: 'Source Sans Pro';
   fill: #feccb1;
+}
+
+.arc .range-key-low, .arc .range-key-high {
+  fill: rgba(26, 8, 70, 0.6);
+  stroke: rgba(26, 8, 70, 0.6);
+}
+
+.arc rect[name="Freddie Mercury"] {
+  stroke: #fe6a90 !important;
+  fill: #fe6a90;
 }
 
 #piano {
@@ -173,4 +178,33 @@ h1, h2, h3, h4, h5, span, p {
 .pale-link a:hover {
   text-decoration: none;
   color: #fe6a90;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: .5rem;
+  font-size: .8rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 3px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: .75rem;
+  width: 100%;
+  line-height: 0.8;
+  color: rgba(0, 0, 0, 0.75);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
 }
