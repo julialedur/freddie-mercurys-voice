@@ -218,3 +218,13 @@ h1, h2, h3, h4, h5, span, p {
   top: 100%;
   left: 0;
 }
+
+.bohemian-button {
+  background: #1a0846;
+  color: #fff;
+  text-align: center;
+  margin-left: 20%;
+  font-family: 'Open Sans', serif;
+  top: 10%;
+  left: 20%;
+} 
