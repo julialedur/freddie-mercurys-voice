@@ -19,10 +19,7 @@ body {
   height: 100%;
   position: relative;
   width: 100%;
-
-  & > div:first-child {
-    overflow-x: hidden;
-  }
+  overflow-x: hidden; // prevent horizontal scroll
 }
 
 h3 {
