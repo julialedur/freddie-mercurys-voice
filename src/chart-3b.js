@@ -79,6 +79,7 @@ function ready(datapoints) {
         .attr('cy', 0)
 
       svg
+        // .selectAll('#button-song')
         .append('text')
         .text(d => d.key)
         .attr('x', xPositionScale(d.songs))

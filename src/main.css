@@ -1,3 +1,7 @@
+/* .container {
+  max-width:70rem
+} */
+
 svg {
   margin: 0 auto;
 }
@@ -8,6 +12,25 @@ svg {
 
 h1 {
   margin-bottom: 2rem;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  margin-bottom: 2rem;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h5 {
+  margin-bottom: 2rem;
+  font-size: 12px;
+  line-height: 20px;
 }
 
 body {
@@ -216,12 +239,46 @@ h1, h2, h3, h4, h5, span, p {
   left: 0;
 }
 
-.bohemian-button {
+.button-song {
   background: #1a0846;
   color: #fff;
   text-align: center;
   margin-left: 20%;
   font-family: 'Open Sans', serif;
-  top: 10%;
-  left: 20%;
 } 
+
+/* #bohemian-rhapsody {
+  position:relative;
+  transition: .5s ease;
+  top: 440px;
+  left: -180px;
+  right: -700px;
+  bottom: -50px;
+}
+
+#somebody {
+  position:relative;
+  transition: .5s ease;
+  top: 440px;
+  left: -300px;
+  right: -700px;
+  bottom: -50px;
+}
+
+#under-pressure {
+  position:relative;
+  transition: .5s ease;
+  top: 400px;
+  left: 275px;
+  right: -700px;
+  bottom: -50px;
+}
+
+#another-one {
+  position:relative;
+  transition: .5s ease;
+  top: 400px;
+  left: 190px;
+  right: -700px;
+  bottom: -50px;
+} */

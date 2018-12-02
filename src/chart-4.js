@@ -254,7 +254,7 @@ function ready(datapoints) {
     circles.each(startTransition)
   })
 
-  $('#replay-animation').on('click', function(e) {
+  $('#replay-animation').on('click', function() {
     d3.select('#chart-4').dispatch('stepin')
   })
 
