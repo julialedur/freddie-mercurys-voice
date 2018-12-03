@@ -1,7 +1,3 @@
-/* .container {
-  max-width:70rem
-} */
-
 svg {
   margin: 0 auto;
 }
@@ -12,44 +8,6 @@ svg {
 
 h1 {
   margin-bottom: 2rem;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 10px;
-  line-height: 0.3cm;
-}
-
-h2 {
-  margin-bottom: 2rem;
-  text-align: center;
-  font-size: 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-}
-
-h3 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 10px;
-  margin-bottom: 2rem;
-  text-align: center;
-  margin-top: 3rem;
-}
-
-h4 {
-  margin-bottom: 2rem;
-  font-size: 15px;
-  line-height: 20px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-h5 {
-  margin-bottom: 2rem;
-  font-size: 12px;
-  line-height: 20px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -59,7 +17,11 @@ body {
   position: relative;
   width: 100%;
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 img.block {
@@ -160,9 +122,8 @@ img.block {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-p {
-  font-family: 'Open Sans', serif;
-  font-weight: 300;
+h1, h2, h3, h4, h5, span, p {
+  font-family: 'Segoe UI', Helvetica, sans-serif;
 }
 
 #chart-2-container {
@@ -197,7 +158,7 @@ p {
 
 .arc text {
   stroke-width: .5;
-  font-family: 'Open Sans', serif;
+  font-family: 'Source Sans Pro';
   fill: #feccb1;
 }
 
@@ -255,45 +216,13 @@ p {
   left: 0;
 }
 
+#replay-animation {
+  visibility: hidden;
+}
+
 .button-song {
   background: #1a0846;
   color: #fff;
   text-align: center;
   font-family: 'Open Sans', serif;
-} 
-
-/* #bohemian-rhapsody {
-  position:relative;
-  transition: .5s ease;
-  top: 440px;
-  left: -180px;
-  right: -700px;
-  bottom: -50px;
 }
-
-#somebody {
-  position:relative;
-  transition: .5s ease;
-  top: 440px;
-  left: -300px;
-  right: -700px;
-  bottom: -50px;
-}
-
-#under-pressure {
-  position:relative;
-  transition: .5s ease;
-  top: 400px;
-  left: 275px;
-  right: -700px;
-  bottom: -50px;
-}
-
-#another-one {
-  position:relative;
-  transition: .5s ease;
-  top: 400px;
-  left: 190px;
-  right: -700px;
-  bottom: -50px;
-} */
