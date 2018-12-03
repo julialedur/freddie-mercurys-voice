@@ -1,0 +1,300 @@
+/* .container {
+  max-width:70rem
+} */
+
+svg {
+  margin: 0 auto;
+}
+
+#chart-1 svg {
+  display: block;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 10px;
+  line-height: 0.3cm;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 10px;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+h4 {
+  margin-bottom: 2rem;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+  margin-bottom: 2rem;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #1a0846;
+  color: #fff;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img.block {
+  display: block;
+  border: solid #333 1p;
+  margin: 0 auto;
+}
+
+.axis line, .axis path {
+  stroke-width: 0.5;
+  stroke: #999;
+}
+
+#chart-2 svg, #chart-3 svg, #chart-4 svg, #chart-6 svg {
+  display: block;
+  margin: 0 auto;
+}
+
+#total {
+  font-size: 1.5rem;
+  padding: .1rem .25rem;
+  background: #fff;
+  border-radius: .25rem;
+  color: #1a0846;
+}
+
+.pop-text {
+  overflow: auto;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Set the sticky things 2% from the top */
+.sticky {
+  top: 10%;
+  align-self: flex-start;
+}
+
+/* Minimum height of 70% of the screen */
+.step {
+  min-height: 75vh;
+}
+
+.step > p {
+  background: #3a10a5;
+  padding: 10px 0;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+.step > ul, .step > h2, .step > h3 {
+  background: #1a0846;
+}
+
+.overlay-intro {
+  background: linear-gradient(to top, #1a0846, rgba(99, 26, 115, 0.5), rgba(255, 143, 135, 0.3));
+}
+
+.overlay {
+  background: linear-gradient(to bottom, #1a0846, rgba(99, 26, 115, 0.8), rgba(255, 143, 135, 0.7));
+}
+
+.credits {
+  background: linear-gradient(0deg, #1A0846, #631A73, #FF8F87), url("https://www.oulunylioppilaslehti.fi/wp-content/uploads/2018/11/bohemianrhapsody_pressi10.jpg");
+  background-size: cover;
+}
+
+.header {
+  width: 100%;
+  padding-top: 6rem;
+  top: 0;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  padding: 4rem 0;
+}
+
+.opaque {
+  background-color: #021756;
+}
+
+.dark-blue {
+  background-color: #11568d;
+}
+
+.gradient-1 {
+  background-image: rgba(2, 23, 86, 0.7);
+  /* Old browsers */
+  background-image: -webkit-linear-gradient(-45deg, rgba(2, 23, 86, 0.7) 15%, rgba(25, 63, 248, 0.7) 50%, rgba(70, 55, 238, 0.7) 95%);
+  /* Chrome10-25,Safari5.1-6 */
+  background-image: linear-gradient(135deg, rgba(2, 23, 86, 0.7) 15%, rgba(25, 63, 248, 0.7) 50%, rgba(70, 55, 238, 0.7) 95%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+p {
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
+}
+
+#chart-2-container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#piano {
+  margin-left: 160px;
+}
+
+.range {
+  background: linear-gradient(135deg, #1A0846 15%, #2C007D 50%, rgba(70, 55, 238, 0.5) 95%), url("https://worshiphousemedia.s3.amazonaws.com/images/main/s/mo/pow/mo/stageconcertlights.jpg");
+  background-size: cover;
+}
+
+.arc {
+  fill: none;
+  stroke-width: 2;
+  stroke: #fff;
+  overflow: visible !important;
+}
+
+.arc rect {
+  fill: white;
+}
+
+.arc circle {
+  fill: red;
+  stroke: red;
+}
+
+.arc text {
+  stroke-width: .5;
+  font-family: 'Open Sans', serif;
+  fill: #feccb1;
+}
+
+.arc .range-key-low, .arc .range-key-high {
+  fill: rgba(26, 8, 70, 0.6);
+  stroke: rgba(26, 8, 70, 0.6);
+}
+
+.arc rect[name="Freddie Mercury"] {
+  stroke: #fe6a90 !important;
+  fill: #fe6a90;
+}
+
+#piano {
+  background-color: #021756;
+}
+
+.pale-link a {
+  color: #fbcdb0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pale-link a:hover {
+  text-decoration: none;
+  color: #fe6a90;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: .5rem;
+  font-size: .8rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 3px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: .75rem;
+  width: 100%;
+  line-height: 0.8;
+  color: rgba(0, 0, 0, 0.75);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.button-song {
+  background: #1a0846;
+  color: #fff;
+  text-align: center;
+  margin-left: 20%;
+  font-family: 'Open Sans', serif;
+} 
+
+/* #bohemian-rhapsody {
+  position:relative;
+  transition: .5s ease;
+  top: 440px;
+  left: -180px;
+  right: -700px;
+  bottom: -50px;
+}
+
+#somebody {
+  position:relative;
+  transition: .5s ease;
+  top: 440px;
+  left: -300px;
+  right: -700px;
+  bottom: -50px;
+}
+
+#under-pressure {
+  position:relative;
+  transition: .5s ease;
+  top: 400px;
+  left: 275px;
+  right: -700px;
+  bottom: -50px;
+}
+
+#another-one {
+  position:relative;
+  transition: .5s ease;
+  top: 400px;
+  left: 190px;
+  right: -700px;
+  bottom: -50px;
+} */

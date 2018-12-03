@@ -249,13 +249,16 @@ function ready(datapoints) {
   }
 
   d3.select('#chart-4').on('stepin', () => {
+    // delay for chart animation
     // Restart on stepin each time
     clearDisplay()
     circles.each(startTransition)
   })
 
-  $('#replay-animation').on('click', function() {
-    d3.select('#chart-4').dispatch('stepin')
+  $('#replay-animation').on('click', function (e) {
+    setTimeout(function() {
+      d3.select('#chart-4').dispatch('stepin')
+    }, 300)
   })
 
   // Here's where the circle/path mask should go
