@@ -5,9 +5,21 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
+    <!-- Music Files-->
+    <audio id="song_another-one-bites-the-dust" src="/freddie-mercurys-voice/AnotherOneBitesTheDust.a102fa28.mp3"></audio>
+    <audio id="song_crazy-little-thing-called-love" src="/freddie-mercurys-voice/CrazyLittleThingCalledLove.a143e446.mp3"></audio>
+    <audio id="song_dont-stop-me-now" src="/freddie-mercurys-voice/DontStopMeNow.1857bab3.mp3"></audio>
+    <audio id="song_i-want-to-break-free" src="/freddie-mercurys-voice/IWantToBreakFree.e408ef0d.mp3"></audio>
+    <audio id="song_radio-ga-ga" src="/freddie-mercurys-voice/RadioGaGa.07d41d99.mp3"></audio>
+    <audio id="song_somebody-to-love" src="/freddie-mercurys-voice/SomebodyToLove.0eb3dc8c.mp3"></audio>
+    <audio id="song_under-pressure" src="/freddie-mercurys-voice/UnderPressure.3e363089.mp3"></audio>
+    <audio id="song_we-are-the-champions" src="/freddie-mercurys-voice/WeAreTheChampions.c7e74ae7.mp3"></audio>
+    <audio id="song_we-will-rock-you" src="/freddie-mercurys-voice/WeWillRockYou.213381e1.mp3"></audio>
+    <audio id="song_bohemian-rhapsody" src="/freddie-mercurys-voice/BohemianRhapsody.3a26356b.mp3"></audio>
 
-    <link rel="stylesheet" href="/freddie-mercurys-voice/main.118c082c.css">
-  <script src="/freddie-mercurys-voice/main.118c082c.js"></script></head>
+
+    <link rel="stylesheet" href="/freddie-mercurys-voice/main.69f98401.css">
+  <script src="/freddie-mercurys-voice/main.69f98401.js"></script></head>
 
 
 <body>
@@ -216,12 +228,13 @@ We also investigate how much more powerful his voice is compared to other great 
     <br><br>
     <h2>Small multiples pitch</h2>
     <div class="offset-2 col-8">
-    <p class="lead" align="center">Some short description here</p>
+    <p class="lead" align="center">Press buttons to hear songs and see animation</p>
+    <p class="lead" align="center">Add pause button + animate button</p>
     <!-- <p>Dataset is <code>data/top-songs-pitch.csv</code>. (File is chart-3b.js)<br>
     We will probably need to apply a log scale<br> -->
     <p></p>
   </div>
-    <button type="button" id="bohemian-rhapsody" class="button-song btn btn-outline-light btn-sm">Bohemian Rhapsody</button>
+    <!-- <button type="button" id="bohemian-rhapsody" class="button-song btn btn-outline-light btn-sm">Bohemian Rhapsody</button>
     <button type="button" id="somebody-to-love" class="button-song btn btn-outline-light btn-sm">Somebody To Love</button>
     <button type="button" id="under-pressure" class="button-song btn btn-outline-light btn-sm">Under Pressure</button>
     <button type="button" id="another-one-bites-the-dust" class="button-song btn btn-outline-light btn-sm">Another One<br>Bites The Dust</button>
@@ -230,7 +243,7 @@ We also investigate how much more powerful his voice is compared to other great 
     <button type="button" id="i-want-to-break-free" class="button-song btn btn-outline-light btn-sm">I Want To Break Free</button>
     <button type="button" id="radio-ga-ga" class="button-song btn btn-outline-light btn-sm">Radio Ga Ga</button>
     <button type="button" id="we-are-the-champions" class="button-song btn btn-outline-light btn-sm">We Are The Champions</button>
-    <button type="button" id="we-will-rock-you" class="button-song btn btn-outline-light btn-sm">We Will Rock You</button>
+    <button type="button" id="we-will-rock-you" class="button-song btn btn-outline-light btn-sm">We Will Rock You</button> -->
 
     <div id="chart-3b"></div><br><br>
 
@@ -239,8 +252,8 @@ We also investigate how much more powerful his voice is compared to other great 
       <br><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br><br><br>
       </div>
-      </div>
 
+    
     <h2>Chart 4: valence vs. popularity</h2>
     <!-- <p>Dataset is <code>data/popularityxvalence.csv</code> (This file is chart-3.js).<br>
     I still need to fix the last counter that is not working and create a button to start the animation.</p><br> -->
@@ -254,8 +267,9 @@ We also investigate how much more powerful his voice is compared to other great 
     <div class="offset-1 col-lg-3 sticky" id="chart-4">
     </div>
     </div>
+  </div>
   
-  
+
 
   <div class="container">
       <div class="offset-2 col-8">
@@ -267,10 +281,10 @@ We also investigate how much more powerful his voice is compared to other great 
   <!-- Now we include our actual visualization -->
   <!-- <script src="https://d3js.org/d3-queue.v3.min.js"></script> -->
   <script src="/freddie-mercurys-voice/chart-1.bfb10658.js"></script>
-  <script src="/freddie-mercurys-voice/chart-2.6bda8337.js"></script>
+  <script src="/freddie-mercurys-voice/chart-2.6258f119.js"></script>
   <!-- <script src="chart-3.js"></script> -->
-  <script src="/freddie-mercurys-voice/chart-3b.7b1894d2.js"></script>
-  <script src="/freddie-mercurys-voice/chart-4.5100d3a9.js"></script>
+  <script src="/freddie-mercurys-voice/chart-3b.064e8e79.js"></script>
+  <script src="/freddie-mercurys-voice/chart-4.d0ade8c2.js"></script>
   <script src="/freddie-mercurys-voice/scrollytelling.73b66d20.js"></script>
 </body>
 <div class="footer overlay pale-link">

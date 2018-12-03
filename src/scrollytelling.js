@@ -40,13 +40,13 @@ enterView(
 enterView(
   {
     selector: '#chart-4',
-    offset: 0.7,
+    offset: 0.5,
     enter: function(element) {
       // delay step in for x seconds
       setTimeout(function() {
         element.classList.add('entered')
         d3.select(element).dispatch('stepin')
-      }, 1500)
+      }, 500)
     },
     once: true // enter just once
   }

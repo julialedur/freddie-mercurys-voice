@@ -187,6 +187,7 @@ function ready(datapoints) {
   })
   // They need a little wiggle so they don't all overlap
   // And how long should the circle wait before it starts moving?
+  // record maxDelay
   datapoints.forEach(d => {
     d._offsetX = Math.random() * bandSize - bandSize / 2
     d._offsetY = Math.random() * bandSize - bandSize / 2
@@ -196,6 +197,9 @@ function ready(datapoints) {
   // that group is the x/y offset (the wiggle)
   // then add a circle inside of that which will
   // follow the path (the offset makes it not quite)
+
+  var replayDelay = 0
+  datapoints.forEach(d => replayDelay = Math.max(replayDelay, d._delay))
 
   // Starts transition for a circle
   function startTransition(d) {
@@ -218,6 +222,7 @@ function ready(datapoints) {
       circle = circle.transition().attr('transform', `translate(${point})`)
       return point[0] + d._offsetX < width
     })
+
     // Once we're at the end, update the totals and restart
     circle.on('end', function(d) {
       // Don't need to wait to start next time
@@ -225,6 +230,10 @@ function ready(datapoints) {
       updateTotals.apply(this, arguments) // makes the counter work
       // startTransition.apply(this, arguments) // makes the animation restart
     })
+
+    setTimeout(function () {
+      $('#replay-animation').css('visibility', 'visible') // by default hide the replay button
+    }, replayDelay)
   }
 
   var circles = holder
@@ -256,6 +265,7 @@ function ready(datapoints) {
   })
 
   $('#replay-animation').on('click', function (e) {
+    $('#replay-animation').css('visibility', 'hidden') // by default hide the replay button
     setTimeout(function() {
       d3.select('#chart-4').dispatch('stepin')
     }, 300)
