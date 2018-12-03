@@ -233,7 +233,7 @@ function ready(data) {
       return idx * padding
     })
     .attr("x", function (d) {
-      return d.source.x + 8
+      return d.source.x + 10
     })
     .attr("opacity", "1")
     .style('font-size', ".8rem")
@@ -257,7 +257,7 @@ function ready(data) {
     })
     .attr("x", function (d) {
       console.log(d.high.length)
-      return d.target.x - 12 - 5*(d.high.length)
+      return d.target.x - 10*(d.high.length)
     })
     .attr("opacity", "1")
     .style('font-size', ".8rem")
