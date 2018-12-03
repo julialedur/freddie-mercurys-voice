@@ -45,6 +45,10 @@ function ready(datapoints) {
     data.seconds = data.values.map(d => d.second)
   })
 
+  //dictionary to connectButton to SVG element
+  let buttonToSVG = {}
+
+
   holder
     .selectAll('.graph')
     .data(nested)
@@ -68,6 +72,13 @@ function ready(datapoints) {
         .attr('class', 'button-song btn btn-outline-light btn-sm')
         .attr('id', d.key.replace(/ /g, '-').toLowerCase())
         .text(d.key)
+
+    let songButtonID = d.key.replace(/ /g, '-').toLowerCase()
+    let songButton = document.getElementById(songButtonID)
+    buttonToSVG[songButton] = svg
+
+
+
       console.log('build')
       console.log(d)
       angleScale.domain(d.seconds)
@@ -112,28 +123,61 @@ function ready(datapoints) {
 
     buttons.forEach(function(song_button) {
       console.log('yo!')
-      console.log(song_button.id)
-      let song_button_id = song_button.id
+      //console.log(song_button.id)
+      //let song_button_id = song_button.id
 
       // should do a wait before this ting plays
-      loadSongByButtonID(song_button_id)
+      loadSongByButton(song_button)
 
       song_button.addEventListener('click', function() {
         console.log('cliiicked!')
-        console.log(song_button_id)
-        songButtonPressed(song_button_id)
+        songButtonPressed(song_button)
       })
     })
 
+
     var songIsPlaying = false
     var currentSong = null
+    var volumeOn = false
 
-    function animateSVG() {
+    var svgIsAnimated = false
+    var currentSVG = null
+    var animateAllowed = true
+
+    function animateSVG(button) {
       console.log('animateSVG')
+
+      var svgToAnimate = getSVGtoAnimate(button)
+
+      if(animateAllowed){
+        
+
+        if (svgIsAnimated){
+        //stop animating current
+        //find proper svg to animate
+
+        //update currentSVG
+        currentSVG = svgToAnimate
+
+        //animate currentSVG
+
+
+
+        } else {
+        //find proper svg to animate
+        //update currentSVG
+        //animate currentSVG
+
+        }
+      }
     }
 
     function playSong(song) {
       console.log('play that funky music: ' + song.id)
+      if(volumeOn){
+        //do something
+      }
+
       if (songIsPlaying) {
         currentSong.pause()
         currentSong.currentTime = 0
@@ -146,20 +190,46 @@ function ready(datapoints) {
       }
     }
 
-    function songButtonPressed(song_button_id) {
-      let song = loadSongByButtonID(song_button_id)
+    function songButtonPressed(song_button) {
+      let song = loadSongByButton(song_button)
       playSong(song)
-      animateSVG()
+      animateSVG(song_button)
+    }
+
+    function getSVGtoAnimate(button){
+      return buttonToSVG[button]
+
     }
 
     // load songs
-    function loadSongByButtonID(song_button_id) {
-      let songID = 'song_' + song_button_id
+    function loadSongByButton(song_button) {
+      let songID = 'song_' + song_button.id
       console.log(songID)
       let song = document.getElementById(songID)
       console.log(song)
       return song
     }
   }
+
+
   clickButton()
+
+  let svg_div = document.getElementById("chart-3b")
+  let radialArrays = svg_div.querySelectorAll("svg")
+  console.log(radialArrays)
+
+  let gPaths = svg_div.querySelectorAll("g")
+  console.log(gPaths)
+
+  console.log (radialArrays[1])
+
+  console.log(buttonToSVG)
+
+  
+
+
+
+
+
+
 }
