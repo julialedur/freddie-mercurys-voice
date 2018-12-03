@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 import $ from 'jquery'
 
-var margin = { top: 25, left: 100, right: 150, bottom: 0 }
+var margin = { top: 25, left: 100, right: 170, bottom: 0 }
 var width = 800 - margin.left - margin.right
 var height = 400 - margin.top - margin.bottom
 // Circle options
