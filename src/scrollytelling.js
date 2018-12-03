@@ -46,7 +46,7 @@ enterView(
       setTimeout(function() {
         element.classList.add('entered')
         d3.select(element).dispatch('stepin')
-      }, 2500)
+      }, 1500)
     },
     once: true // enter just once
   }
