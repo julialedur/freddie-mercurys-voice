@@ -2,7 +2,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./main.css">
   </head>
 </head>
@@ -17,19 +20,26 @@
 </div>
 
 <div class="container">
-  <h1 class="display-4">Freddie Mercury's voice visualized</h1>
-  <p class="lead"><b>Freddie Mercury</b>, British singer-songwriter and lead vocalist of rock band <b>Queen</b>, defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. With timeless hits like <i>Bohemian Rhapsody</i> and <i>Don't Stop Me Now</i>, his unique stage presence and four-octave vocal range has left a resounding legacy that provokes and inspires listeners and musicians alike.</p>
-<p class="lead">We will explore various dimensions of Freddie Mercury's songs using audio analysis. We hypothesize that there exists a correlation between features of his songs and song popularity.
-We also investigate how much more powerful his voice is compared to other great vocalists.</p>
+  <div class="row mt-6">
+    <div class="offset-2 col-8">
+      <br><h1><br><div style="font-size:55px; letter-spacing: 3; font-weight: 900; line-height: 1.6cm">FREDDIE<br>MERCURY'S</div><br><div style="font-weight:400;">VOICE VISUALIZED</div></h1><br><br>
+  <p>Freddie Mercury, British singer-songwriter and lead vocalist of rock band <b>Queen</b>, defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. With timeless hits like <i>Bohemian Rhapsody</i> and <i>Don't Stop Me Now</i>, his unique stage presence and four-octave vocal range has left a resounding legacy that provokes and inspires listeners and musicians alike.</p>
+  <p>We will explore various dimensions of Freddie Mercury's songs using audio analysis. We hypothesize that there exists a correlation between features of his songs and song popularity.
+We also investigate how much more powerful his voice is compared to other great vocalists.</p><br>
 </div>
+
 
 <div class="container">
   <div class="row">
     <div class="col-12">
       <div class="row mt-5">
           <div class="col-lg-12">
-                <h3>Chart 1: Dots and scrollytelling</h3>
-                <p>I'm still going to change the shapes and the text of the steps. This is just an example. If you have ideas of what might be cool to put here, let me know! :)</p>
+            <h2>Dots and scrollytelling</h2>
+
+              <div class="offset-2 col-8">
+              <p class="lead" align="center">Some short description here</p>
+              <p>I'm still going to change the shapes and the text of the steps. This is just an example. If you have ideas of what might be cool to put here, let me know! :)</p>
+            </div>
           <div class="offset-4 col-lg-3 sticky">
             <div id="chart-1"></div>
           </div>
@@ -54,12 +64,24 @@ We also investigate how much more powerful his voice is compared to other great 
   </div>
 </div>
 
+<div class="container">
+    <div class="offset-2 col-8">
+<br><p>One of <b>Freddie Mercury</b>'s greatest claims to fame is his four-octave vocal range. A 2016 study concluded was that Mercury's vocal cords moved faster than the average person's. "While a typical vibrato will fluctuate between 5.4 Hz and 6.9 Hz, Mercury’s was 7.04 Hz," Consequence of Sound reported.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+  </div>
+</div>
+
 <!-- Vocal Range Chart -->
-<div class="range" style="position:relative;width:100%;overflow:hidden;padding-top:3rem;">
+<div style="position:relative;width:100%;overflow:hidden;padding-top:3rem;">
   <div class="container">
-    <h1 class="display-4">A Range Unlike Others</h1>
-    <p class="lead">One of <b>Freddie Mercury</b>'s greatest claims to fame is his four-octave vocal range. A 2016 study concluded was that Mercury's vocal cords moved faster than the average person's. "While a typical vibrato will fluctuate between 5.4 Hz and 6.9 Hz, Mercury’s was 7.04 Hz," Consequence of Sound reported.</p>
-    <p class="font-italic">Hover over each vocalist's range to see the corresponding low and high piano keys. <br />Hover over a note to see the song where a vocalist reached a note.<button type="button" class="btn btn-outline-light btn-sm chart-2-toggle float-right">Compare Ranges</button></p>
+    <h2>A Range Unlike Others</h2>
+
+    <div class="offset-2 col-8">
+    <p class="lead" align="center">Some short description here</p>
+
+    <p class="font-italic">Hover over each vocalist's range to see the corresponding low and high piano keys.<br>Hover over a note to see the song where a vocalist reached a note.<br><br>
+    </div>
+
+      <button type="button" class="btn btn-outline-light btn-sm chart-2-toggle float-right">Compare Ranges</button></p>
     <div class="bg-clear" id="chart-2-container">
       <svg class="vocal-range" id="chart-2"></svg>
       <svg version="1.1" id="piano" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024.7 74.4" enable-background="new 0 0 1024.7 74.4" xml:space="preserve" style="display: inline;">
@@ -174,69 +196,103 @@ We also investigate how much more powerful his voice is compared to other great 
     </div>
   </div>
 </div>
-
+</div>
 <!-- Song Chart -->
 <div class="container">
-    <h3>Chart 1: a test to see how the data looks like (Bohemian Rhapsody).
+    <div class="offset-2 col-8">
+<br><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  </div><br><br>
+    <!-- <h3>Chart 1: a test to see how the data looks like (Bohemian Rhapsody).
     </h3>
     <p>Dataset is <code>data/bohemian-notes.csv</code>(This file is chart-3.js)<br>
-    <div id="chart-3"></div><br><br>
+    <div id="chart-3"></div><br><br> -->
 
-
-    <h3>Chart 2: Small multiples of Chart 1</h3>
-    <p>Dataset is <code>data/top-songs-pitch.csv</code>. (File is chart-3b.js)<br>
-    We will probably need to:<br>
-    - put 5 radials in each row<br>
-    - apply a log scale<br>
-    - do something so that the angleScale of each small multiple reflects the duration of that specific song.</p>
+    <br><br>
+    <h2>Small multiples pitch</h2>
+    <div class="offset-2 col-8">
+    <p class="lead" align="center">Some short description here</p>
+    <!-- <p>Dataset is <code>data/top-songs-pitch.csv</code>. (File is chart-3b.js)<br>
+    We will probably need to apply a log scale<br> -->
     </p>
+  </div>
+    <button type="button" id="bohemian-rhapsody" class="button-song btn btn-outline-light btn-sm">Bohemian Rhapsody</button>
+    <button type="button" id="somebody-to-love" class="button-song btn btn-outline-light btn-sm">Somebody To Love</button>
+    <button type="button" id="under-pressure" class="button-song btn btn-outline-light btn-sm">Under Pressure</button>
+    <button type="button" id="another-one-bites-the-dust" class="button-song btn btn-outline-light btn-sm">Another One<br>Bites The Dust</button>
+    <button type="button" id="crazy-little-thing-called-love" class="button-song btn btn-outline-light btn-sm">Crazy Little Thing<br>Called Love</button>
+    <button type="button" id="dont-stop-me-now" class="button-song btn btn-outline-light btn-sm">Don't Stop Me Now</button>
+    <button type="button" id="i-want-to-break-free" class="button-song btn btn-outline-light btn-sm">I Want To Break Free</button>
+    <button type="button" id="radio-ga-ga" class="button-song btn btn-outline-light btn-sm">Radio Ga Ga</button>
+    <button type="button" id="we-are-the-champions" class="button-song btn btn-outline-light btn-sm">We Are The Champions</button>
+    <button type="button" id="we-will-rock-you" class="button-song btn btn-outline-light btn-sm">We Will Rock You</button>
+
     <div id="chart-3b"></div><br><br>
 
-    <h3>Chart 4: valence vs. popularity</h3>
-    <p>Dataset is <code>data/popularityxvalence.csv</code> (This file is chart-3.js).<br>
-    I still need to fix the last counter that is not working and create a button to start the animation.</p>
+    <div class="container">
+        <div class="offset-2 col-8">
+      <br><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br><br><br>
+      </div>
+      </div>
+
+    <h2>Chart 4: valence vs. popularity</h2>
+    <!-- <p>Dataset is <code>data/popularityxvalence.csv</code> (This file is chart-3.js).<br>
+    I still need to fix the last counter that is not working and create a button to start the animation.</p><br> -->
 
     <button type="button" id="replay-animation" class="btn btn-outline-light btn-sm float-right">Replay</button>
     <p class="text-center pop-text">
       </span>Popularity of <strong><span id="total">0</span></strong> Queen songs by positiveness:
       <br />
-      how popular are <span style="color: #035DFC; font-weight: bold">sad</span>, <span style="color: #FA0DE5; font-weight: bold">neutral</span> and <span style="color: #FFC75C; font-weight: bold">happy</span> tracks?
-    </p>
+      how popular are <span style="color: #FFC75C; font-weight: bold">happy</span>, <span style="color: #FA0DE5; font-weight: bold">neutral</span> and <span style="color: #035DFC; font-weight: bold">sad</span> tracks?
+    </p><br>
     <div class="offset-1 col-lg-3 sticky" id="chart-4">
     </div>
     </div>
   </div>
   </div>
 
+  <div class="container">
+      <div class="offset-2 col-8">
+  <br><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+  </div>
+</div>
+
+
   <!-- Now we include our actual visualization -->
   <!-- <script src="https://d3js.org/d3-queue.v3.min.js"></script> -->
   <script src="chart-1.js"></script>
   <script src="chart-2.js"></script>
-  <script src="chart-3.js"></script>
+  <!-- <script src="chart-3.js"></script> -->
   <script src="chart-3b.js"></script>
   <script src="chart-4.js"></script>
   <script src="scrollytelling.js"></script>
 </body>
 <div class="footer overlay pale-link">
     <div class="container bg-clear">
-      <h1 class="display-4" style="text-align:left;">Credits</h1>
-      <h2 class="lead">Team</h2>
-      <ul>
-        <li>Julia Ledur (jlg2263)</li>
-        <li>Ivy Chen (ic2389)</li>
-        <li>Natachi Mez (nm2881)</li>
-        <li>Fei-Tzin Lee (fl2301)</li>
-      </ul>
+        <div class="offset-1 col-10">
+      <!-- <h1 class="display-4" style="text-align:left;">Credits</h1> -->
+      <!-- <h2 class="lead">Team</h2> -->
+      <h4><br><br><br><br><ul><p><strong>Team</strong>: Júlia Ledur, Ivy Chen, Natachi Mez, Fei-Tzin Lee</p></ul>
 
-      <h2 class="lead">References</h2>
+        <!-- <li>Júlia Ledur</li>
+        <li>Ivy Chen</li>
+        <li>Natachi Mez</li>
+        <li>Fei-Tzin Lee</li> -->
+
+      <!-- <h2 class="lead">Sources:</h2> -->
       <ul>
-        <li>
-          <a href="https://www.youtube.com/watch?v=N0dbGGvsjf8">Freddie Mercury Performing Bohemian Rhapsody Live</a>
-        </li>
-        <li>
+        <p><strong>Sources:</strong> <a href="https://developer.spotify.com/">Spotify API</a>, <a href="https://github.com/aubio/aubio">aubio</a>, <a href="https://www.youtube.com/watch?v=N0dbGGvsjf8">Youtube</a>.<br><br></h4>
+
+        <ul><h5><strong>Methodology</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></h5></ul>
+
+
+          <!-- <li>
           <a href="http://mentalfloss.com/article/22465/facts-about-freddie-mercury">Facts About Freddie Mercury</a>
-        </li>
+        </li> -->
       </ul>
+      </div>
     </div>
 </div>
 </html>

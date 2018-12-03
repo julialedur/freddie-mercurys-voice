@@ -15,8 +15,8 @@ var sortingTarget = sortingPoint + 100
 var curveType = d3.curveMonotoneX
 var bandSize = 50
 // Timing options
-var speed = 4
-var maxInitialDelay = 5000
+var speed = 2
+var maxInitialDelay = 8000
 var svg = d3
   .select('#chart-4')
   .append('svg')
@@ -260,7 +260,6 @@ function ready(datapoints) {
       d3.select('#chart-4').dispatch('stepin')
     }, 300)
   })
-
 
   // Here's where the circle/path mask should go
   // svg.append('text')
