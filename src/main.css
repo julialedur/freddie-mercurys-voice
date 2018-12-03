@@ -13,24 +13,43 @@ svg {
 h1 {
   margin-bottom: 2rem;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 10px;
+  line-height: 0.3cm;
 }
 
 h2 {
   margin-bottom: 2rem;
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 10px;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 3rem;
 }
 
 h4 {
   margin-bottom: 2rem;
   font-size: 15px;
   line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h5 {
   margin-bottom: 2rem;
   font-size: 12px;
   line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -40,11 +59,7 @@ body {
   position: relative;
   width: 100%;
   overflow-x: hidden;
-}
-
-h3 {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 img.block {
@@ -145,8 +160,9 @@ img.block {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-h1, h2, h3, h4, h5, span, p {
-  font-family: 'Segoe UI', Helvetica, sans-serif;
+p {
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
 }
 
 #chart-2-container {
@@ -181,7 +197,7 @@ h1, h2, h3, h4, h5, span, p {
 
 .arc text {
   stroke-width: .5;
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans', serif;
   fill: #feccb1;
 }
 
