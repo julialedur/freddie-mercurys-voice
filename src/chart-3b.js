@@ -89,4 +89,69 @@ function ready(datapoints) {
         .attr('text-anchor', 'middle')
         .attr('alignment-baseline', 'center')
     })
+
+    //array of buttons
+    let buttons = document.getElementsByClassName('button-song btn btn-outline-light btn-sm')
+    HTMLCollection.prototype.forEach = Array.prototype.forEach
+    
+    buttons.forEach(function(song_button){
+      console.log("yo!")
+      console.log(song_button.id)
+      let song_button_id = song_button.id
+
+      //should do a wait before this ting plays
+      loadSongByButtonID(song_button_id)
+
+      song_button.addEventListener("click", function(){
+        console.log("cliiicked!")
+        console.log(song_button_id)
+        songButtonPressed(song_button_id)
+      })
+
+
+
+    })
+
+
+    var songIsPlaying = false
+    var currentSong = null
+
+    function animateSVG(){
+      console.log("animateSVG")
+    }
+
+    function playSong(song){
+      console.log("play that funky music: " + song.id)
+      if(songIsPlaying){
+        currentSong.pause();
+        currentSong.currentTime = 0;
+        song.play()
+        currentSong = song
+      }
+      else{
+        song.play()
+        currentSong = song
+        songIsPlaying = true
+      }
+      
+    }
+
+    function songButtonPressed(song_button_id){
+      let song = loadSongByButtonID(song_button_id)
+      playSong(song)
+      animateSVG()
+    }
+
+    //load songs 
+    function loadSongByButtonID(song_button_id){
+      let songID = "song_" + song_button_id
+      console.log(songID)
+      let song = document.getElementById(songID)
+      console.log(song)
+      return song
+    }
+
+
+
+
 }
