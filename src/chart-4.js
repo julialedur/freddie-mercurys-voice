@@ -110,6 +110,8 @@ function ready(datapoints) {
         .attr('dx', 40)
         .attr('dy', 7)
         .attr('font-size', 14)
+        .attr('font-family', 'Open Sans')
+
 
       // counters text
       display

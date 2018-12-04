@@ -223,7 +223,7 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
     <h2>Freddie Mercury’s pitch range in Queen’s most popular tracks</h2>
     <p class="lead" align="center">The pitch commonality between Queen’s top 10 songs on Spotify</p>
     <div class="offset-2 col-8">
-    <p class="font-italic" align="center">Press buttons to hear songs and see the animation.<br><br>
+    <p class="font-italic" align="center">Press the buttons to hear the songs.<br><br>
 
     <!-- <p>Dataset is <code>data/top-songs-pitch.csv</code>. (File is chart-3b.js)<br>
     We will probably need to apply a log scale<br> -->
@@ -246,7 +246,15 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
         <div class="offset-2 col-8">
       <br><br><p>When comparing Queen’s most popular tracks, some similarities can be noticed. The most evident one is probably the flow of pitch throughout the song: almost every track starts with a higher pitch, which decreases halfway through it (on the bottom of the radial).<br><br>
 
-      The visual pattern of each chart also convey some interesting aspects about the songs. For example, We Will Rock You has fairly distinct blocky plateaus, as it has many sections of contiguous near-monotone, whereas Bohemian Rhapsody or Don't Stop Me Now are visually much finer, representing a more constant pitch variation. </p><br><br><br>
+      The visual pattern of each chart also convey some interesting aspects about the songs. For example, We Will Rock You has fairly distinct blocky plateaus, as it has many sections of contiguous near-monotone, whereas Bohemian Rhapsody or Don't Stop Me Now are visually much finer, representing a more constant pitch variation. </p><br><br>
+
+
+      <h6>Sentiment of tracks</h6>
+
+      <p>In addition to pitch range, another interesting aspect of Freddie Mercury’s music is the sentiment attached to the songs’ lyrics. When compared to the popularity score, the positiveness of the tracks also vary. <br><br>
+
+      The relative proportion of happy songs seems to have a slight inverse relationship with popularity - the most highly popular songs tend to be either neutral or sad.</p><br><br><br>
+
       </div>
     </div>
 
@@ -273,13 +281,6 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
   </div>
 </div>
 
-  <div class="container">
-      <div class="offset-2 col-8">
-  <br><br><p>The most highly popular songs tended to be either neutral or sad; the relative proportion of happy songs seems to have a slight inverse relationship with popularity.<br><br>
-  </div>
-</div>
-
-
   <!-- Now we include our actual visualization -->
   <!-- <script src="https://d3js.org/d3-queue.v3.min.js"></script> -->
   <script src="chart-1.js"></script>
@@ -305,7 +306,13 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
       <ul>
         <p><strong>Sources:</strong> <a href="https://developer.spotify.com/">Spotify API</a>, <a href="https://github.com/aubio/aubio">aubio</a>, <a href="https://www.youtube.com/watch?v=N0dbGGvsjf8">Youtube</a>.<br><br></h4>
 
-        <ul><h5><strong>Methodology</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></h5></ul>
+        <ul><h5><strong>Methodology</strong>:
+          <br><br>The analysis on Freddie Mercury’s pitch was performed on cappella versions of the 10 songs by Queen with the highest popularity scores on Spotify. The popularity of a track is a value between 0 and 100, with 100 being the most popular. It is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.<br><br>
+
+          Data on the songs’ pitch was collected using aubio, a Python library that includes a collection of algorithms and tools to extract musical meaning from audio signals, such as tempo, pitch, and onset. The data was then cleaned and transformed, using a calculation that averaged the pitch per second. This transformation was necessary since Freddie Mercury’s vibrato is higher than average, meaning that his pitch oscillates more constantly than most singers’.<br><br>
+          
+          Valence data was collected from Spotify’s API. It’s a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry). 
+          </p></h5></ul>
 
 
           <!-- <li>

@@ -69,14 +69,14 @@ img.block {
 
 /* Minimum height of 70% of the screen */
 .step {
-  min-height: 75vh;
+  min-height: 125vh;
 }
 
 .step > p {
   background: rgb(58, 16, 165);
   padding: 10px 0;
   margin-bottom: 0;
-  padding-bottom: 1rem;
+  // padding-bottom: 1rem;
 }
 
 .step > ul, .step > h2, .step > h3 {
