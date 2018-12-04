@@ -93,7 +93,7 @@ function ready([
       .attr('cy', d => d.faceY)
   })
 
-  d3.select('#piano').on('stepin', () => {
+  d3.select('#piano-dots').on('stepin', () => {
     svg
       .selectAll('circle')
       .transition()
