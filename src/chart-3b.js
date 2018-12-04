@@ -179,10 +179,16 @@ function ready(datapoints) {
       }
 
       if (songIsPlaying) {
-        currentSong.pause()
-        currentSong.currentTime = 0
-        song.play()
-        currentSong = song
+        if (song == currentSong){
+          currentSong.pause()
+          songIsPlaying = false
+        }
+        else{
+          currentSong.pause()
+          currentSong.currentTime = 0
+          song.play()
+          currentSong = song
+        }
       } else {
         song.play()
         currentSong = song
@@ -211,19 +217,28 @@ function ready(datapoints) {
     }
   }
 
-
+  //add click functionality to the code
   clickButton()
 
-  let svg_div = document.getElementById("chart-3b")
-  let radialArrays = svg_div.querySelectorAll("svg")
-  console.log(radialArrays)
 
-  let gPaths = svg_div.querySelectorAll("g")
-  console.log(gPaths)
 
-  console.log (radialArrays[1])
+  //setInterval(updateScale(), 1000)
 
-  console.log(buttonToSVG)
+
+
+
+
+
+  // let svg_div = document.getElementById("chart-3b")
+  // let radialArrays = svg_div.querySelectorAll("svg")
+  // console.log(radialArrays)
+
+  // let gPaths = svg_div.querySelectorAll("g")
+  // console.log(gPaths)
+
+  // console.log (radialArrays[1])
+
+  // console.log(buttonToSVG)
 
   
 
