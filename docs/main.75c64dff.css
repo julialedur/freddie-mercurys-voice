@@ -36,7 +36,7 @@ h1 {
 
  h4 {
   margin-bottom: 2rem;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -47,15 +47,6 @@ h1 {
   line-height: 20px;
   font-family: 'Open Sans', sans-serif;
  }
-
- h6 {
-  margin-bottom: 2rem;
-  text-align: left;
-  font-size: 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-}
-
 
 body {
   background-color: #1a0846;
@@ -108,13 +99,13 @@ img.block {
 
 /* Set the sticky things 2% from the top */
 .sticky {
-  top: 5%;
+  top: 10%;
   align-self: flex-start;
 }
 
 /* Minimum height of 70% of the screen */
 .step {
-  min-height: 125vh;
+  min-height: 75vh;
 }
 
 .step > p {

@@ -31,8 +31,9 @@ Promise.all([
   d3.csv(require('./data/all_songs.csv')),
   d3.csv(require('./data/points.csv')),
   d3.csv(require('./data/face.csv')),
-  d3.csv(require('./data/crown.csv')),
-  d3.csv(require('./data/circle.csv'))
+  d3.csv(require('./data/piano.csv')),
+  d3.csv(require('./data/note.csv')),
+  d3.csv(require('./data/mag-glass.csv'))
 ])
   .then(ready)
   .catch(err => {
@@ -43,18 +44,21 @@ function ready([
   datapoints,
   coordinates,
   faceCoordinates,
-  crownCoordinates,
-  circleCoordinates
+  pianoCoordinates,
+  noteCoordinates,
+  magGlassCoordinates
 ]) {
   datapoints.forEach((d, i) => {
     d.x = coordinates[i].x
     d.y = coordinates[i].y
     d.faceX = faceCoordinates[i].x
     d.faceY = faceCoordinates[i].y
-    d.crownX = crownCoordinates[i].x
-    d.crownY = crownCoordinates[i].y
-    d.circleX = circleCoordinates[i].x
-    d.circleY = circleCoordinates[i].y
+    d.pianoX = pianoCoordinates[i].x
+    d.pianoY = pianoCoordinates[i].y
+    d.noteX = noteCoordinates[i].x
+    d.noteY = noteCoordinates[i].y
+    d.glassX = magGlassCoordinates[i].x
+    d.glassY = magGlassCoordinates[i].y
   })
 
   svg
@@ -62,10 +66,21 @@ function ready([
     .data(datapoints)
     .enter()
     .append('circle')
-    .attr('r', 4)
+    .attr('r', 1)
     .attr('fill', '#FA0DE5')
     .attr('cx', d => d.faceX)
     .attr('cy', d => d.faceY)
+
+  d3.select('#blank').on('stepin', () => {
+    svg
+      .selectAll('circle')
+      .transition()
+      .duration(500)
+      .ease(d3.easeBack)
+      .attr('r', 2)
+      .attr('cx', d => d.faceX)
+      .attr('cy', d => d.faceY)
+  })
 
   d3.select('#freddie').on('stepin', () => {
     svg
@@ -73,38 +88,52 @@ function ready([
       .transition()
       .duration(500)
       .ease(d3.easeBack)
+      .attr('r', 2)
       .attr('cx', d => d.faceX)
       .attr('cy', d => d.faceY)
   })
 
-  d3.select('#crown').on('stepin', () => {
+  d3.select('#piano-dots').on('stepin', () => {
     svg
       .selectAll('circle')
       .transition()
       .duration(500)
       .ease(d3.easeBack)
-      .attr('cx', d => d.crownX)
-      .attr('cy', d => d.crownY)
+      .attr('r', 2)
+      .attr('cx', d => d.pianoX)
+      .attr('cy', d => d.pianoY)
   })
 
-  d3.select('#circle').on('stepin', () => {
+  d3.select('#note').on('stepin', () => {
     svg
       .selectAll('circle')
       .transition()
       .duration(1000)
       .ease(d3.easeBack)
-      .attr('cx', d => d.circleX)
-      .attr('cy', d => d.circleY)
+      .attr('r', 2)
+      .attr('cx', d => d.noteX)
+      .attr('cy', d => d.noteY)
   })
 
-  d3.select('#color').on('stepin', () => {
-    svg.selectAll('circle').attr('fill', d => colorScale(d.popularity))
-    // .transition()
-    // .duration(750)
-    // .ease(d3.easeBounce)
-    // .attr('cx', d => xPositionScale(d.BPM))
-    // .attr('cy', d => yPositionScale(d.popularity))
+  d3.select('#glass').on('stepin', () => {
+    svg
+      .selectAll('circle')
+      .transition()
+      .duration(1000)
+      .ease(d3.easeBack)
+      .attr('r', 2)
+      .attr('cx', d => d.glassX)
+      .attr('cy', d => d.glassY)
   })
+
+  // d3.select('#color').on('stepin', () => {
+  //   svg.selectAll('circle').attr('fill', d => colorScale(d.popularity))
+  // .transition()
+  // .duration(750)
+  // .ease(d3.easeBounce)
+  // .attr('cx', d => xPositionScale(d.BPM))
+  // .attr('cy', d => yPositionScale(d.popularity))
+  // })
 
   // function sliderChange() {
   //   // grab the slider, get the HTML version, then get the value

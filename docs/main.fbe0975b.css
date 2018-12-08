@@ -36,7 +36,7 @@ h1 {
 
  h4 {
   margin-bottom: 2rem;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -47,15 +47,6 @@ h1 {
   line-height: 20px;
   font-family: 'Open Sans', sans-serif;
  }
-
- h6 {
-  margin-bottom: 2rem;
-  text-align: left;
-  font-size: 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-}
-
 
 body {
   background-color: #1a0846;
@@ -108,22 +99,20 @@ img.block {
 
 /* Set the sticky things 2% from the top */
 .sticky {
-  top: 5%;
+  top: 10%;
   align-self: flex-start;
 }
 
 /* Minimum height of 70% of the screen */
 .step {
-  min-height: 125vh;
+  min-height: 75vh;
 }
 
 .step > p {
   background: #3a10a5;
-  padding: 10px 10px;
+  padding: 10px 0;
   margin-bottom: 0;
-  /* padding-bottom: 1rem; */
-  text-align: center;
-  border-radius: 25px;
+  padding-bottom: 1rem;
 }
 
 .step > ul, .step > h2, .step > h3 {
@@ -274,19 +263,4 @@ img.block {
   color: #fff;
   text-align: center;
   font-family: 'Open Sans', serif;
-}
-
-/* unvisited link */
-a:link {
-  color: #FF8F87;
-}
-
-/* visited link */
-a:visited {
-  color: #FF446E;
-}
-
-/* mouse over link */
-a:hover {
-  color: #FA0DE5;
 }

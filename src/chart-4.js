@@ -75,7 +75,7 @@ function ready(datapoints) {
       Object.keys(finished[popularity]).forEach(positiveness => {
         var completed = finished[popularity][positiveness]
         total += completed
-        d3.select(`#${positiveness}-${popularity.replace(' ', '')}`).text(
+        d3.select(`#${positiveness}-${popularity.replace(/ /g, '')}`).text(
           finished[popularity][positiveness]
         )
       })
@@ -110,12 +110,14 @@ function ready(datapoints) {
         .attr('dx', 40)
         .attr('dy', 7)
         .attr('font-size', 14)
+        .attr('font-family', 'Open Sans')
+
 
       // counters text
       display
         .append('text')
         .text('0')
-        .attr('id', 'happy-' + d.replace(' ', ''))
+        .attr('id', 'happy-' + d.replace(/ /g, ''))
         .attr('y', 20)
         .attr('x', 0)
         .attr('fill', '#FFC75C')
@@ -127,7 +129,7 @@ function ready(datapoints) {
       display
         .append('text')
         .text('0')
-        .attr('id', 'neutral-' + d.replace(' ', ''))
+        .attr('id', 'neutral-' + d.replace(/ /g, ''))
         .attr('y', 20)
         .attr('x', 30)
         .attr('fill', '#FA0DE5')
@@ -139,7 +141,7 @@ function ready(datapoints) {
       display
         .append('text')
         .text('0')
-        .attr('id', 'sad-' + d.replace(' ', ''))
+        .attr('id', 'sad-' + d.replace(/ /g, ''))
         .attr('y', 20)
         .attr('x', 60)
         .attr('fill', '#035DFC')
@@ -175,7 +177,7 @@ function ready(datapoints) {
     .attr('stroke', '#f3f3f3')
     .attr('fill', 'none')
     .attr('opacity', 0.2)
-    .attr('id', d => `#path-${d.replace(' ', '-')}`)
+    .attr('id', d => `#path-${d.replace(/ /g, '-')}`)
   var points = {}
   svg.selectAll('path').each(function(d) {
     var length = this.getTotalLength()
@@ -199,7 +201,7 @@ function ready(datapoints) {
   // follow the path (the offset makes it not quite)
 
   var replayDelay = 0
-  datapoints.forEach(d => replayDelay = Math.max(replayDelay, d._delay))
+  datapoints.forEach(d => (replayDelay = Math.max(replayDelay, d._delay)))
 
   // Starts transition for a circle
   function startTransition(d) {
@@ -231,7 +233,7 @@ function ready(datapoints) {
       // startTransition.apply(this, arguments) // makes the animation restart
     })
 
-    setTimeout(function () {
+    setTimeout(function() {
       $('#replay-animation').css('visibility', 'visible') // by default hide the replay button
     }, replayDelay)
   }
@@ -264,11 +266,11 @@ function ready(datapoints) {
     circles.each(startTransition)
   })
 
-  $('#replay-animation').on('click', function (e) {
+  $('#replay-animation').on('click', function(e) {
     $('#replay-animation').css('visibility', 'hidden') // by default hide the replay button
-    setTimeout(function() {
-      d3.select('#chart-4').dispatch('stepin')
-    }, 300)
+    // setTimeout(function() {
+    d3.select('#chart-4').dispatch('stepin')
+    // }, 10000)
   })
 
   // Here's where the circle/path mask should go
