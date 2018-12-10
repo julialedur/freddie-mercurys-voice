@@ -5,9 +5,9 @@ d3.tip = d3Tip
 
 var files = {
   pianoKeys:
-    'https://gist.githubusercontent.com/the-observables/8e7112072ca33e2b131d50904d511c6d/raw/00649cb06625d9783f84128de8085b1a5dcce428/piano-keys.csv',
+    'https://gist.githubusercontent.com/the-observables/8e7112072ca33e2b131d50904d511c6d/raw/b9b4302c55232061d28ba1990075b7c9884a6991/piano-keys.csv',
   vocalRangeData:
-    'https://gist.githubusercontent.com/the-observables/f948fd87e91e517b0416aa31f3fe43e5/raw/44da20fcdc62f9f203b61ff08140d43024aed1e0/vocal-ranges-all.csv'
+    'https://gist.githubusercontent.com/the-observables/f948fd87e91e517b0416aa31f3fe43e5/raw/76152912b350ee96f881ae5181b9a2ff9a0dc600/vocal-ranges-all.csv'
 }
 var promises = []
 
@@ -18,7 +18,8 @@ Object.keys(files).forEach(function(filename) {
         return {
           id: +d.id,
           key: d.key,
-          set: +d.set
+          set: +d.set,
+          frequency: +d.frequency,
         }
       } else {
         return {
@@ -49,7 +50,7 @@ Promise.all(promises)
 
 function ready(data) {
   var pianoKeys = data[0]
-  var vocalRangeData = data[1].slice(0, 8)
+  var vocalRangeData = data[1].slice(0, 9)
 
   var i, j, node
   var groupSep = 10
@@ -66,7 +67,7 @@ function ready(data) {
   }
 
   var width = 1020 - margin.left - margin.right
-  var height = 325 - margin.top - margin.bottom
+  var height = 400 - margin.top - margin.bottom
 
   var x = d3.scaleLinear().range([0, width])
 
@@ -319,6 +320,53 @@ function ready(data) {
     })
     .on('mouseout', function(d) {
       d3.select(this).attr('fill', 'black')
+    })
+
+    // Create audio (context) container
+  var audioCtx = new (AudioContext || webkitAudioContext)();
+
+  function Sound(frequency, type) {
+      this.osc = audioCtx.createOscillator(); // Create oscillator node
+      this.clicked = false; // flag to indicate if sound is playing
+
+      /* Set default configuration for sound */
+      if(typeof frequency !== 'undefined') {
+          /* Set frequency. If it's not set, the default is used (440Hz) */
+          this.osc.frequency.value = frequency;
+      }
+
+      /* Set waveform type. Default is actually 'sine' but triangle sounds better :) */
+      this.osc.type = type || 'triangle';
+
+      /* Start playing the sound. You won't hear it yet as the oscillator node needs to be
+      piped to output (AKA your speakers). */
+      this.osc.start(0);
+  };
+
+  Sound.prototype.play = function() {
+      if(!this.clicked) {
+          this.clicked = true;
+          this.osc.connect(audioCtx.destination);
+      }
+  };
+
+  Sound.prototype.stop = function() {
+      this.clicked = false;
+      this.osc.disconnect();
+  };
+
+  d3.selectAll('.white-key, .black-key')
+    .on('click', function(d) {
+      let id = d3
+        .select(this)
+        .attr('id')
+        .slice(3)
+      let key = pianoKeys.find(x => x.id === parseInt(id))
+      let keySound = new Sound(key.frequency, 'triangle')
+      keySound.play()
+      setTimeout(function() {
+        keySound.stop()
+      }, 400)
     })
 
   // Button toggle effects
