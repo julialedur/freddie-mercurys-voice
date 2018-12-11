@@ -8,7 +8,7 @@
     <!-- Music Files-->
     <audio id="song_another-one-bites-the-dust" src="./music/AnotherOneBitesTheDust.mp3"></audio>
     <audio id="song_crazy-little-thing-called-love" src="./music/CrazyLittleThingCalledLove.mp3"></audio>
-    <audio id="song_dont-stop-me-now" src="./music/DontStopMeNow.mp3"></audio>
+    <audio id="song_don't-stop-me-now" src="./music/DontStopMeNow.mp3"></audio>
     <audio id="song_i-want-to-break-free" src="./music/IWantToBreakFree.mp3"></audio>
     <audio id="song_radio-ga-ga" src="./music/RadioGaGa.mp3"></audio>
     <audio id="song_somebody-to-love" src="./music/SomebodyToLove.mp3"></audio>
@@ -259,7 +259,7 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
     </div>
 
     <div class="container">
-      <h2>Valence vs. positiveness </h2>
+      <h2>Popularity vs. Positivity </h2>
       <!-- <p>Dataset is <code>data/popularityxvalence.csv</code> (This file is chart-3.js).<br>
       I still need to fix the last counter that is not working and create a button to start the animation.</p><br> -->
 
@@ -306,13 +306,48 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
       <ul>
         <p><strong>Sources:</strong> <a href="https://developer.spotify.com/">Spotify API</a>, <a href="https://github.com/aubio/aubio">aubio</a>, <a href="https://www.youtube.com/watch?v=N0dbGGvsjf8">Youtube</a>.<br><br></h4>
 
-        <ul><h5><strong>Methodology</strong>:
-          <br><br>The analysis on Freddie Mercury’s pitch was performed on cappella versions of the 10 songs by Queen with the highest popularity scores on Spotify. The popularity of a track is a value between 0 and 100, with 100 being the most popular. It is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.<br><br>
-
-          Data on the songs’ pitch was collected using aubio, a Python library that includes a collection of algorithms and tools to extract musical meaning from audio signals, such as tempo, pitch, and onset. The data was then cleaned and transformed, using a calculation that averaged the pitch per second. This transformation was necessary since Freddie Mercury’s vibrato is higher than average, meaning that his pitch oscillates more constantly than most singers’.<br><br>
-          
-          Valence data was collected from Spotify’s API. It’s a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry). 
+        <ul><h5><strong>Documentation</strong>:
           </p></h5></ul>
+
+        <ul><h5><strong>Introduction</strong>: 
+            <br><br>Freddie Mercury, British singer-songwriter and lead vocalist of rock band Queen, defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. We wanted to honor Freddie Mercury as an artist, while exploring musical data as a way to analyze the acclaim of Mercury while creating visualizations that work in harmony with the music that Mercury has put into the world. With analysis of voice tracks isolated from instrument recordings and data from Spotify and aubio, we create a dynamic look at Freddie Mercury examining his four-octave pitch range, a comparison of Freddie Mercury to his contemporaries, a pitch analysis of Freddie Mercury’s voice on the top ten Queen tracks, and the relationship between popularity and sentiment of all Queen songs with Freddie Mercury.<br><br></h5></ul>
+
+        <ul><h5><strong>Related Work</strong>:
+
+            <br><br>Prior work that inspired us includes the NYTimes visualization of racial disparity in childhood and adult income, which animates individuals as they move from one income bucket in childhood to another in adulthood, displaying black and white individuals as separate colors. While simple, this visualization allows for a compelling story to essentially tell itself: it is much more difficult for black children to end up in higher income brackets than white children, no matter where they started. We adapted this concept to our domain by using it to visualize songs of varying emotional valence and popularity.
+
+
+            <br><br>Another highly relevant work was the ConcertHotels visualization of the vocal ranges of popular singers, which heavily inspired our own vocal range visualization. Their visual concept formed the entire basis for ours.</h5></ul>
+
+    <ul><h5><strong>Methodology</strong>: 
+        <br><br>The analysis on Freddie Mercury’s pitch was performed on a cappella versions of the 10 songs by Queen with the highest popularity scores on Spotify. The popularity of a track is a value between 0 and 100, with 100 being the most popular. It is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.
+        
+        <br><br>Data on the songs’ pitch was collected using aubio, a Python library that includes a collection of algorithms and tools to extract musical meaning from audio signals, such as tempo, pitch, and onset. The data was then cleaned and transformed, using a calculation that averaged the pitch per second. This transformation was necessary since Freddie Mercury’s vibrato is higher than average, meaning that his pitch oscillates more constantly than most singers’.
+
+        <br><br>Valence data was collected from Spotify’s API. It’s a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).</h5></ul>
+
+    <ul><h5><strong>Design</strong>: 
+         <br><br>Our design process reflects Norman’s Double Diamond approach -- we started off with a broad range of visual encodings reflected in our sketches, but ultimately narrowed down to a set of visual encodings for each chart that we believed would best showcase the data collected. Our vocal range comparison uses bars and corresponding piano keys to show vocalists’ low/high notes. The pitch radials show data over a time dimension (song duration), with note encoded in the length of each radial line. Since our analysis consists of multiple dimensions of Freddie Mercury’s voice, we explore adding a BPM animation to each track listed to help our audience get a better perspective on the “pulse” of a song. We allow limited control over the interactions using toggle and replay buttons. Our color palette of deep purples and magenta draws inspiration from the Bohemian Rhapsody (2018) biopic and our site layout is a simple single-column flow that guides the audience through our narrative. We initially had ideas for an interactive game, an animated line chart for select tracks, and novel visual elements that we scrapped due to time constraints.</h5></ul>
+
+    <ul><h5><strong>Implementation</strong>: 
+        <br><br>After we collected and analyzed the data, we visualized it using mainly d3.js and Javascript. We also used a scrollytelling library and an open-source browser by Spotify called Coördinator, that transforms SVGs into dots with coordinates. 
+
+        <br><br>We center our visual inspirations around ‘70s colors and the visuals of the movie Bohemian  Rhapsody. We then created color palettes on coolors.co as a guideline and designed the page using HTML and CSS. The page is hosted on GitHub.
+
+        <br><br>During the coding process, we decided to use npm instead of Observable, because we thought it was a little more intuitive and easier to collaborate.</h5></ul> 
+
+    <ul><h5><strong>Discussion</strong>: 
+        <br><br>While our final interactive design departed in many ways from our original concept, it nevertheless came together as a cohesive whole that allows users to explore Freddie Mercury’s voice from several different angles. Audience feedback was generally positive; critiques tended towards requesting richer interactivity features (e.g. playing the actual note when a piano key is pressed) and clearer explanation of the features that were there (e.g. how to read the radial charts). One of the interesting points that many audience members commented on was the fact that Freddie Mercury’s vocal range was actually not the largest in terms of raw length, but his voice was still undoubtedly uniquely compelling; this suggests that perhaps it was not his vocal range alone but also the quality of his voice that made it so distinctive.</h5></ul>
+
+    <ul><h5><strong>Future Work</strong>:
+        <br><br>Deepening our Analysis of Freddie Mercury:
+        For our chart comparing range, we could explore how ranges are related to their given genres and time periods. And specifically, we could put that into conversation with Mercury’s range relateive to vocalists in genres and time periods that are the same or different as his.
+        For our radial pitch chart, we would like to increase the visual features that can accompany the music as it plays. This includes having the radials highlight to show how much of the song has been played, as well as adding a vibration to the visualization that represents that beats per minute of the current song playing. Additionally, it’d be powerful to be able to zoom in and compare tracks according to their pitch radials more directly, adding an additional explorative feature for users.
+
+        <br><br>And for our popularity vs positivity chart, most of the songs by Queen aren’t defined as positive, and thus it is difficult to conclude that popularity and posivity are inversely related. However, this opens the door to explore whether we can find features that seem to determine popularity, or even deepen our analysis of positivity rating of a larger group set of songs, and compare what the overall positivity rating is between Queen and other artists.</h5></ul>
+
+
+
 
 
           <!-- <li>
