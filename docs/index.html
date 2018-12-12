@@ -8,7 +8,7 @@
     <!-- Music Files-->
     <audio id="song_another-one-bites-the-dust" src="/freddie-mercurys-voice/AnotherOneBitesTheDust.a102fa28.mp3"></audio>
     <audio id="song_crazy-little-thing-called-love" src="/freddie-mercurys-voice/CrazyLittleThingCalledLove.a143e446.mp3"></audio>
-    <audio id="song_dont-stop-me-now" src="/freddie-mercurys-voice/DontStopMeNow.1857bab3.mp3"></audio>
+    <audio id="song_don't-stop-me-now" src="/freddie-mercurys-voice/DontStopMeNow.1857bab3.mp3"></audio>
     <audio id="song_i-want-to-break-free" src="/freddie-mercurys-voice/IWantToBreakFree.e408ef0d.mp3"></audio>
     <audio id="song_radio-ga-ga" src="/freddie-mercurys-voice/RadioGaGa.07d41d99.mp3"></audio>
     <audio id="song_somebody-to-love" src="/freddie-mercurys-voice/SomebodyToLove.0eb3dc8c.mp3"></audio>
@@ -35,7 +35,7 @@
   <div class="row mt-6">
     <div class="offset-2 col-8">
       <br><h1><br><div style="font-size:55px; letter-spacing: 3; font-weight: 900; line-height: 1.6cm">FREDDIE<br>MERCURY'S</div><br><div style="font-weight:400;">VOICE VISUALIZED</div></h1><br><br>
-  
+
       <p>Freddie Mercury, British singer-songwriter and lead vocalist of rock band Queen, defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. With timeless hits like <i>Bohemian Rhapsody</i> and <i>Don't Stop Me Now</i>, his unique stage presence and his great vocal range has left a resounding legacy that provokes and inspires listeners and musicians alike.</p><br>
 </div>
 
@@ -81,7 +81,11 @@
     <div class="offset-2 col-8">
       <p class="lead" align="center">The singer's vocal range compared to other great vocalists from the 70s.</p>
 
-      <p class="font-italic" align="center">Hover over the bars to see the vocalists' lowest and highest pitch.<br>Hover over a note to see the song where the vocalist reached the corresponding note.<br><br>
+      <p class="font-italic" align="center">
+        Hover over the bars to see the vocalists' lowest and highest pitch.
+        <br>Hover over a note to see the song where the vocalist reached the corresponding note.
+        <br>Click on a piano key to hear the note.
+        <br><br>
       </p>
 
       <div class="text-center">
@@ -210,7 +214,7 @@
 <br><p>Although Freddie Mercury did not have the largest pitch range of all time, he stacks up pretty decently against other well-known singers of his time. Surprisingly, Freddie Mercury beats Whitney Houston when it comes to higher pitch and also ranks higher on pitch range than Tina Turner.<br><br>
 
 However, he has a smaller pitch range than Paul McCartney, David Bowie and Axl Rose. The latter, a baritone who occupies the first position in the rank, is known for using falsettos, a method of voice production used to sing notes higher than their normal range.<br><br>
-    
+
 Besides having a surprisingly high pitch range, Mercury also stood out for his atypical vibrato, a rapid and slight variation in pitch. A 2016 <a href="https://www.tandfonline.com/doi/full/10.3109/14015439.2016.1156737">study</a> published in the journal <i>Logopedics Phoniatrics Vocology</i> concluded that Mercury's vocal cords moved faster than the average person's. While a typical vibrato will fluctuate between 5.4 Hz and 6.9 Hz, Mercury’s was 7.04 Hz, according to the report. "These traits, in combination with the fast and irregular vibrato, might have helped create Freddie Mercury's eccentric and flamboyant stage persona”, states the report.<br><br>
   </p></div>
 </div>
@@ -259,7 +263,7 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
     </div>
 
     <div class="container">
-      <h2>Valence vs. positiveness </h2>
+      <h2>Popularity vs. Positivity </h2>
       <!-- <p>Dataset is <code>data/popularityxvalence.csv</code> (This file is chart-3.js).<br>
       I still need to fix the last counter that is not working and create a button to start the animation.</p><br> -->
 
@@ -284,9 +288,9 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
   <!-- Now we include our actual visualization -->
   <!-- <script src="https://d3js.org/d3-queue.v3.min.js"></script> -->
   <script src="/freddie-mercurys-voice/chart-1.ed3cb9a6.js"></script>
-  <script src="/freddie-mercurys-voice/chart-2.6258f119.js"></script>
+  <script src="/freddie-mercurys-voice/chart-2.61a4a314.js"></script>
   <!-- <script src="chart-3.js"></script> -->
-  <script src="/freddie-mercurys-voice/chart-3b.bc4c40a9.js"></script>
+  <script src="/freddie-mercurys-voice/chart-3b.e7b29bdf.js"></script>
   <script src="/freddie-mercurys-voice/chart-4.8561b071.js"></script>
   <script src="/freddie-mercurys-voice/scrollytelling.20f14cae.js"></script>
 </body>
@@ -306,18 +310,17 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
       <ul>
         <p><strong>Sources:</strong> <a href="https://developer.spotify.com/">Spotify API</a>, <a href="https://github.com/aubio/aubio">aubio</a>, <a href="https://www.youtube.com/watch?v=N0dbGGvsjf8">Youtube</a>.<br><br></p></ul></h4>
 
-        <ul><h5><strong>Methodology</strong>:
-          <br><br>The analysis on Freddie Mercury’s pitch was performed on cappella versions of the 10 songs by Queen with the highest popularity scores on Spotify. The popularity of a track is a value between 0 and 100, with 100 being the most popular. It is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.<br><br>
-
-          Data on the songs’ pitch was collected using aubio, a Python library that includes a collection of algorithms and tools to extract musical meaning from audio signals, such as tempo, pitch, and onset. The data was then cleaned and transformed, using a calculation that averaged the pitch per second. This transformation was necessary since Freddie Mercury’s vibrato is higher than average, meaning that his pitch oscillates more constantly than most singers’.<br><br>
-          
-          Valence data was collected from Spotify’s API. It’s a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry). 
-          <p></p></h5></ul>
+    <ul><h5><strong>Methodology</strong>: 
+        <br><br>The analysis on Freddie Mercury’s pitch was performed on a cappella versions of the 10 songs by Queen with the highest popularity scores on Spotify. The popularity of a track is a value between 0 and 100, with 100 being the most popular. It is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.
+        
+        <br><br>Data on the songs’ pitch was collected using aubio, a Python library that includes a collection of algorithms and tools to extract musical meaning from audio signals, such as tempo, pitch, and onset. The data was then cleaned and transformed, using a calculation that averaged the pitch per second. This transformation was necessary since Freddie Mercury’s vibrato is higher than average, meaning that his pitch oscillates more constantly than most singers’.
 
 
-          <!-- <li>
-          <a href="http://mentalfloss.com/article/22465/facts-about-freddie-mercury">Facts About Freddie Mercury</a>
-        </li> -->
+        <br><br>Valence data was collected from Spotify’s API. It’s a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+
+    <p></p></h5></ul>
+
+
       
       </div>
     </div>
