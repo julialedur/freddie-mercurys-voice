@@ -91,12 +91,16 @@ function ready(datapoints) {
       // .attr('stroke', 'white')
       // .attr('stroke-width', 0.2)
 
+      //let songButtonID = d.key.replace(/ /g, '-').toLowerCase()
+      let circID = 'circle' + songButtonID
+
       svg
         .append('circle')
         .attr('r', 3)
         .attr('fill', 'white')
         .attr('cx', 0)
         .attr('cy', 0)
+        .attr('id', circID)
 
       // svg
       //   // .selectAll('.button-song')
@@ -137,27 +141,53 @@ function ready(datapoints) {
     var volumeOn = false
 
     var svgIsAnimated = false
-    var currentSVG = null
+    var currentSVGid = null
     var animateAllowed = true
 
     function animateSVG(button) {
       console.log('animateSVG')
 
+      var circID = 'circle' + button.id
+
       var svgToAnimate = getSVGtoAnimate(button)
 
       if (animateAllowed) {
         if (svgIsAnimated) {
+
+          if(circID == currentSVGid){
+            var circle = document.getElementById(circID)
+            circle.style.transform = 'scale(1)'
+            currentSVGid = circID
+            svgIsAnimated = false
+          }
+
+          else{
+
           // stop animating current
-          // find proper svg to animate
+            var oldcircle = document.getElementById(currentSVGid)
+            oldcircle.style.transform = 'scale(1)'
 
-          // update currentSVG
-          currentSVG = svgToAnimate
+            // animate new 
+            var circle = document.getElementById(circID)
+            circle.style.transform = 'scale(3)'
 
-          // animate currentSVG
+            currentSVGid = circID
+          }
+
+
         } else {
           // find proper svg to animate
           // update currentSVG
           //animate currentSVG
+          console.log(circID)
+          //increase size of circle
+          var circle = document.getElementById(circID)
+          circle.style.transform = 'scale(3)'
+          currentSVGid = circID
+          svgIsAnimated = true
+
+
+
         }
       }
     }

@@ -8,7 +8,7 @@
     <!-- Music Files-->
     <audio id="song_another-one-bites-the-dust" src="./music/AnotherOneBitesTheDust.mp3"></audio>
     <audio id="song_crazy-little-thing-called-love" src="./music/CrazyLittleThingCalledLove.mp3"></audio>
-    <audio id="song_dont-stop-me-now" src="./music/DontStopMeNow.mp3"></audio>
+    <audio id="song_don't-stop-me-now" src="./music/DontStopMeNow.mp3"></audio>
     <audio id="song_i-want-to-break-free" src="./music/IWantToBreakFree.mp3"></audio>
     <audio id="song_radio-ga-ga" src="./music/RadioGaGa.mp3"></audio>
     <audio id="song_somebody-to-love" src="./music/SomebodyToLove.mp3"></audio>
@@ -263,7 +263,7 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
     </div>
 
     <div class="container">
-      <h2>Valence vs. positiveness </h2>
+      <h2>Popularity vs. Positivity </h2>
       <!-- <p>Dataset is <code>data/popularityxvalence.csv</code> (This file is chart-3.js).<br>
       I still need to fix the last counter that is not working and create a button to start the animation.</p><br> -->
 
@@ -310,18 +310,17 @@ Besides having a surprisingly high pitch range, Mercury also stood out for his a
       <ul>
         <p><strong>Sources:</strong> <a href="https://developer.spotify.com/">Spotify API</a>, <a href="https://github.com/aubio/aubio">aubio</a>, <a href="https://www.youtube.com/watch?v=N0dbGGvsjf8">Youtube</a>.<br><br></h4>
 
-        <ul><h5><strong>Methodology</strong>:
-          <br><br>The analysis on Freddie Mercury’s pitch was performed on cappella versions of the 10 songs by Queen with the highest popularity scores on Spotify. The popularity of a track is a value between 0 and 100, with 100 being the most popular. It is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.<br><br>
-
-          Data on the songs’ pitch was collected using aubio, a Python library that includes a collection of algorithms and tools to extract musical meaning from audio signals, such as tempo, pitch, and onset. The data was then cleaned and transformed, using a calculation that averaged the pitch per second. This transformation was necessary since Freddie Mercury’s vibrato is higher than average, meaning that his pitch oscillates more constantly than most singers’.<br><br>
-
-          Valence data was collected from Spotify’s API. It’s a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
-          </p></h5></ul>
+    <ul><h5><strong>Methodology</strong>: 
+        <br><br>The analysis on Freddie Mercury’s pitch was performed on a cappella versions of the 10 songs by Queen with the highest popularity scores on Spotify. The popularity of a track is a value between 0 and 100, with 100 being the most popular. It is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.
+        
+        <br><br>Data on the songs’ pitch was collected using aubio, a Python library that includes a collection of algorithms and tools to extract musical meaning from audio signals, such as tempo, pitch, and onset. The data was then cleaned and transformed, using a calculation that averaged the pitch per second. This transformation was necessary since Freddie Mercury’s vibrato is higher than average, meaning that his pitch oscillates more constantly than most singers’.
 
 
-          <!-- <li>
-          <a href="http://mentalfloss.com/article/22465/facts-about-freddie-mercury">Facts About Freddie Mercury</a>
-        </li> -->
+        <br><br>Valence data was collected from Spotify’s API. It’s a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+
+    </p></h5></ul>
+
+
       </ul>
       </div>
     </div>
